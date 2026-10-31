@@ -3842,8 +3842,7 @@ final class RexExpression {
     }
     int sourceInteger = numericRank(source);
     int targetInteger = numericRank(targetType);
-    if (!tryCast
-        && source == SqlTypeName.DECIMAL
+    if (source == SqlTypeName.DECIMAL
         && targetType == SqlTypeName.VARCHAR
         && resultType.getPrecision() == Integer.MAX_VALUE
         && (call.getOperands().get(0) instanceof RexInputRef
