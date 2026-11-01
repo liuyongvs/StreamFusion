@@ -1,0 +1,26 @@
+docs/benchmarks/results/decimal-arithmetic-negate-2026-11-02.json
+  h_05d51add47747d 1-4452
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 6475-6561
+docs/operators/calc-filter.md
+  h_05d51add47747d 1707-1709,1712-1713,1716-1719
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 2219,4444,4730-4741,4758,4763,4767-4768,4775
+src/test/java/tech/streamfusion/FlinkDecimalCastOverflowSqlHarnessTest.java
+  h_05d51add47747d 31
+src/test/java/tech/streamfusion/FlinkDecimalNegateSqlHarnessTest.java
+  h_05d51add47747d 10,20-114
+src/test/java/tech/streamfusion/planner/DecimalNegateEncodingTest.java
+  h_05d51add47747d 54,59-80
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "196b917a8e0e7cf3ad5067715f2c55e6bd0161e1",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
