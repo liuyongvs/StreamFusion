@@ -1,0 +1,30 @@
+docs/benchmarks/results/decimal-arithmetic-sign-2026-11-02.json
+  h_05d51add47747d 1-8048
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 6562-6661
+docs/operators/calc-filter.md
+  h_05d51add47747d 1071-1074,1082-1083,1088-1091
+native/engine/examples/integral_expression.rs
+  h_05d51add47747d 170-176
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4689,4694-4698
+src/test/java/tech/streamfusion/FlinkDecimalSignArithmeticSqlHarnessTest.java
+  h_05d51add47747d 1-133
+src/test/java/tech/streamfusion/planner/DecimalSignArithmeticEncodingTest.java
+  h_05d51add47747d 1-69
+src/test/java/tech/streamfusion/planner/DecimalSignEncodingTest.java
+  h_05d51add47747d 65
+src/test/java/tech/streamfusion/planner/IntegralExpressionBenchmarkFunctions.java
+  h_05d51add47747d 162-170
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "63860d72e67b54fc492c8dcd597ac4675fd1326f",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
