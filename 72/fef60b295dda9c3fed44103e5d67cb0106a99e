@@ -1,0 +1,20 @@
+docs/operators/calc-filter.md
+  h_05d51add47747d 1052-1058,1443-1446,1456-1458,1465
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 5083,5096,5098,5112-5113,5115,5119-5128
+src/test/java/tech/streamfusion/FlinkDecimalSignProjectionSqlHarnessTest.java
+  h_05d51add47747d 1-200
+src/test/java/tech/streamfusion/planner/DecimalSignProjectionEncodingTest.java
+  h_05d51add47747d 1-79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "72fef60b295dda9c3fed44103e5d67cb0106a99e",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
