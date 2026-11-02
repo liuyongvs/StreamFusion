@@ -1,0 +1,23 @@
+native/engine/examples/integral_expression.rs
+  s_e659a4394f4388::t_895efec89dfc00 12,174-207
+src/test/java/tech/streamfusion/IntegralExpressionPipelineBenchmark.java
+  s_e659a4394f4388::t_5be04ddc8a122f 31,35-36,51-52,58-62
+src/test/java/tech/streamfusion/planner/IntegralExpressionBenchmarkFunctions.java
+  s_e659a4394f4388::t_eb12216df37470 35-37,46-48,70-71,178-181,201-205
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "bc9156b3c125efe2b495a6d34e29dba73f76c719",
+  "prompts": {},
+  "sessions": {
+    "s_e659a4394f4388": {
+      "agent_id": {
+        "tool": "antcc",
+        "id": "44751f99-ec76-4120-afd4-94a70d930095",
+        "model": "antchat/Kimi-K2.5"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
