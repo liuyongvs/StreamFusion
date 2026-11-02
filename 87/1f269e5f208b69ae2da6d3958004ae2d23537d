@@ -1,0 +1,19 @@
+docs/benchmarks/scalar-functions.md
+  s_198f913cb558a9::t_7f1902e69ac726 6884-6889,6934-6935,6941-6997
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "871f269e5f208b69ae2da6d3958004ae2d23537d",
+  "prompts": {},
+  "sessions": {
+    "s_198f913cb558a9": {
+      "agent_id": {
+        "tool": "antcc",
+        "id": "71de23ad-786e-420c-af3b-f0d1048675ab",
+        "model": "antchat/Kimi-K2.5"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
