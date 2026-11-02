@@ -1,0 +1,34 @@
+docs/benchmarks/results/epoch-seconds-2026-11-02.json
+  h_05d51add47747d 1-13699
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 7006-7007,7063-7064,7129-7220
+docs/operators/temporal-functions.md
+  h_05d51add47747d 16,62,70-77
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1310-1318
+native/engine/examples/integral_expression.rs
+  h_05d51add47747d 87,158-187
+native/engine/src/flink_functions/mod.rs
+  h_05d51add47747d 313
+native/engine/src/flink_functions/unnest_temporal.rs
+  h_05d51add47747d 17,48,62-64,97-103,149-182,394-476,482-484
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 2211-2213,2216,4427,4431,4433-4435
+src/test/java/tech/streamfusion/FlinkEpochMillisSqlHarnessTest.java
+  h_05d51add47747d 52-78,86-90,95-99,110
+src/test/java/tech/streamfusion/IntegralExpressionPipelineBenchmark.java
+  h_05d51add47747d 33,40,54,61-63
+src/test/java/tech/streamfusion/planner/IntegralExpressionBenchmarkFunctions.java
+  h_05d51add47747d 42-46,55,185-186,226-235
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c0d1a50917041a57dfee4d06eabdd67211ba66d9",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
