@@ -1,0 +1,20 @@
+.github/scripts/fork-ci-status.py
+  h_05d51add47747d 6-7,17-19,34,80-81,93-100,102,104-107,111-112,121-122,126,129-160,164-165,179-201
+.github/workflows/fork-ci-status.yml
+  h_05d51add47747d 7-17,21,26-27
+bin/test_fork_ci_status.py
+  h_05d51add47747d 4,11,220,224-452
+docs/ci.md
+  h_05d51add47747d 39-41,49-81
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7d38c6fd5ff3c96a00840daff0c7c042c91eb3be",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
