@@ -1,0 +1,21 @@
+docs/operators/temporal-functions.md
+  s_473b0ca52f4c58::t_e80e84a884a7fa 32-40
+src/test/java/tech/streamfusion/FlinkDateClockExtractSqlHarnessTest.java
+  s_473b0ca52f4c58::t_aea8af09107beb 1-72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "9b8e3c99d71724b58b572b6805270e28b6714568",
+  "prompts": {},
+  "sessions": {
+    "s_473b0ca52f4c58": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a19b57-2fcc-7be1-a6ed-5ca6526d5994",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
