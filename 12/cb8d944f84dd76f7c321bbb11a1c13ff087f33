@@ -1,0 +1,20 @@
+docs/benchmarks/results/date-clock-extraction-2026-11-02.json
+  h_05d51add47747d 1-114
+docs/operators/temporal-functions.md
+  h_05d51add47747d 13,32,34-35,40-46
+native/engine/src/flink_functions/calendar.rs
+  h_05d51add47747d 136-138,360-376
+src/test/java/tech/streamfusion/FlinkDateClockExtractSqlHarnessTest.java
+  h_05d51add47747d 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "12cb8d944f84dd76f7c321bbb11a1c13ff087f33",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
