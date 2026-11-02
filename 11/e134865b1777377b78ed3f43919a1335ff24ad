@@ -1,0 +1,21 @@
+docs/benchmarks/results/calendar-residual-routes-2026-11-02.json
+  s_61bc63287e1424::t_eb52050cdd23e8 1-960
+docs/operators/temporal-functions.md
+  s_61bc63287e1424::t_7b612102539927 20,22,122-136
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "11e134865b1777377b78ed3f43919a1335ff24ad",
+  "prompts": {},
+  "sessions": {
+    "s_61bc63287e1424": {
+      "agent_id": {
+        "tool": "antcc",
+        "id": "4cfed860-1f5d-40cf-a885-4381af340eb3",
+        "model": "antchat/Kimi-K2.5"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
