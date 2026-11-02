@@ -1,0 +1,31 @@
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  s_198f913cb558a9::t_3962cc07d457c2 2211-2214
+src/test/java/tech/streamfusion/FlinkEpochMillisSqlHarnessTest.java
+  s_7f8cccb42837df::t_042bf4687df734 1-101
+src/test/java/tech/streamfusion/planner/IntegralExpressionBenchmarkFunctions.java
+  s_198f913cb558a9::t_60a2bd20e36db5 38-41,50,180,210-219
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "14f4c6dc85b9ab31bdc982bb14ea9ad558c1cea0",
+  "prompts": {},
+  "sessions": {
+    "s_198f913cb558a9": {
+      "agent_id": {
+        "tool": "antcc",
+        "id": "71de23ad-786e-420c-af3b-f0d1048675ab",
+        "model": "antchat/Kimi-K2.5"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    },
+    "s_7f8cccb42837df": {
+      "agent_id": {
+        "tool": "antcc",
+        "id": "6c606ce1-bb62-4f55-ac66-048c1e2723d9",
+        "model": "antchat/Kimi-K2.5"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
