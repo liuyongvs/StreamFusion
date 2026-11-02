@@ -1,0 +1,18 @@
+docs/operators/temporal-functions.md
+  h_05d51add47747d 32-34,39
+native/engine/src/flink_functions/calendar.rs
+  h_05d51add47747d 136-137,342-358
+src/test/java/tech/streamfusion/FlinkDateClockExtractSqlHarnessTest.java
+  h_05d51add47747d 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5b88fa4c65313bf83c4e0ca6c1affe7692886d5b",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
