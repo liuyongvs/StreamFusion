@@ -1,0 +1,28 @@
+docs/benchmarks/results/function-allocator-provenance-2026-11-02.json
+  h_05d51add47747d 1-67
+docs/benchmarks/results/mixed-exact-greatest-2026-11-02.json
+  h_05d51add47747d 7250-7255
+docs/benchmarks/results/mixed-exact-if-2026-11-02.json
+  h_05d51add47747d 9200-9204
+docs/benchmarks/results/mixed-exact-if-allocator-matched-2026-11-02.json
+  h_05d51add47747d 1-5279
+docs/benchmarks/results/mixed-exact-least-2026-11-02.json
+  h_05d51add47747d 7212-7217
+docs/benchmarks/results/utc-ltz-ceil-2026-11-02.json
+  h_05d51add47747d 3887-3891
+docs/benchmarks/results/utc-ltz-floor-2026-11-02.json
+  h_05d51add47747d 3843-3848
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 6681,6745,6816,6894,6954,7071-7126
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5d78fd4af537dd49b55404cd210e41cfa29347db",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
