@@ -1,0 +1,30 @@
+docs/benchmarks/results/decimal-arithmetic-abs-2026-11-02.json
+  h_05d51add47747d 1-7293
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 6383-6474
+docs/operators/calc-filter.md
+  h_05d51add47747d 1560-1566,1713-1714,1717-1720,1724-1732
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 42-64
+native/engine/src/flink_functions/decimal.rs
+  h_05d51add47747d 258-268,753-755,778,781,784-786,789-831
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4733-4734,4738-4742,4748-4767
+src/test/java/tech/streamfusion/FlinkDecimalAbsSqlHarnessTest.java
+  h_05d51add47747d 10,20-113
+src/test/java/tech/streamfusion/FlinkDecimalCastOverflowSqlHarnessTest.java
+  h_05d51add47747d 31
+src/test/java/tech/streamfusion/planner/DecimalAbsEncodingTest.java
+  h_05d51add47747d 53,58-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "61766f538ff245861d140f0a1904daeb36b60f75",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
