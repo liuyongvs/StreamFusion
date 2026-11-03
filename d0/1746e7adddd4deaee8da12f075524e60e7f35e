@@ -1,0 +1,19 @@
+src/test/java/tech/streamfusion/FlinkComputedIntegralEpochSqlHarnessTest.java
+  s_dac243c0c00447::t_c82cb3d6b78426 1-48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d01746e7adddd4deaee8da12f075524e60e7f35e",
+  "prompts": {},
+  "sessions": {
+    "s_dac243c0c00447": {
+      "agent_id": {
+        "tool": "antcc",
+        "id": "b69288a4-4e57-48e6-a4f7-5078aa029a5a",
+        "model": "antchat/Kimi-K2.5"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
