@@ -1,0 +1,30 @@
+docs/benchmarks/results/integer-boolean-printf-2026-11-03-rejected-helper.patch
+  h_05d51add47747d 1-46
+docs/benchmarks/results/integer-boolean-printf-2026-11-03.json
+  h_05d51add47747d 1-3758
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 7985-8077
+docs/operators/calc-filter.md
+  h_05d51add47747d 2292,2297-2300,2313-2315,2319
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1376-1379
+native/engine/src/flink_functions/certified/printf.rs
+  h_05d51add47747d 179-187,298-347
+src/main/java/tech/streamfusion/planner/IntegerPrintfFormat.java
+  h_05d51add47747d 12
+src/test/java/tech/streamfusion/FlinkIntegerPrintfSqlHarnessTest.java
+  h_05d51add47747d 40-41,45-46,57
+src/test/java/tech/streamfusion/planner/IntegerPrintfFormatTest.java
+  h_05d51add47747d 13-14,22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8ccec369195c917f26f8941e74ca770749a8ad39",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
