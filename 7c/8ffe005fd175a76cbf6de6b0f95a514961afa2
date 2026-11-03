@@ -1,0 +1,20 @@
+docs/benchmarks/results/boolean-case-existing-routes-2026-11-03.json
+  h_05d51add47747d 1-78
+docs/operators/calc-filter.md
+  h_05d51add47747d 1169-1181
+src/test/java/tech/streamfusion/FlinkBooleanCaseStringSqlHarnessTest.java
+  h_05d51add47747d 1-41
+src/test/java/tech/streamfusion/FlinkBooleanStringCastSqlHarnessTest.java
+  h_05d51add47747d 119
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7c8ffe005fd175a76cbf6de6b0f95a514961afa2",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
