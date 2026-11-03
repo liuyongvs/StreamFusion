@@ -1,0 +1,30 @@
+docs/benchmarks/results/utc-ltz-fixed-floor-2026-11-03.json
+  h_05d51add47747d 1-4536
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 7396-7467
+docs/operators/calc-filter.md
+  h_05d51add47747d 3124-3127
+docs/operators/temporal-functions.md
+  h_05d51add47747d 21,97-98,106-125
+src/main/java-flink1.18/tech/streamfusion/compat/FlinkCompat.java
+  h_05d51add47747d 44-47
+src/main/java-flink2.2/tech/streamfusion/compat/FlinkCompat.java
+  h_05d51add47747d 42-45
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 5050,5058-5064,5066-5067
+src/test/java/tech/streamfusion/FlinkUtcLtzFixedFloorSqlHarnessTest.java
+  h_05d51add47747d 1-107
+src/test/java/tech/streamfusion/planner/UtcLtzFixedFloorAdmissionTest.java
+  h_05d51add47747d 1-59
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e7b2a8e4294a831e8554b486767e9a7c6a0a5916",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
