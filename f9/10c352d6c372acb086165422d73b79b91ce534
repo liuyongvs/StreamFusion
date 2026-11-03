@@ -1,0 +1,26 @@
+docs/benchmarks/results/bounded-runtime-truncate-2026-11-03.json
+  h_05d51add47747d 1-3521
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 7630-7631,7716-7792
+docs/operators/calc-filter.md
+  h_05d51add47747d 1695,1731,1742-1759
+docs/operators/temporal-functions.md
+  h_05d51add47747d 95,97-98
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1322,1344-1352
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4734,4742,4745,4751
+src/test/java/tech/streamfusion/FlinkBoundedTruncatePositionSqlHarnessTest.java
+  h_05d51add47747d 1-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "f910c352d6c372acb086165422d73b79b91ce534",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
