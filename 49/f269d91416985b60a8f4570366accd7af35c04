@@ -1,0 +1,24 @@
+docs/benchmarks/results/boolean-integer-try-cast-2026-11-03.json
+  h_05d51add47747d 1-3633
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 8078-8151
+docs/operators/calc-filter.md
+  h_05d51add47747d 1286-1301
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4017-4021
+src/test/java/tech/streamfusion/FlinkBooleanIntegralTryCastSqlHarnessTest.java
+  h_05d51add47747d 1-57
+src/test/java/tech/streamfusion/FlinkIntegralEpochSqlHarnessTest.java
+  h_05d51add47747d 52,98-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "49f269d91416985b60a8f4570366accd7af35c04",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
