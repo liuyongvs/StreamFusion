@@ -1,0 +1,36 @@
+docs/benchmarks/results/binary-character-bounded-2026-11-03.json
+  h_05d51add47747d 1-1340
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 4331-4436
+docs/operators/calc-filter.md
+  h_05d51add47747d 1341-1349,1359-1362
+docs/optimizations/jdk-utf8-decoding.md
+  h_05d51add47747d 18-25,29
+native/engine/examples/binary_character.rs
+  h_05d51add47747d 9,11-33,94-97,103,184-185
+native/engine/src/flink_functions/binary_character.rs
+  h_05d51add47747d 3,6,8-9,12-13,16-19,39-43,48-91,93-142,250-320
+native/engine/src/flink_functions/lpad.rs
+  h_05d51add47747d 71-74,78,116
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 1946-1947,3920-3928,5283-5285,6570-6593
+src/test/java/tech/streamfusion/BinaryCharacterPipelineBenchmark.java
+  h_05d51add47747d 37-39,62-64
+src/test/java/tech/streamfusion/FlinkBinaryCharacterCastSqlHarnessTest.java
+  h_05d51add47747d 84-86,89-91,96-104,108-117,119-125,127,157-158,168-169,177-184
+src/test/java/tech/streamfusion/planner/BinaryCharacterBenchmarkFunctions.java
+  h_05d51add47747d 43-44,46,55-71,110-113
+src/test/java/tech/streamfusion/planner/BinaryCharacterCastEncodingTest.java
+  h_05d51add47747d 25,27,35-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "714d415829c2b53297c59133e15c28853e37dab9",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
