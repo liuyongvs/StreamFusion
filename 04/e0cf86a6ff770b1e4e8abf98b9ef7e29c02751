@@ -1,0 +1,36 @@
+docs/benchmarks/results/integer-literal-printf-2026-11-03.json
+  h_05d51add47747d 1-3967
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 7793-7888
+docs/operators/calc-filter.md
+  h_05d51add47747d 2268-2289
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1353-1375
+native/engine/src/flink_functions/certified.rs
+  h_05d51add47747d 14-20
+native/engine/src/flink_functions/certified/printf.rs
+  h_05d51add47747d 2,20-36,247
+native/engine/src/flink_functions/integer_printf.rs
+  h_05d51add47747d 1-140
+native/engine/src/flink_functions/mod.rs
+  h_05d51add47747d 71,318
+src/main/java/tech/streamfusion/planner/IntegerPrintfFormat.java
+  h_05d51add47747d 1-51
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 2215,4600,4647-4664
+src/test/java/tech/streamfusion/FlinkIntegerPrintfSqlHarnessTest.java
+  h_05d51add47747d 1-62
+src/test/java/tech/streamfusion/planner/IntegerPrintfFormatTest.java
+  h_05d51add47747d 1-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "04e0cf86a6ff770b1e4e8abf98b9ef7e29c02751",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
