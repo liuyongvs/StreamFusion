@@ -1,0 +1,36 @@
+divergences/07-expression-encoding-and-compile-once.md
+  h_05d51add47747d 304-308
+docs/benchmarks/results/integer-try-cast-2026-11-03.json
+  h_05d51add47747d 1-6601
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 7889-7984
+docs/operators/calc-filter.md
+  h_05d51add47747d 1189-1191,1268-1285,1306
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1376-1397
+native/engine/examples/integral_expression.rs
+  h_05d51add47747d 30-31,334-340
+native/engine/src/expr.rs
+  h_05d51add47747d 1215-1239,1319-1322,1327,1398-1477
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4017-4021
+src/test/java/tech/streamfusion/FlinkIntegralEpochSqlHarnessTest.java
+  h_05d51add47747d 45-49,66
+src/test/java/tech/streamfusion/FlinkIntegralTryCastSqlHarnessTest.java
+  h_05d51add47747d 1-60
+src/test/java/tech/streamfusion/IntegralExpressionPipelineBenchmark.java
+  h_05d51add47747d 109-110,112
+src/test/java/tech/streamfusion/planner/IntegralExpressionBenchmarkFunctions.java
+  h_05d51add47747d 32,78,96,98,113-116,149,258-263
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5d46dde1d686da3aa0eb6743b4fc54ef417e9f72",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
