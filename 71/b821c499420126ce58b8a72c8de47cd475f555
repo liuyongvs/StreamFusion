@@ -1,0 +1,32 @@
+docs/benchmarks/results/bounded-runtime-round-2026-11-03.json
+  h_05d51add47747d 1-6744
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 7620-7714
+docs/operators/calc-filter.md
+  h_05d51add47747d 1668,1680-1698
+docs/operators/temporal-functions.md
+  h_05d51add47747d 94-98,110-111
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1319-1343
+native/engine/src/flink_functions/integral_round.rs
+  h_05d51add47747d 3,59-65,67,98-183,369-505,531
+native/engine/src/flink_functions/mod.rs
+  h_05d51add47747d 89,316
+native/engine/src/flink_functions/round_position.rs
+  h_05d51add47747d 1-225
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 2923-2927,4734,4742,4745,4751-4782
+src/test/java/tech/streamfusion/FlinkBoundedRoundPositionSqlHarnessTest.java
+  h_05d51add47747d 1-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "71b821c499420126ce58b8a72c8de47cd475f555",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
