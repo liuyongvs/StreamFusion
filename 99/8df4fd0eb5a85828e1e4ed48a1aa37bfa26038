@@ -1,0 +1,23 @@
+docs/benchmarks/results/utc-ltz-fixed-ceil-2026-11-03.json
+  s_a929aca7446b3b::t_fae1391cb1d47a 1-4510
+docs/benchmarks/scalar-functions.md
+  s_a929aca7446b3b::t_ae1f77bccbec2f 7468-7543
+docs/operators/temporal-functions.md
+  s_a929aca7446b3b::t_574f47cd35b513 21,98,100-101,119-122,126-148
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "998df4fd0eb5a85828e1e4ed48a1aa37bfa26038",
+  "prompts": {},
+  "sessions": {
+    "s_a929aca7446b3b": {
+      "agent_id": {
+        "tool": "antcc",
+        "id": "55856346-38f9-44b0-b6b5-18ebe3df4b53",
+        "model": "antchat/Kimi-K2.5"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
