@@ -1,0 +1,24 @@
+docs/benchmarks/results/integer-truth-character-casts-2026-11-03.json
+  h_05d51add47747d 1-6918
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 8163-8165,8225-8227,8235-8236,8244-8333
+docs/operators/calc-filter.md
+  h_05d51add47747d 1147-1149,1314-1316,1320-1331
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4022,4660-4661,4682-4690,4692-4696,4701,4706,4715,4719-4720
+src/test/java/tech/streamfusion/FlinkIntegralBooleanTryCastSqlHarnessTest.java
+  h_05d51add47747d 34
+src/test/java/tech/streamfusion/FlinkIntegralTruthStringSqlHarnessTest.java
+  h_05d51add47747d 1-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "907c078c7981259639843ed8dea1e7c860fa9827",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
