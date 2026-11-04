@@ -1,0 +1,24 @@
+docs/benchmarks/results/primitive-upper-2026-11-04.json
+  h_05d51add47747d 1-6485
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 9135-9221
+docs/operators/calc-filter.md
+  h_05d51add47747d 3421-3437
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 27-45
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 1941-1947,3955,4712-4722,4778-4796
+src/test/java/tech/streamfusion/FlinkPrimitiveUpperSqlHarnessTest.java
+  h_05d51add47747d 1-126
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "60d1e6551668be5445df07b84c95acce8b1b3f60",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
