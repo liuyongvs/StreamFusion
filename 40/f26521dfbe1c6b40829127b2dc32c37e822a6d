@@ -1,0 +1,35 @@
+docs/benchmarks/scalar-functions.md
+  s_d39207de3a7ad5::t_0a3d87ab08abf6 8909-8977
+docs/operators/calc-filter.md
+  s_d39207de3a7ad5::t_19029bba2f41a5 2414,2426-2434,2454-2455
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  s_56188a7daafb5f::t_449bbca1b8ae27 1941-1950
+src/test/java/tech/streamfusion/FlinkIntegerPrintfSqlHarnessTest.java
+  s_56188a7daafb5f::t_9f7232f70f9b3c 51
+src/test/java/tech/streamfusion/FlinkPrimitivePrintfLengthSqlHarnessTest.java
+  s_56188a7daafb5f::t_fe6d87ef549f18 1-89
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "40f26521dfbe1c6b40829127b2dc32c37e822a6d",
+  "prompts": {},
+  "sessions": {
+    "s_56188a7daafb5f": {
+      "agent_id": {
+        "tool": "antcc",
+        "id": "3b64d870-987e-4529-b8eb-8295d39f5e46",
+        "model": "antchat/Kimi-K2.5"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    },
+    "s_d39207de3a7ad5": {
+      "agent_id": {
+        "tool": "antcc",
+        "id": "852e494a-6ff6-45fb-9adc-774b640bdc50",
+        "model": "antchat/Kimi-K2.5"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
