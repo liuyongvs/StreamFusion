@@ -1,0 +1,24 @@
+docs/benchmarks/results/decimal-comparison-character-casts-2026-11-04.json
+  h_05d51add47747d 1-4239
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 8434-8437,8521-8613
+docs/operators/calc-filter.md
+  h_05d51add47747d 1149-1150,1153,1361-1363,1368-1386
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4669-4671,4711-4736
+src/test/java/tech/streamfusion/FlinkDecimalBooleanTryCastSqlHarnessTest.java
+  h_05d51add47747d 90-91,105-107
+src/test/java/tech/streamfusion/FlinkDecimalComparisonStringSqlHarnessTest.java
+  h_05d51add47747d 1-74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3b6be582624035a5effc1b41934872dce7039ad8",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}

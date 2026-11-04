@@ -1,0 +1,32 @@
+docs/benchmarks/results/runtime-epoch-precision-2026-11-04.json
+  h_05d51add47747d 1-10836
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 8614-8703
+docs/operators/calc-filter.md
+  h_05d51add47747d 3324-3327
+docs/operators/temporal-functions.md
+  h_05d51add47747d 16,116-146
+docs/optimizations/host-exact-builtins-upcall.md
+  h_05d51add47747d 869-895
+native/engine/src/flink_functions/mod.rs
+  h_05d51add47747d 319
+native/engine/src/flink_functions/round_position.rs
+  h_05d51add47747d 90,96,106,114,120,128
+native/engine/src/flink_functions/unnest_temporal.rs
+  h_05d51add47747d 4-5,19,29-40,55,72-82,123-126,205-320,615-922
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 2231-2244,4499-4507,4876-4880,4885,4893,4895-4896
+src/test/java/tech/streamfusion/FlinkRuntimeEpochPrecisionSqlHarnessTest.java
+  h_05d51add47747d 1-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "74dbc2a0ffed33d76d56b7ce73006649b257b6a4",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
