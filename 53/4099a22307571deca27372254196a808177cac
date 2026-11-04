@@ -1,0 +1,28 @@
+docs/benchmarks/results/integer-text-printf-2026-11-04.json
+  h_05d51add47747d 1-2637
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 9062-9134
+docs/operators/calc-filter.md
+  h_05d51add47747d 2415-2425,2441-2442
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1394-1405
+src/main/java/tech/streamfusion/planner/IntegerPrintfFormat.java
+  h_05d51add47747d 17,21,24-29,62-66
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 2227-2234,4733,4741-4742,4747-4764
+src/test/java/tech/streamfusion/FlinkIntegerTextPrintfSqlHarnessTest.java
+  h_05d51add47747d 1-61
+src/test/java/tech/streamfusion/planner/IntegerPrintfFormatTest.java
+  h_05d51add47747d 41-56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "534099a22307571deca27372254196a808177cac",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
