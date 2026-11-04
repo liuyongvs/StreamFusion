@@ -1,0 +1,24 @@
+docs/benchmarks/results/primitive-printf-comparison-2026-11-04.json
+  h_05d51add47747d 1-2482
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 8978-9061
+docs/operators/calc-filter.md
+  h_05d51add47747d 835-842,846-847,2436,2441-2448
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 1951,1956,2119,4741-4760
+src/test/java/tech/streamfusion/FlinkIntegralEpochSqlHarnessTest.java
+  h_05d51add47747d 50-54,93-99
+src/test/java/tech/streamfusion/FlinkPrimitivePrintfComparisonSqlHarnessTest.java
+  h_05d51add47747d 1-122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5e18ac8d265446d2b509b8bf0b525aa4593a111b",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
