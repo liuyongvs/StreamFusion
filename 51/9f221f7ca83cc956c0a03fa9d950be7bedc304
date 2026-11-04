@@ -1,0 +1,26 @@
+docs/benchmarks/results/clamped-truncate-2026-11-04.json
+  h_05d51add47747d 1-3913
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 9405-9499
+docs/operators/calc-filter.md
+  h_05d51add47747d 1888-1891,1903-1912
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1393-1400
+src/test/java/tech/streamfusion/FlinkClampedIntegralRoundSqlHarnessTest.java
+  h_05d51add47747d 5-8,11-13
+src/test/java/tech/streamfusion/FlinkClampedIntegralRoundingSqlHarness.java
+  h_05d51add47747d 1-95
+src/test/java/tech/streamfusion/FlinkClampedIntegralTruncateSqlHarnessTest.java
+  h_05d51add47747d 1-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "519f221f7ca83cc956c0a03fa9d950be7bedc304",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
