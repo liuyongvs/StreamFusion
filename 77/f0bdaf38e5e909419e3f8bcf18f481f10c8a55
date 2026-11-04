@@ -1,0 +1,36 @@
+docs/benchmarks/results/boolean-object-printf-2026-11-04.json
+  h_05d51add47747d 1-9818
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 8704-8822
+docs/operators/calc-filter.md
+  h_05d51add47747d 2392-2393,2396,2401-2405,2408-2410,2412,2430
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1355,1358,1363-1367,1384-1405
+native/engine/src/flink_functions/certified.rs
+  h_05d51add47747d 18-25
+native/engine/src/flink_functions/certified/printf.rs
+  h_05d51add47747d 2,8-17,30-31,35-39,42,45,51-58,160-161,168-169,171-172,180-190,192,201-205,207,216-223,240-241,244,250,252-255,259,261,266,278,285,288,334-379,411-416
+native/engine/src/flink_functions/integer_printf.rs
+  h_05d51add47747d 8-17,23-24,28,30-34,52,55,84-89,158-202
+native/engine/src/flink_functions/mod.rs
+  h_05d51add47747d 320
+src/main/java/tech/streamfusion/planner/IntegerPrintfFormat.java
+  h_05d51add47747d 9,17-24,52-56
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 2215-2216,4647,4698,4700,4707,4709-4723
+src/test/java/tech/streamfusion/FlinkBooleanPrintfSqlHarnessTest.java
+  h_05d51add47747d 1-61
+src/test/java/tech/streamfusion/planner/IntegerPrintfFormatTest.java
+  h_05d51add47747d 29-40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "77f0bdaf38e5e909419e3f8bcf18f481f10c8a55",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
