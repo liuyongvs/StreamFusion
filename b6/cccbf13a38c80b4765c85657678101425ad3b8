@@ -1,0 +1,19 @@
+docs/benchmarks/results/primitive-case-length-2026-11-04.json
+  s_1f236f5d3117a5::t_d758c366e8cfc6 1-7316
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "b6cccbf13a38c80b4765c85657678101425ad3b8",
+  "prompts": {},
+  "sessions": {
+    "s_1f236f5d3117a5": {
+      "agent_id": {
+        "tool": "antcc",
+        "id": "fe89b359-7830-4320-b5a1-93a41e6dccd0",
+        "model": "antchat/Kimi-K2.5"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
