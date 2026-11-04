@@ -1,0 +1,24 @@
+docs/benchmarks/results/clamped-round-2026-11-04.json
+  h_05d51add47747d 1-5929
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 9306-9404
+docs/operators/calc-filter.md
+  h_05d51add47747d 1827-1840
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1380-1392
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4978-4983,5010-5074,5076,5078-5089
+src/test/java/tech/streamfusion/FlinkClampedIntegralRoundSqlHarnessTest.java
+  h_05d51add47747d 1-87
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0acdd9b78f37061e1d82221524c035d64e04e4d0",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
