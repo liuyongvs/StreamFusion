@@ -1,0 +1,30 @@
+docs/benchmarks/results/primitive-lower-2026-11-04.json
+  h_05d51add47747d 1-5361
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 9222-9305
+docs/operators/calc-filter.md
+  h_05d51add47747d 3421-3422,3424-3427,3429,3435-3436,3438
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 29,31,33,46-52
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 1941-1942,1946-1947,4779-4785,4787,4794-4795,4797-4798
+src/test/java/tech/streamfusion/FlinkPrimitiveCaseDecimalSqlHarnessTest.java
+  h_05d51add47747d 1-31
+src/test/java/tech/streamfusion/FlinkPrimitiveCaseSqlHarness.java
+  h_05d51add47747d 1-149
+src/test/java/tech/streamfusion/FlinkPrimitiveLowerSqlHarnessTest.java
+  h_05d51add47747d 1-8
+src/test/java/tech/streamfusion/FlinkPrimitiveUpperSqlHarnessTest.java
+  h_05d51add47747d 3-6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "2539fabb112a7ab421f2aa41e7ebcfa687ed4371",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
