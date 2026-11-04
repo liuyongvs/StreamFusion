@@ -1,0 +1,24 @@
+docs/benchmarks/results/decimal-truth-character-casts-2026-11-03.json
+  h_05d51add47747d 1-7965
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 8400-8402,8423-8519
+docs/operators/calc-filter.md
+  h_05d51add47747d 1148-1149,1152,1340-1341,1351-1366
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4029,4668-4669,4699-4708
+src/test/java/tech/streamfusion/FlinkDecimalBooleanTryCastSqlHarnessTest.java
+  h_05d51add47747d 66,87
+src/test/java/tech/streamfusion/FlinkDecimalTruthStringSqlHarnessTest.java
+  h_05d51add47747d 1-68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "311dee101976a62f24f58a4fa2949223641a8ee0",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
