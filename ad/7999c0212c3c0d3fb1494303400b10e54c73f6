@@ -1,0 +1,20 @@
+docs/benchmarks/results/decimal-printf-plain-2026-11-05.json
+  h_05d51add47747d 1-97
+docs/operators/calc-filter.md
+  h_05d51add47747d 2512-2517,2526-2532
+native/engine/src/flink_functions/certified/printf.rs
+  h_05d51add47747d 294,431,435-497
+src/test/java/tech/streamfusion/FlinkDecimalPrintfSqlHarnessTest.java
+  h_05d51add47747d 1-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ad7999c0212c3c0d3fb1494303400b10e54c73f6",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
