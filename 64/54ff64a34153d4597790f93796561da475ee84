@@ -1,0 +1,26 @@
+docs/benchmarks/results/decimal-abs-negate-2026-11-05.json
+  h_05d51add47747d 1-3274
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 10343-10398
+docs/operators/calc-filter.md
+  h_05d51add47747d 1322,2082,2095-2104,3572-3573
+docs/operators/temporal-functions.md
+  h_05d51add47747d 16,118-120
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 2949-2960,5380-5385,5404-5409
+src/test/java/tech/streamfusion/FlinkDecimalAbsNegateSqlHarnessTest.java
+  h_05d51add47747d 1-100
+src/test/java/tech/streamfusion/planner/DecimalAbsEncodingTest.java
+  h_05d51add47747d 37-41,81-82
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "6454ff64a34153d4597790f93796561da475ee84",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
