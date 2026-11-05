@@ -1,0 +1,18 @@
+.github/workflows/ci.yml
+  h_05d51add47747d 119,180,211
+bin/test_ci_runtime_test_shards.py
+  h_05d51add47747d 36-42,129-139,148
+docs/ci.md
+  h_05d51add47747d 220,229,242-249,252-253,256
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ae8d656b9eea42afedfb789f5eae89eb32caffa0",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
