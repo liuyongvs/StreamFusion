@@ -1,0 +1,24 @@
+docs/benchmarks/results/default-precision-epoch-2026-11-05.json
+  h_05d51add47747d 1-5076
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 10179-10247
+docs/operators/calc-filter.md
+  h_05d51add47747d 3564-3566
+docs/operators/temporal-functions.md
+  h_05d51add47747d 16,121-139
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 2279,4544,4549-4551,4558-4561,4567-4572
+src/test/java/tech/streamfusion/FlinkDefaultPrecisionEpochSqlHarnessTest.java
+  h_05d51add47747d 1-96
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d9e0c32a6c514974f94b16265fbeedd0d0dda3ef",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
