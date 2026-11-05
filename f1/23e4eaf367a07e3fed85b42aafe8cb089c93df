@@ -1,0 +1,24 @@
+docs/benchmarks/results/decimal-sign-unary-2026-11-05.json
+  h_05d51add47747d 1-3362
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 10581-10640
+docs/operators/calc-filter.md
+  h_05d51add47747d 1192-1195,1205,1214-1216
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 5305
+src/test/java/tech/streamfusion/FlinkDecimalSignUnarySqlHarnessTest.java
+  h_05d51add47747d 1-116
+src/test/java/tech/streamfusion/planner/DecimalSignArithmeticEncodingTest.java
+  h_05d51add47747d 43-60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "f123e4eaf367a07e3fed85b42aafe8cb089c93df",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
