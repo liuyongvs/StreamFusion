@@ -1,0 +1,36 @@
+docs/benchmarks/results/decimal-negate-abs-2026-11-05.json
+  h_05d51add47747d 1-3672
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 10399-10455
+docs/operators/calc-filter.md
+  h_05d51add47747d 1321,2081,2098-2100,2104-2107,2110,2115,3575-3576
+docs/operators/temporal-functions.md
+  h_05d51add47747d 16,118-120
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 5383-5386,5410-5413
+src/test/java/tech/streamfusion/FlinkDecimalAbsNegateSqlHarnessTest.java
+  h_05d51add47747d 72-73
+src/test/java/tech/streamfusion/FlinkDecimalNegateAbsConsumersSqlHarnessTest.java
+  h_05d51add47747d 1-53
+src/test/java/tech/streamfusion/FlinkDecimalNegateAbsSqlHarnessTest.java
+  h_05d51add47747d 1-104
+src/test/java/tech/streamfusion/FlinkDecimalUnaryEpochSqlHarnessTest.java
+  h_05d51add47747d 18
+src/test/java/tech/streamfusion/FlinkDefaultPrecisionEpochSqlHarnessTest.java
+  h_05d51add47747d 55
+src/test/java/tech/streamfusion/planner/DecimalAbsEncodingTest.java
+  h_05d51add47747d 82
+src/test/java/tech/streamfusion/planner/DecimalNegateEncodingTest.java
+  h_05d51add47747d 38-42,84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "83d032683de8c2f2de160c5c89021c21fcbb5469",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
