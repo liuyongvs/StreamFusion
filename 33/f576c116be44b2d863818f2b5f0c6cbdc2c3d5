@@ -1,0 +1,28 @@
+divergences/07-expression-encoding-and-compile-once.md
+  h_05d51add47747d 444-448
+docs/benchmarks/results/decimal-epoch-2026-11-05.json
+  h_05d51add47747d 9189-9190
+docs/benchmarks/results/decimal-unary-epoch-2026-11-05.json
+  h_05d51add47747d 1-6117
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 9988,10031-10102
+docs/operators/calc-filter.md
+  h_05d51add47747d 3438-3440
+docs/operators/temporal-functions.md
+  h_05d51add47747d 16,109-114,118-119
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4524-4527
+src/test/java/tech/streamfusion/FlinkDecimalUnaryEpochSqlHarnessTest.java
+  h_05d51add47747d 1-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "33f576c116be44b2d863818f2b5f0c6cbdc2c3d5",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
