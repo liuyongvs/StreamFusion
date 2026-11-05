@@ -1,0 +1,40 @@
+divergences/07-expression-encoding-and-compile-once.md
+  h_05d51add47747d 437-446
+docs/benchmarks/results/decimal-epoch-2026-11-05.json
+  h_05d51add47747d 1-9190
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 9959-10030
+docs/operators/calc-filter.md
+  h_05d51add47747d 3535-3540
+docs/operators/temporal-functions.md
+  h_05d51add47747d 16,90-115
+native/engine/examples/integral_expression.rs
+  h_05d51add47747d 12-14,78-90,284-287,291-292,294-296,342,357,401-434
+native/engine/src/flink_functions/decimal_epoch.rs
+  h_05d51add47747d 1-298
+native/engine/src/flink_functions/mod.rs
+  h_05d51add47747d 20,322-323
+native/engine/src/flink_functions/unnest_temporal.rs
+  h_05d51add47747d 171
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 2272-2276,4536-4548
+src/test/java/tech/streamfusion/FlinkDecimalBooleanTryCastSqlHarnessTest.java
+  h_05d51add47747d 92-102,109
+src/test/java/tech/streamfusion/FlinkDecimalEpochSqlHarnessTest.java
+  h_05d51add47747d 1-109
+src/test/java/tech/streamfusion/IntegralExpressionPipelineBenchmark.java
+  h_05d51add47747d 60-63,75-78
+src/test/java/tech/streamfusion/planner/IntegralExpressionBenchmarkFunctions.java
+  h_05d51add47747d 202-210,222-242,287-290
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "a559bc462ec91d57e214881eb89932006891cdc9",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}

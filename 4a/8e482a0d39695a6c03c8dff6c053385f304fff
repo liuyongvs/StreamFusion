@@ -1,0 +1,36 @@
+docs/benchmarks/results/epoch-ltz-ceil-2026-11-04.json
+  h_05d51add47747d 1-6431
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 9703-9797
+docs/operators/calc-filter.md
+  h_05d51add47747d 3510-3513
+docs/operators/temporal-functions.md
+  h_05d51add47747d 21,156,178-182,193,229-231,234,240-262,337
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1500,1503-1518
+native/engine/src/flink_functions/temporal_round.rs
+  h_05d51add47747d 1,9-10,128-150,212-249
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 2191-2193,4550
+src/test/java/tech/streamfusion/FlinkEpochLtzCeilSqlHarnessTest.java
+  h_05d51add47747d 1-6
+src/test/java/tech/streamfusion/FlinkEpochLtzFloorSqlHarnessTest.java
+  h_05d51add47747d 3-5
+src/test/java/tech/streamfusion/FlinkEpochLtzRoundSqlHarness.java
+  h_05d51add47747d 1-93
+src/test/java/tech/streamfusion/planner/UtcLtzCalendarFloorAdmissionTest.java
+  h_05d51add47747d 27
+src/test/java/tech/streamfusion/planner/UtcLtzFixedFloorAdmissionTest.java
+  h_05d51add47747d 34,56-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4a8e482a0d39695a6c03c8dff6c053385f304fff",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}

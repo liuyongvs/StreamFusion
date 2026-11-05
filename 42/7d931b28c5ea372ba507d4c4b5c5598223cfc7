@@ -1,0 +1,32 @@
+divergences/07-expression-encoding-and-compile-once.md
+  h_05d51add47747d 247,495,497-498
+docs/benchmarks/results/primitive-least-2026-11-05.json
+  h_05d51add47747d 1-9557
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 9871-9958
+docs/operators/calc-filter.md
+  h_05d51add47747d 2422,2447-2455
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1523,1536-1545
+native/engine/src/flink_functions/scalar.rs
+  h_05d51add47747d 3,113,157-198,998-1083
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 1976-1980,1982
+src/test/java/tech/streamfusion/FlinkPrimitiveGreatestSqlHarnessTest.java
+  h_05d51add47747d 3-6
+src/test/java/tech/streamfusion/FlinkPrimitiveLeastSqlHarnessTest.java
+  h_05d51add47747d 1-8
+src/test/java/tech/streamfusion/FlinkPrimitiveStringExtremumSqlHarness.java
+  h_05d51add47747d 1-132
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "427d931b28c5ea372ba507d4c4b5c5598223cfc7",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
