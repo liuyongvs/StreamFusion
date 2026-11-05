@@ -1,0 +1,24 @@
+docs/benchmarks/results/epoch-date-format-2026-11-05.json
+  h_05d51add47747d 1-3748
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 10518-10580
+docs/operators/calc-filter.md
+  h_05d51add47747d 3706-3712
+docs/operators/temporal-functions.md
+  h_05d51add47747d 32-34,37-43
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4612-4613
+src/test/java/tech/streamfusion/FlinkEpochDateFormatSqlHarnessTest.java
+  h_05d51add47747d 1-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "90287648868425d581bdbd6877420f3c5d163f42",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
