@@ -1,0 +1,24 @@
+docs/benchmarks/results/decimal-epoch-floor-2026-11-05.json
+  h_05d51add47747d 1-3006
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 10705-10769
+docs/operators/calc-filter.md
+  h_05d51add47747d 3609-3618
+docs/operators/temporal-functions.md
+  h_05d51add47747d 21,224-225,251,262,309-326
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4604-4605,4615,4634-4637
+src/test/java/tech/streamfusion/FlinkDecimalEpochFloorSqlHarnessTest.java
+  h_05d51add47747d 1-132
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "329795ebdf8c57b639162cd81d025b2fc9dbbe34",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
