@@ -1,0 +1,30 @@
+docs/benchmarks/results/date-format-year-2026-11-05.json
+  h_05d51add47747d 1-751
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 10248-10270
+docs/operators/temporal-functions.md
+  h_05d51add47747d 17
+docs/optimizations/date-format-pattern-cache.md
+  h_05d51add47747d 5-12
+native/engine/src/expr.rs
+  h_05d51add47747d 2043-2045,2085,2092-2093
+native/engine/src/flink_functions/date_format.rs
+  h_05d51add47747d 1-154
+native/engine/src/flink_functions/mod.rs
+  h_05d51add47747d 65
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 6906-6908,7013,7016-7017
+src/test/java/tech/streamfusion/FlinkDateFormatExtendedYearSqlHarnessTest.java
+  h_05d51add47747d 1-91
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8b7bace6d5e68a40ab6f2c1e0215e33c6a9e5a47",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
