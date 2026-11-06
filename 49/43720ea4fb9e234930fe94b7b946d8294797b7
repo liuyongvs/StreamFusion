@@ -1,0 +1,44 @@
+divergences/32-sql-json-definite-paths.md
+  h_05d51add47747d 27-49
+docs/benchmarks/results/json-container-string-2026-11-06.json
+  h_05d51add47747d 1-6531
+docs/benchmarks/results/json-container-string-profile-2026-11-06.json
+  h_05d51add47747d 1-119
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 11090-11199
+docs/operators/calc-filter.md
+  h_05d51add47747d 2899-2919
+docs/optimizations/scalar-function-kernels.md
+  h_05d51add47747d 1565-1581
+native/engine/examples/integral_expression.rs
+  h_05d51add47747d 6-7,274-276,460-525
+native/engine/src/flink_functions/json_container.rs
+  h_05d51add47747d 1-204
+native/engine/src/flink_functions/json_serialize.rs
+  h_05d51add47747d 35-36,52-56,72-85
+native/engine/src/flink_functions/mod.rs
+  h_05d51add47747d 78
+src/main/java/tech/streamfusion/planner/CollectionValueIdentity.java
+  h_05d51add47747d 112-118,125-127,140,186-204,217-218
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 1014,1170,2614-2619,3351-3387
+src/test/java/tech/streamfusion/FlinkJsonContainerStringSqlHarnessTest.java
+  h_05d51add47747d 1-163
+src/test/java/tech/streamfusion/FlinkNestedJsonJvmSqlHarnessTest.java
+  h_05d51add47747d 60-62
+src/test/java/tech/streamfusion/IntegralExpressionPipelineBenchmark.java
+  h_05d51add47747d 39,42-46,74-123
+src/test/java/tech/streamfusion/planner/IntegralExpressionBenchmarkFunctions.java
+  h_05d51add47747d 210-213,248-270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4943720ea4fb9e234930fe94b7b946d8294797b7",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
