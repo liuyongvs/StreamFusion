@@ -1,0 +1,32 @@
+docs/benchmarks/results/json-array-scalars-2026-11-06.json
+  h_05d51add47747d 1-3412
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 10838-10903
+docs/operators/calc-filter.md
+  h_05d51add47747d 2776,2876-2900
+native/engine/examples/integral_expression.rs
+  h_05d51add47747d 243-257
+native/engine/src/flink_functions/json_array.rs
+  h_05d51add47747d 1-225
+native/engine/src/flink_functions/mod.rs
+  h_05d51add47747d 77,326
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 2536-2537,2553-2555,3175-3200
+src/test/java/tech/streamfusion/FlinkJsonArrayScalarSqlHarnessTest.java
+  h_05d51add47747d 1-149
+src/test/java/tech/streamfusion/IntegralExpressionPipelineBenchmark.java
+  h_05d51add47747d 29,39-40,68-71
+src/test/java/tech/streamfusion/planner/IntegralExpressionBenchmarkFunctions.java
+  h_05d51add47747d 37,96-103,199-200,254-266
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e5337b1f9438dcb69e8fdccbdc30f98f5e3b0c6c",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
