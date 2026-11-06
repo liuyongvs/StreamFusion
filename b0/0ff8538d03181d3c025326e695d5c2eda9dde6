@@ -1,0 +1,26 @@
+docs/benchmarks/results/decimal-epoch-ceil-2026-11-06.json
+  h_05d51add47747d 1-3008
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 10770-10837
+docs/operators/calc-filter.md
+  h_05d51add47747d 3609,3614-3617,3619-3620
+docs/operators/temporal-functions.md
+  h_05d51add47747d 21,224,251,323,327-350
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 4605
+src/test/java/tech/streamfusion/FlinkDecimalEpochCeilSqlHarnessTest.java
+  h_05d51add47747d 1-131
+src/test/java/tech/streamfusion/FlinkDecimalEpochFloorSqlHarnessTest.java
+  h_05d51add47747d 78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "b00ff8538d03181d3c025326e695d5c2eda9dde6",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
