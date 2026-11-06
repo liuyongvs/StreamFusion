@@ -1,0 +1,60 @@
+divergences/32-sql-json-definite-paths.md
+  h_05d51add47747d 115-131
+docs/benchmarks/results/json-reader-schedule-2026-11-06.json
+  h_05d51add47747d 1-3012
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 10911-10913,11009-11086
+docs/operators/calc-filter.md
+  h_05d51add47747d 2848-2865
+docs/optimizations/sql-json-parsing.md
+  h_05d51add47747d 79-106
+native/engine/examples/integral_expression.rs
+  h_05d51add47747d 4,34-44,58-64,67,75,81-85,87,103-118,134-137,158,274,362-367,374-376,384-385,389,391-397,488-524
+native/engine/src/bench.rs
+  h_05d51add47747d 2260-2262
+native/engine/src/calc.rs
+  h_05d51add47747d 202-273,356,360,366,373,379,429-445,448
+native/engine/src/flink_functions/is_json.rs
+  h_05d51add47747d 56,61-62
+native/engine/src/flink_functions/json_exists.rs
+  h_05d51add47747d 52,57-58
+native/engine/src/flink_functions/json_path.rs
+  h_05d51add47747d 8-9
+native/engine/src/flink_functions/json_path/runtime.rs
+  h_05d51add47747d 3,5,7-144,149-165,197-276
+native/engine/src/flink_functions/json_path/simd.rs
+  h_05d51add47747d 11,22,39-53
+native/engine/src/flink_functions/json_query.rs
+  h_05d51add47747d 55,65
+native/engine/src/flink_functions/json_value.rs
+  h_05d51add47747d 93,103
+native/engine/src/flink_functions/mod.rs
+  h_05d51add47747d 81
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 497-500,822,833-860
+src/test/java/tech/streamfusion/FlinkJsonQueryScalarSqlHarnessTest.java
+  h_05d51add47747d 61
+src/test/java/tech/streamfusion/FlinkJsonReaderScheduleSqlHarnessTest.java
+  h_05d51add47747d 1-121
+src/test/java/tech/streamfusion/IntegralExpressionPipelineBenchmark.java
+  h_05d51add47747d 26,39-40,47-48,99-101,109-114,124
+src/test/java/tech/streamfusion/NativeJsonBufferHistoryTest.java
+  h_05d51add47747d 326
+src/test/java/tech/streamfusion/NativeJsonQueryBufferHistoryTest.java
+  h_05d51add47747d 75
+src/test/java/tech/streamfusion/NativeJsonSharedBufferHistoryTest.java
+  h_05d51add47747d 1-188
+src/test/java/tech/streamfusion/planner/IntegralExpressionBenchmarkFunctions.java
+  h_05d51add47747d 33,67,81-84,91,102-103,150-151,156,162,168-170,330,361-385,392
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "57004bcbacb09c2ecd68e97dbe1d8c16a62bf094",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
