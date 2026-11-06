@@ -1,0 +1,52 @@
+divergences/32-sql-json-definite-paths.md
+  h_05d51add47747d 34,87-123,173,188
+docs/benchmarks/results/json-query-definite-2026-11-06.json
+  h_05d51add47747d 1-4322
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 10902,10904-11011
+docs/operators/calc-filter.md
+  h_05d51add47747d 2774-2775,2792-2795,2827-2862,3014,3246
+docs/optimizations/sql-json-parsing.md
+  h_05d51add47747d 49-80
+native/engine/examples/integral_expression.rs
+  h_05d51add47747d 254-281,283
+native/engine/src/flink_functions/json_path.rs
+  h_05d51add47747d 9-10,33-38,167-177,187,230,264,343-344,364-368,404-408
+native/engine/src/flink_functions/json_path/query.rs
+  h_05d51add47747d 1-451
+native/engine/src/flink_functions/json_path/simd.rs
+  h_05d51add47747d 37-103,183-196,257-297,314-362
+native/engine/src/flink_functions/json_query.rs
+  h_05d51add47747d 1-247
+native/engine/src/flink_functions/json_value.rs
+  h_05d51add47747d 236-238,241
+native/engine/src/flink_functions/mod.rs
+  h_05d51add47747d 81,328
+src/main/java/tech/streamfusion/planner/JsonPathSpec.java
+  h_05d51add47747d 48-55,83,87
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 195,488-503,530-531,656,814-831,1199,1204,1216,1220,1257,2595-2597,3556-3583
+src/test/java/tech/streamfusion/FlinkJsonQueryScalarSqlHarnessTest.java
+  h_05d51add47747d 1-166
+src/test/java/tech/streamfusion/FlinkNestedJsonJvmSqlHarnessTest.java
+  h_05d51add47747d 52,55-65
+src/test/java/tech/streamfusion/IntegralExpressionPipelineBenchmark.java
+  h_05d51add47747d 70
+src/test/java/tech/streamfusion/NativeJsonBufferHistoryTest.java
+  h_05d51add47747d 199,334
+src/test/java/tech/streamfusion/NativeJsonQueryBufferHistoryTest.java
+  h_05d51add47747d 1-89
+src/test/java/tech/streamfusion/planner/IntegralExpressionBenchmarkFunctions.java
+  h_05d51add47747d 200,267-292
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "b01eba4d55d11462ea8ede141f51bc7223351c5a",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
