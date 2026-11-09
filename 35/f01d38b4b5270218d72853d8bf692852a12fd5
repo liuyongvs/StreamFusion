@@ -1,0 +1,28 @@
+docs/operators/calc-filter.md
+  h_05d51add47747d 35-40
+docs/operators/index.md
+  h_05d51add47747d 21-26
+src/main/java-flink2.2/tech/streamfusion/planner/StockCompiledPlanLowering.java
+  h_05d51add47747d 71-72,129-134,526-531,3718,4222-4235
+src/main/java/tech/streamfusion/planner/PhysicalPlanScan.java
+  h_05d51add47747d 122-125,1028-1029
+src/main/java/tech/streamfusion/planner/PlannerDiagnostics.java
+  h_05d51add47747d 1-29
+src/test/java-flink2.2/tech/streamfusion/planner/StockCompiledPlanLoggingTest.java
+  h_05d51add47747d 1-93
+src/test/java/tech/streamfusion/planner/PlannerDiagnosticsTest.java
+  h_05d51add47747d 1-50
+src/test/java/tech/streamfusion/planner/PlannerLoggingTest.java
+  h_05d51add47747d 1-102
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "35f01d38b4b5270218d72853d8bf692852a12fd5",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
