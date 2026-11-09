@@ -1,0 +1,14 @@
+docs/configuration.md
+  h_05d51add47747d 157-166
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ad0bef56902a2dea6b251c6b34787657450124ef",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
