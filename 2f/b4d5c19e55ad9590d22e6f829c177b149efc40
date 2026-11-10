@@ -1,0 +1,20 @@
+docs/connectors/paimon.md
+  h_05d51add47747d 1188-1194
+docs/upstream-flink-suite.md
+  h_05d51add47747d 794-796,833-835
+src/main/java/tech/streamfusion/paimon/NativePaimonCompactRewriter.java
+  h_05d51add47747d 4,36,82,285,289-295
+streamfusion-paimon/src/test/java/tech/streamfusion/paimon/PaimonCompactionFailureTest.java
+  h_05d51add47747d 36-74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "2fb4d5c19e55ad9590d22e6f829c177b149efc40",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
