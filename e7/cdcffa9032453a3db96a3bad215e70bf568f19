@@ -1,0 +1,24 @@
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 11317-11320
+docs/operators/calc-filter.md
+  h_05d51add47747d 1004-1007
+docs/optimizations/string-copy-reduction.md
+  h_05d51add47747d 219,222,224
+native/engine/tests/byte_string_hash.rs
+  h_05d51add47747d 96-100
+src/main/java/tech/streamfusion/planner/ByteStringInputs.java
+  h_05d51add47747d 72-80
+src/test/java/tech/streamfusion/FlinkByteStringHashSqlHarnessTest.java
+  h_05d51add47747d 6,8,12-13,16-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e7cdcffa9032453a3db96a3bad215e70bf568f19",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
