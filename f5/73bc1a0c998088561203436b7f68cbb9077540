@@ -1,0 +1,56 @@
+divergences/byte-preserving-flink-strings.md
+  h_05d51add47747d 1-29
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 11200-11274
+docs/operators/calc-filter.md
+  h_05d51add47747d 962-964,990-992,1000-1037
+docs/optimizations/string-copy-reduction.md
+  h_05d51add47747d 200-216
+native/engine/examples/byte_string_concat.rs
+  h_05d51add47747d 1-157
+native/engine/src/expr.rs
+  h_05d51add47747d 854,870-882,892-895
+native/engine/src/flink_functions/byte_concat.rs
+  h_05d51add47747d 1-193
+native/engine/src/flink_functions/mod.rs
+  h_05d51add47747d 60
+native/engine/tests/byte_string_concat.rs
+  h_05d51add47747d 1-88
+src/main/java/tech/streamfusion/arrow/ArrowConversion.java
+  h_05d51add47747d 491-492,565-566
+src/main/java/tech/streamfusion/arrow/BorrowedStringValues.java
+  h_05d51add47747d 3,5,12,15,20-22,25
+src/main/java/tech/streamfusion/arrow/ByteStringTransport.java
+  h_05d51add47747d 1-39
+src/main/java/tech/streamfusion/arrow/writers/VarCharWriter.java
+  h_05d51add47747d 28,41,45,51,61,121,139
+src/main/java/tech/streamfusion/planner/ByteStringInputs.java
+  h_05d51add47747d 1-108
+src/main/java/tech/streamfusion/planner/PhysicalPlanScan.java
+  h_05d51add47747d 256
+src/main/java/tech/streamfusion/planner/RowDataToArrowExecNode.java
+  h_05d51add47747d 39,143-151
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeCalc.java
+  h_05d51add47747d 136-141
+src/main/java/tech/streamfusion/planner/StreamPhysicalRowDataToArrow.java
+  h_05d51add47747d 36,77-84,92-98,104,110,125-126,141-142,170-171,188,199
+src/test/java/tech/streamfusion/ByteStringConcatPipelineBenchmark.java
+  h_05d51add47747d 1-68
+src/test/java/tech/streamfusion/FlinkByteStringConcatSqlHarnessTest.java
+  h_05d51add47747d 1-131
+src/test/java/tech/streamfusion/arrow/ByteStringTransportTest.java
+  h_05d51add47747d 1-79
+src/test/java/tech/streamfusion/planner/ByteStringConcatBenchmarkFunctions.java
+  h_05d51add47747d 1-85
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "f573bc1a0c998088561203436b7f68cbb9077540",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
