@@ -1,0 +1,54 @@
+.github/workflows/docs.yml
+  h_05d51add47747d 9-10,36
+.gitignore
+  h_05d51add47747d 5-14
+CLAUDE.md
+  h_05d51add47747d 97-105
+dev/docs/hooks.py
+  h_05d51add47747d 8,10,16-22,24-30
+docs/benchmarks/evidence.md
+  h_05d51add47747d 80-123
+docs/benchmarks/fluss-headline-2026-10-08/summarize.py
+  h_05d51add47747d 4-6
+docs/benchmarks/iceberg-boundary-20261017/README.md
+  h_05d51add47747d 78,132-133,159
+docs/benchmarks/iceberg-boundary-round2-20261017/README.md
+  h_05d51add47747d 96
+docs/benchmarks/kafka-iceberg-final-20261017/verify.py
+  h_05d51add47747d 3-5
+docs/benchmarks/kafka-paimon-final-20261017/README.md
+  h_05d51add47747d 76,78
+docs/benchmarks/kafka-paimon-final-20261017/compare-iceberg.py
+  h_05d51add47747d 5-8
+docs/benchmarks/kafka-paimon-final-20261017/verify.py
+  h_05d51add47747d 11
+docs/benchmarks/q23-mini-batch-fix-2026-10-08/summarize.py
+  h_05d51add47747d 10-12
+docs/ci.md
+  h_05d51add47747d 140-148
+docs/connectors/fluss.md
+  h_05d51add47747d 355,535
+docs/connectors/paimon.md
+  h_05d51add47747d 1912
+docs/operators/window-aggregate.md
+  h_05d51add47747d 1347,1442
+docs/optimizations/identity-expression-passthroughs.md
+  h_05d51add47747d 44
+docs/optimizations/shared-window-state.md
+  h_05d51add47747d 33
+docs/optimizations/window-rank-timestamp-cells.md
+  h_05d51add47747d 29
+docs/sql-inventory/index.md
+  h_05d51add47747d 3,20-21,23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5bc3b21230109ef5a73f501cc575cdab3fdbede0",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}

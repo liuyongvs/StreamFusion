@@ -1,0 +1,34 @@
+docs/configuration.md
+  h_05d51add47747d 111-135
+docs/deployment.md
+  h_05d51add47747d 244-245,251-263
+docs/optimizations/arrow-unsafe-memory-checks.md
+  h_05d51add47747d 7-12,16-27,31-35
+pom.xml
+  h_05d51add47747d 619-622
+src/main/java/tech/streamfusion/Native.java
+  h_05d51add47747d 177
+src/main/java/tech/streamfusion/NativeExtensionLoader.java
+  h_05d51add47747d 18-21
+src/main/java/tech/streamfusion/arrow/ArrowConversion.java
+  h_05d51add47747d 137-140
+src/main/java/tech/streamfusion/arrow/ArrowRuntime.java
+  h_05d51add47747d 1-64
+src/main/java/tech/streamfusion/operator/NativeAllocator.java
+  h_05d51add47747d 9,31-34
+src/test/java/tech/streamfusion/arrow/ArrowRuntimeTest.java
+  h_05d51add47747d 1-259
+src/test/resources/arrow-runtime-log4j2.xml
+  h_05d51add47747d 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5939be005ed372caa563dbb03d54fc8e160d0358",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}

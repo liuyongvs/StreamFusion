@@ -1,0 +1,26 @@
+.github/workflows/docs.yml
+  h_05d51add47747d 8-11,32-33
+.gitignore
+  h_05d51add47747d 3-4
+dev/docs/hooks.py
+  h_05d51add47747d 1-18
+dev/flink-suite/render_sql_inventory.py
+  h_05d51add47747d 70,126-127,130-131,139-140,143,149,164-184
+dev/flink-suite/test_render_sql_inventory.py
+  h_05d51add47747d 57-78
+docs/sql-inventory/index.md
+  h_05d51add47747d 5-15
+mkdocs.yml
+  h_05d51add47747d 2-3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8cb5db4c69eeec3f312dabe89cfc52bf2f6323cc",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
