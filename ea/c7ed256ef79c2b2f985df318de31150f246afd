@@ -1,0 +1,52 @@
+docs/batch-execution-runtime.md
+  h_05d51add47747d 35-42
+src/main/java/tech/streamfusion/planner/CalcMatcher.java
+  h_05d51add47747d 29,221
+src/main/java/tech/streamfusion/planner/CollectionExpressionSemantics.java
+  h_05d51add47747d 1-268
+src/main/java/tech/streamfusion/planner/CollectionValueIdentity.java
+  h_05d51add47747d 3-8,46,67
+src/main/java/tech/streamfusion/planner/ExpressionPlanning.java
+  h_05d51add47747d 3-4,7,9,21-85,107
+src/main/java/tech/streamfusion/planner/FilterCalcMatcher.java
+  h_05d51add47747d 25-26,44
+src/main/java/tech/streamfusion/planner/GeneratedUnnestMatcher.java
+  h_05d51add47747d 76,82
+src/main/java/tech/streamfusion/planner/JvmFunctionConversions.java
+  h_05d51add47747d 215-217,230
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 235-236,240-241,495,521-522,1245,1247-1250,1472-1473,1812,1814,1980,1999,2003,2935
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeCalc.java
+  h_05d51add47747d 160-169
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeFilter.java
+  h_05d51add47747d 109-113
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeGeneratedUnnest.java
+  h_05d51add47747d 69-73
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeJvmGroup.java
+  h_05d51add47747d 45-49
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeSingleRel.java
+  h_05d51add47747d 24-25,54-58
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeTableFunction.java
+  h_05d51add47747d 76-80
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeUnnest.java
+  h_05d51add47747d 73-77
+src/main/java/tech/streamfusion/planner/UnnestMatcher.java
+  h_05d51add47747d 66-68
+src/main/java/tech/streamfusion/planner/common/EncodedExpression.java
+  h_05d51add47747d 4,43-48
+src/main/java/tech/streamfusion/planner/common/ExpressionInput.java
+  h_05d51add47747d 1-19
+src/test/java/tech/streamfusion/planner/CollectionValueIdentityTest.java
+  h_05d51add47747d 10,20,23-44,62-63,71,84-111
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "eac7ed256ef79c2b2f985df318de31150f246afd",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
