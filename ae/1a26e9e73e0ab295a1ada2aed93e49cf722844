@@ -1,0 +1,32 @@
+dev/flink-suite/agent/src/main/java/tech/streamfusion/suite/StreamFusionSuiteAgent.java
+  h_05d51add47747d 6,201,216
+dev/flink-suite/test_sql_inventory.py
+  h_05d51add47747d 31-38
+docs/batch-execution-runtime.md
+  h_05d51add47747d 29-34
+docs/upstream-flink-suite.md
+  h_05d51add47747d 6-9
+src/main/java-flink2.2/tech/streamfusion/planner/DeltaSinkMatcher.java
+  h_05d51add47747d 15
+src/main/java-flink2.2/tech/streamfusion/planner/NativeDeltaSinkExecNode.java
+  h_05d51add47747d 31,39
+src/main/java/tech/streamfusion/planner/StockCompiledPlanLowering.java
+  h_05d51add47747d 59
+src/main/java-flink2.2/tech/streamfusion/planner/StreamPhysicalNativeDeltaSink.java
+  h_05d51add47747d 11
+src/test/java/tech/streamfusion/BatchSqlTest.java
+  h_05d51add47747d 15-47
+src/test/java/tech/streamfusion/planner/PlannerModeBoundaryTest.java
+  h_05d51add47747d 1-84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ae1a26e9e73e0ab295a1ada2aed93e49cf722844",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
