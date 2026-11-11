@@ -1,0 +1,18 @@
+docs/ci.md
+  h_05d51add47747d 607-611
+src/test/java-flink2.2/org/example/canonical/CanonicalKafkaCommitBoundaryTest.java
+  h_05d51add47747d 1-74
+src/test/java-flink2.2/org/example/canonical/CanonicalKafkaJobWorker.java
+  h_05d51add47747d 125-134,160-162,187-207
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c3d65863c0ca50daee2f642c7e372e1a141f05a5",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
