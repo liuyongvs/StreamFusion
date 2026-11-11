@@ -1,0 +1,14 @@
+docs/upstream-flink-suite.md
+  h_05d51add47747d 18-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "6e284cae7e4afb6e87c01766acf05bd79e2605d2",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
