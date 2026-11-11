@@ -1,0 +1,16 @@
+bin/bench-jvm-previous.py
+  h_05d51add47747d 21
+docs/ci.md
+  h_05d51add47747d 203-206
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0d968c3c4417a3574a151a1b0a0dd88f41b898bf",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
