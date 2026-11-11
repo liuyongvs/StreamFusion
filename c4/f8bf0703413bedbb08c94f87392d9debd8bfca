@@ -1,0 +1,26 @@
+docs/batch-execution-runtime.md
+  h_05d51add47747d 69-74
+native/engine/src/batch/aggregate.rs
+  h_05d51add47747d 1-2,960,972,1077,1087,1100
+native/engine/src/batch/join.rs
+  h_05d51add47747d 1-2,609
+native/engine/src/batch/mod.rs
+  h_05d51add47747d 1-7
+native/engine/src/batch/sort.rs
+  h_05d51add47747d 1-2
+native/engine/src/batch/task.rs
+  h_05d51add47747d 1
+native/engine/src/lib.rs
+  h_05d51add47747d 34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c4f8bf0703413bedbb08c94f87392d9debd8bfca",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
