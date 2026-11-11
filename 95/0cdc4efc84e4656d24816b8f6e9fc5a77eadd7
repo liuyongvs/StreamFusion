@@ -1,0 +1,80 @@
+docs/batch-execution-runtime.md
+  h_05d51add47747d 26-28,69-88
+src/main/java/tech/streamfusion/operator/NativeBatchJoinOperator.java
+  h_05d51add47747d 17
+src/main/java/tech/streamfusion/operator/NativeBoundedBatchOperator.java
+  h_05d51add47747d 14
+src/main/java/tech/streamfusion/operator/NativeColumnarChangelogNormalizeOperator.java
+  h_05d51add47747d 12-16
+src/main/java/tech/streamfusion/operator/NativeColumnarGroupAggregateOperator.java
+  h_05d51add47747d 11-15
+src/main/java/tech/streamfusion/operator/NativeColumnarJvmGroupOperator.java
+  h_05d51add47747d 26-27
+src/main/java/tech/streamfusion/operator/NativeColumnarKeepLastDeduplicateOperator.java
+  h_05d51add47747d 12-16
+src/main/java/tech/streamfusion/operator/NativeColumnarLocalGroupAggregateOperator.java
+  h_05d51add47747d 14-16
+src/main/java/tech/streamfusion/operator/NativeColumnarSessionWindowAggregateOperator.java
+  h_05d51add47747d 9
+src/main/java/tech/streamfusion/operator/NativeColumnarTopNOperator.java
+  h_05d51add47747d 16-18
+src/main/java/tech/streamfusion/operator/NativeColumnarUpdatingJoinOperator.java
+  h_05d51add47747d 14-16
+src/main/java/tech/streamfusion/operator/NativeColumnarWindowRankOperator.java
+  h_05d51add47747d 14-15
+src/main/java/tech/streamfusion/operator/NativeRowWindowOperatorCore.java
+  h_05d51add47747d 17
+src/main/java/tech/streamfusion/operator/NativeWindowJoinOperator.java
+  h_05d51add47747d 15-16
+src/main/java/tech/streamfusion/operator/NativeWindowOperatorCore.java
+  h_05d51add47747d 37
+src/main/java/tech/streamfusion/operator/WindowCalendar.java
+  h_05d51add47747d 5
+src/main/java/tech/streamfusion/operator/aggregate/stream/JvmAccumulatorCache.java
+  h_05d51add47747d 1,21-22,32,48,83,91,95
+src/main/java/tech/streamfusion/operator/aggregate/stream/JvmMiniBatchGroup.java
+  h_05d51add47747d 1,15-16,25,40,46,54,58,67
+src/main/java/tech/streamfusion/operator/batch/BoundedArrowOutput.java
+  h_05d51add47747d 1,8-9,12-13,16
+src/main/java/tech/streamfusion/operator/join/stream/FlinkWindowJoinMetrics.java
+  h_05d51add47747d 1,9-10,19,30,34
+src/main/java/tech/streamfusion/operator/stream/MiniBatchBoundary.java
+  h_05d51add47747d 1,4-5,10,15,26,39,43
+src/main/java/tech/streamfusion/operator/stream/MiniBatchMetrics.java
+  h_05d51add47747d 1,7-9,35,39,64,68,76,80,84,113
+src/main/java/tech/streamfusion/operator/window/stream/FlinkWindowMetrics.java
+  h_05d51add47747d 1,9-10,17,26,31
+src/main/java/tech/streamfusion/operator/window/stream/WindowTimeDomain.java
+  h_05d51add47747d 1,7-8,11,19,26
+src/test/java-flink2.2/tech/streamfusion/operator/CanonicalSessionWindowInteropTest.java
+  h_05d51add47747d 47
+src/test/java/tech/streamfusion/operator/CanonicalSharedWindowInteropTest.java
+  h_05d51add47747d 53
+src/test/java-flink2.2/tech/streamfusion/operator/CanonicalTumblingWindowInteropTest.java
+  h_05d51add47747d 48
+src/test/java/tech/streamfusion/operator/CanonicalWindowJoinInteropTest.java
+  h_05d51add47747d 32
+src/test/java/tech/streamfusion/operator/FlinkNativeFixedCalendarWindowTest.java
+  h_05d51add47747d 39
+src/test/java/tech/streamfusion/operator/MiniBatchBoundaryTest.java
+  h_05d51add47747d 7
+src/test/java/tech/streamfusion/operator/MiniBatchMetricsTest.java
+  h_05d51add47747d 12-13
+src/test/java/tech/streamfusion/operator/RuntimeResponsibilityBoundaryTest.java
+  h_05d51add47747d 1-94
+src/test/java/tech/streamfusion/operator/SessionAdmissionWatermarkTest.java
+  h_05d51add47747d 27
+src/test/resources/runtime-compatibility/operator-descriptors.tsv
+  h_05d51add47747d 1-75
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "950cdc4efc84e4656d24816b8f6e9fc5a77eadd7",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
