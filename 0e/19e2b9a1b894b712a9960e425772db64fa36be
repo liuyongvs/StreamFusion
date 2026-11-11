@@ -1,0 +1,30 @@
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 11343-11361
+docs/operators/calc-filter.md
+  h_05d51add47747d 1004,1007-1008
+docs/optimizations/string-copy-reduction.md
+  h_05d51add47747d 226-229
+native/engine/examples/byte_string_concat.rs
+  h_05d51add47747d 126
+native/engine/src/expr.rs
+  h_05d51add47747d 638-639,644-649
+native/engine/tests/byte_string_encoding.rs
+  h_05d51add47747d 1-67
+src/main/java/tech/streamfusion/planner/ByteStringInputs.java
+  h_05d51add47747d 81
+src/test/java/tech/streamfusion/FlinkByteStringEncodingSqlHarnessTest.java
+  h_05d51add47747d 1-24
+src/test/java/tech/streamfusion/planner/ByteStringConcatBenchmarkFunctions.java
+  h_05d51add47747d 54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0e19e2b9a1b894b712a9960e425772db64fa36be",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}

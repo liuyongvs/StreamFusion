@@ -1,0 +1,18 @@
+docs/operators/calc-filter.md
+  h_05d51add47747d 1007-1008
+native/engine/src/expr.rs
+  h_05d51add47747d 1092-1094
+native/engine/tests/byte_string_hash.rs
+  h_05d51add47747d 1-2,90-107
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ed9f7f1bebdb72fc5a8d246021f2586805c154be",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
