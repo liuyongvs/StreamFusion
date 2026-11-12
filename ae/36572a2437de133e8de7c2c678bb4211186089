@@ -1,0 +1,16 @@
+docs/deployment.md
+  h_05d51add47747d 341-348,359
+streamfusion-kafka/pom.xml
+  h_05d51add47747d 46-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ae36572a2437de133e8de7c2c678bb4211186089",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
