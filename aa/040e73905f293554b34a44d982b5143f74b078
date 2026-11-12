@@ -1,0 +1,24 @@
+docs/batch-execution-runtime.md
+  h_05d51add47747d 47-49
+docs/upstream-flink-suite.md
+  h_05d51add47747d 25-28
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/HudiCommitFilter.java
+  h_05d51add47747d 30
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/stream/HudiSinkMatcher.java
+  h_05d51add47747d 1,13-14,21
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/stream/NativeHudiSinkExecNode.java
+  h_05d51add47747d 1
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeHudiSink.java
+  h_05d51add47747d 1,13-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "aa040e73905f293554b34a44d982b5143f74b078",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
