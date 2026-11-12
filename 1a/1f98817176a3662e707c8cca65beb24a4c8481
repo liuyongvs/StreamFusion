@@ -1,0 +1,18 @@
+docs/ci.md
+  h_05d51add47747d 655-663
+src/test/java/org/example/canonical/CanonicalJobWorker.java
+  h_05d51add47747d 31-34,36,41-42
+src/test/java/tech/streamfusion/CanonicalWorkerExitTest.java
+  h_05d51add47747d 1-79
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "1a1f98817176a3662e707c8cca65beb24a4c8481",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
