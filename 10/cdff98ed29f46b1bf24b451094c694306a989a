@@ -1,0 +1,46 @@
+dev/canonical-savepoints/pom.xml
+  h_05d51add47747d 114-203
+docs/ci.md
+  h_05d51add47747d 17-21,793-794
+docs/deployment.md
+  h_05d51add47747d 355-361
+pom.xml
+  h_05d51add47747d 105-144,239-240
+streamfusion-avro-confluent-registry/pom.xml
+  h_05d51add47747d 14-18
+streamfusion-avro/pom.xml
+  h_05d51add47747d 12-24,32-35
+streamfusion-csv/pom.xml
+  h_05d51add47747d 12-24
+streamfusion-delta/pom.xml
+  h_05d51add47747d 81-100
+streamfusion-fluss/pom.xml
+  h_05d51add47747d 37-51
+streamfusion-hudi/pom.xml
+  h_05d51add47747d 41-45
+streamfusion-iceberg/pom.xml
+  h_05d51add47747d 105-120
+streamfusion-json/pom.xml
+  h_05d51add47747d 14-26
+streamfusion-kafka/pom.xml
+  h_05d51add47747d 29-38,62-65
+streamfusion-orc/pom.xml
+  h_05d51add47747d 29-34
+streamfusion-paimon/pom.xml
+  h_05d51add47747d 95-109
+streamfusion-paimon1/pom.xml
+  h_05d51add47747d 90-104
+streamfusion-runtime/pom.xml
+  h_05d51add47747d 85-119,173-174,182-183
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "10cdff98ed29f46b1bf24b451094c694306a989a",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
