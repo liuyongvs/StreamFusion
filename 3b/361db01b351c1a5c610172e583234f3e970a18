@@ -1,0 +1,16 @@
+.dockerignore
+  h_05d51add47747d 6-7,9-12
+docs/deployment.md
+  h_05d51add47747d 285-291
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3b361db01b351c1a5c610172e583234f3e970a18",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
