@@ -1,0 +1,16 @@
+docs/benchmarks/evidence.md
+  h_05d51add47747d 144-156
+docs/benchmarks/native-criterion.md
+  h_05d51add47747d 507,1134
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d6947ffc6767313f4c777705e30a610bdec9b501",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
