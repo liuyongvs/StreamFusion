@@ -1,0 +1,24 @@
+.github/workflows/ci.yml
+  h_05d51add47747d 538
+bin/check-artifacts.sh
+  h_05d51add47747d 115-120
+bin/check-connector-ownership.py
+  h_05d51add47747d 1-58
+bin/test_connector_ownership.py
+  h_05d51add47747d 1-64
+docs/connectors/fluss.md
+  h_05d51add47747d 1138-1141
+docs/deployment.md
+  h_05d51add47747d 331-343,357-366
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "a7c8e0f7b2757b9d6ff50943fd48847c71ab056f",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
