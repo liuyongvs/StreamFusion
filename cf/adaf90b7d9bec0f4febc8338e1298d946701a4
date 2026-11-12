@@ -1,0 +1,22 @@
+docs/deployment.md
+  h_05d51add47747d 342-348
+pom.xml
+  h_05d51add47747d 27-28
+src/test/java/tech/streamfusion/format/NativeFormatProviderContractTest.java
+  h_05d51add47747d 7,29,55,107,111,120-124
+src/test/java/tech/streamfusion/format/NativeModuleOwnershipTest.java
+  h_05d51add47747d 1-43
+streamfusion-runtime/pom.xml
+  h_05d51add47747d 24-77,92,119-150,312
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "cfadaf90b7d9bec0f4febc8338e1298d946701a4",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
