@@ -1,0 +1,22 @@
+bin/check-artifacts.sh
+  h_05d51add47747d 44-45,118,120-121,236-240
+bin/check-connector-ownership.py
+  h_05d51add47747d 2,9,11,14,17,20-32,35,54-73,79,83-84,87-88
+bin/test_connector_ownership.py
+  h_05d51add47747d 8,90-147
+docs/deployment.md
+  h_05d51add47747d 382-384,386-389,392
+docs/releasing.md
+  h_05d51add47747d 3-6,15-21,58-61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "1c5c08c2fcc0687d72db2949521fda7f7e3f05a6",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
