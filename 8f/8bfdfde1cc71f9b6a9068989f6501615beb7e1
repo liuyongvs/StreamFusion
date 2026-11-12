@@ -1,0 +1,18 @@
+docs/connectors/delta.md
+  h_05d51add47747d 9-14
+pom.xml
+  h_05d51add47747d 484
+streamfusion-delta/pom.xml
+  h_05d51add47747d 96-103,106-114
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8f8bfdfde1cc71f9b6a9068989f6501615beb7e1",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
