@@ -1,0 +1,18 @@
+docs/deployment.md
+  h_05d51add47747d 342-343
+streamfusion-avro-confluent-registry/pom.xml
+  h_05d51add47747d 15-23,32
+streamfusion-avro/pom.xml
+  h_05d51add47747d 13-25,34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "831cf10812f59263de6f0384b010b37252c8e417",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
