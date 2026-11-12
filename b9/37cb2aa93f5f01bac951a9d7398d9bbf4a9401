@@ -1,0 +1,16 @@
+docs/deployment.md
+  h_05d51add47747d 342-343
+streamfusion-protobuf/pom.xml
+  h_05d51add47747d 13-21,30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "b937cb2aa93f5f01bac951a9d7398d9bbf4a9401",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
