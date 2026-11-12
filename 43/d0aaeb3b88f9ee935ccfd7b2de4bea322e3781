@@ -1,0 +1,18 @@
+docs/deployment.md
+  h_05d51add47747d 339-343
+streamfusion-doris/pom.xml
+  h_05d51add47747d 49-53
+streamfusion-iceberg/pom.xml
+  h_05d51add47747d 63-66
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "43d0aaeb3b88f9ee935ccfd7b2de4bea322e3781",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
