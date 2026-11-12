@@ -1,0 +1,26 @@
+docs/backends/rocksdb.md
+  h_05d51add47747d 8-14
+native/engine/src/window_agg/canonical/tests.rs
+  h_05d51add47747d 635-639,641-642
+.github/workflows/ci.yml
+  h_05d51add47747d 169
+bin/bench-jvm-previous.py
+  h_05d51add47747d 29-43,112
+bin/test_bench_jvm_previous.py
+  h_05d51add47747d 1-53
+docs/benchmarks/jvm-aggregates.md
+  h_05d51add47747d 255-256
+docs/ci.md
+  h_05d51add47747d 250-253
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "87ca31897ac208089c679fa966ad6521fd3f5442",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}

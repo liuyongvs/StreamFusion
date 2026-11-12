@@ -1,0 +1,30 @@
+docs/batch-execution-runtime.md
+  h_05d51add47747d 29-34
+streamfusion-doris/src/main/java/tech/streamfusion/planner/StreamPhysicalNativeDorisSource.java
+  h_05d51add47747d 13
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/HudiSourceMatcher.java
+  h_05d51add47747d 10
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/NativeHudiSourceExecNode.java
+  h_05d51add47747d 16
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/StreamPhysicalNativeHudiSource.java
+  h_05d51add47747d 15-16
+streamfusion-iceberg/src/main/java/tech/streamfusion/planner/StreamPhysicalNativeIcebergSource.java
+  h_05d51add47747d 15
+streamfusion-paimon1/src/main/java/tech/streamfusion/planner/NativePaimonSinkExecNode.java
+  h_05d51add47747d 35
+streamfusion-paimon1/src/main/java/tech/streamfusion/planner/PaimonSinkMatcher.java
+  h_05d51add47747d 35
+streamfusion-paimon1/src/main/java/tech/streamfusion/planner/PaimonSourceMatcher.java
+  h_05d51add47747d 17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7bcfd29f5a467aa09e3d14186b7f8e2af20b9d7a",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}

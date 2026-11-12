@@ -1,0 +1,170 @@
+docs/batch-execution-runtime.md
+  h_05d51add47747d 19-28
+src/main/java/tech/streamfusion/planner/BatchPlanScan.java
+  h_05d51add47747d 3-4
+src/main/java/tech/streamfusion/planner/CalcMatcher.java
+  h_05d51add47747d 10
+src/main/java/tech/streamfusion/planner/ExpressionPlanning.java
+  h_05d51add47747d 1-40
+src/main/java/tech/streamfusion/planner/FileSinkMatcher.java
+  h_05d51add47747d 17
+src/main/java/tech/streamfusion/planner/FilterCalcMatcher.java
+  h_05d51add47747d 72-73,76-77
+src/main/java/tech/streamfusion/planner/FlinkKeyGroupUtils.java
+  h_05d51add47747d 13-14,22,31,91
+src/main/java/tech/streamfusion/planner/FlussTables.java
+  h_05d51add47747d 26
+src/main/java/tech/streamfusion/planner/KafkaSinkMatcher.java
+  h_05d51add47747d 26
+src/main/java/tech/streamfusion/planner/KafkaTables.java
+  h_05d51add47747d 21-27
+src/main/java/tech/streamfusion/planner/NativeConfig.java
+  h_05d51add47747d 26,39,176
+src/main/java/tech/streamfusion/planner/NativeFileSinkExecNode.java
+  h_05d51add47747d 31
+src/main/java/tech/streamfusion/planner/NativeFlussSinkExecNode.java
+  h_05d51add47747d 19
+src/main/java/tech/streamfusion/planner/NativeFlussSourceExecNode.java
+  h_05d51add47747d 18
+src/main/java/tech/streamfusion/planner/NativeKafkaDecodeExecNode.java
+  h_05d51add47747d 26
+src/main/java/tech/streamfusion/planner/NativeKafkaSinkExecNode.java
+  h_05d51add47747d 26
+src/main/java/tech/streamfusion/planner/NativePaimonSinkExecNode.java
+  h_05d51add47747d 38
+src/main/java/tech/streamfusion/planner/NativePaimonSourceExecNode.java
+  h_05d51add47747d 17,22
+src/main/java/tech/streamfusion/planner/NativePlanner.java
+  h_05d51add47747d 3
+src/main/java/tech/streamfusion/planner/PaimonSinkMatcher.java
+  h_05d51add47747d 35
+src/main/java/tech/streamfusion/planner/PaimonSourceMatcher.java
+  h_05d51add47747d 4,8,12,16-17,22
+src/main/java/tech/streamfusion/planner/PhysicalPlanScan.java
+  h_05d51add47747d 49
+src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 32-33,43,210-211,215-216,220-221,225-226,230-231,295,1371-1372,1376-1377,1381-1382,1433-1434,1438-1439,1443-1444,1449-1450,1455-1456,1476-1477,1481-1482,1486-1487,1499-1500,1504-1505,1513-1514,1522-1523,1541-1542
+src/main/java/tech/streamfusion/planner/StreamFusionPlannerFactory.java
+  h_05d51add47747d 11
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeBiRel.java
+  h_05d51add47747d 10
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeCalc.java
+  h_05d51add47747d 16
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeFileSink.java
+  h_05d51add47747d 11
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeFilter.java
+  h_05d51add47747d 14
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeFlussSink.java
+  h_05d51add47747d 13
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeFlussSource.java
+  h_05d51add47747d 17-18
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeKafkaDecode.java
+  h_05d51add47747d 17-18
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeKafkaSink.java
+  h_05d51add47747d 11
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativePaimonSink.java
+  h_05d51add47747d 12
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativePaimonSource.java
+  h_05d51add47747d 16-18
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeSingleRel.java
+  h_05d51add47747d 10-11
+src/main/java/tech/streamfusion/planner/StreamPhysicalNativeUnion.java
+  h_05d51add47747d 17
+src/main/java/tech/streamfusion/planner/Substitution.java
+  h_05d51add47747d 7
+src/main/java/tech/streamfusion/planner/UnnestMatcher.java
+  h_05d51add47747d 20
+src/main/java/tech/streamfusion/planner/WatermarkExpressionPlanner.java
+  h_05d51add47747d 8
+src/main/java/tech/streamfusion/planner/batch/BatchAggregateExecNode.java
+  h_05d51add47747d 1,18
+src/main/java/tech/streamfusion/planner/batch/BatchAggregateSpec.java
+  h_05d51add47747d 1
+src/main/java/tech/streamfusion/planner/batch/BatchArrowGraphBoundaries.java
+  h_05d51add47747d 1
+src/main/java/tech/streamfusion/planner/batch/BatchArrowSourceConversion.java
+  h_05d51add47747d 1,13-14
+src/main/java/tech/streamfusion/planner/batch/BatchBroadcastExchangeExecNode.java
+  h_05d51add47747d 1
+src/main/java/tech/streamfusion/planner/batch/BatchColumnarExecNode.java
+  h_05d51add47747d 1
+src/main/java/tech/streamfusion/planner/batch/BatchCrossJoinRewrite.java
+  h_05d51add47747d 1
+src/main/java/tech/streamfusion/planner/batch/BatchForwardExchangeExecNode.java
+  h_05d51add47747d 1
+src/main/java/tech/streamfusion/planner/batch/BatchHashExchangeExecNode.java
+  h_05d51add47747d 1,17-18
+src/main/java/tech/streamfusion/planner/batch/BatchJoinExecNode.java
+  h_05d51add47747d 1,18
+src/main/java/tech/streamfusion/planner/batch/BatchJoinSpec.java
+  h_05d51add47747d 1,14-15,64,99,104
+src/main/java/tech/streamfusion/planner/batch/BatchNativeExecNode.java
+  h_05d51add47747d 1
+src/main/java/tech/streamfusion/planner/batch/BatchPhysicalArrowToRowData.java
+  h_05d51add47747d 1,10,12
+src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeAggregate.java
+  h_05d51add47747d 1,10-12
+src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeCalc.java
+  h_05d51add47747d 1,11-12,14-15,19,21,26
+src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeExchange.java
+  h_05d51add47747d 1,9-11
+src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeJoin.java
+  h_05d51add47747d 1,13-16
+src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeShare.java
+  h_05d51add47747d 1,14-15
+src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeSingleRel.java
+  h_05d51add47747d 1,11-12
+src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeSort.java
+  h_05d51add47747d 1,11-13
+src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeUnion.java
+  h_05d51add47747d 1,15-16,18
+src/main/java/tech/streamfusion/planner/batch/BatchPhysicalRowDataToArrow.java
+  h_05d51add47747d 1,10,12
+src/main/java/tech/streamfusion/planner/batch/BatchPlanScan.java
+  h_05d51add47747d 1-484
+src/main/java/tech/streamfusion/planner/batch/BatchSingletonExchangeExecNode.java
+  h_05d51add47747d 1,23-25
+src/main/java/tech/streamfusion/planner/batch/BatchSortExecNode.java
+  h_05d51add47747d 1,18,21-23
+src/main/java/tech/streamfusion/planner/batch/NativeBatchPlanner.java
+  h_05d51add47747d 1,11-12,15,19
+src/main/java/tech/streamfusion/planner/common/ArrowBoundaryTypes.java
+  h_05d51add47747d 1-68
+src/main/java/tech/streamfusion/planner/common/BoundedArrowTypeCheck.java
+  h_05d51add47747d 1,13-14,16,22,37
+src/main/java/tech/streamfusion/planner/common/CalcOutputTypeCheck.java
+  h_05d51add47747d 1,28,40-41,45-46,50-51,57,86,94-95
+src/main/java/tech/streamfusion/planner/common/CommonArrowToRowDataExecNode.java
+  h_05d51add47747d 53-57
+src/main/java/tech/streamfusion/planner/common/CommonCalcExecNode.java
+  h_05d51add47747d 73-77
+src/main/java/tech/streamfusion/planner/common/CommonRowDataToArrowExecNode.java
+  h_05d51add47747d 173-177
+src/main/java/tech/streamfusion/planner/common/CommonShareExecNode.java
+  h_05d51add47747d 46-50
+src/main/java/tech/streamfusion/planner/common/CommonUnionExecNode.java
+  h_05d51add47747d 53-57
+src/main/java/tech/streamfusion/planner/common/EncodedExpression.java
+  h_05d51add47747d 1-49
+src/main/java/tech/streamfusion/planner/common/NativePlanDetails.java
+  h_05d51add47747d 1,12-13,21,56,75,92,97,108
+src/main/java/tech/streamfusion/planner/common/NativeProbeFailure.java
+  h_05d51add47747d 1,4,7
+src/main/java/tech/streamfusion/planner/common/NativeRelDigests.java
+  h_05d51add47747d 1,18-19,22,28,32
+src/test/java/tech/streamfusion/planner/NativeProbeFallbackTest.java
+  h_05d51add47747d 27
+src/test/java/tech/streamfusion/planner/batch/StatelessExecModeTest.java
+  h_05d51add47747d 1,16-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c40bdd2f55fadcab4e300c771d2235c0c548257b",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
