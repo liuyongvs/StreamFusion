@@ -1,0 +1,22 @@
+.github/workflows/paimon1.yml
+  h_05d51add47747d 11-12
+bin/check-artifacts.sh
+  h_05d51add47747d 51-53,56-57,116
+bin/test_connector_ownership.py
+  h_05d51add47747d 5,17-42
+docs/deployment.md
+  h_05d51add47747d 376-378,382-383,386-388
+src/test/java/tech/streamfusion/format/NativeFormatProviderContractTest.java
+  h_05d51add47747d 55-56,110
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0ffb67562df06059a761d0ff8b7832cd928c8a7c",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
