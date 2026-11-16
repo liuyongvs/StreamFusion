@@ -1,0 +1,28 @@
+bin/test_module_source_ownership.py
+  h_05d51add47747d 16-44
+docs/deployment.md
+  h_05d51add47747d 339-344,379-381
+docs/releasing.md
+  h_05d51add47747d 19-20
+pom.xml
+  h_05d51add47747d 354-355,406-410
+streamfusion-avro/pom.xml
+  h_05d51add47747d 33
+streamfusion-core/pom.xml
+  h_05d51add47747d 19-30
+streamfusion-kafka/pom.xml
+  h_05d51add47747d 63
+streamfusion-runtime/pom.xml
+  h_05d51add47747d 163-170
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3f35857f8fbb1d23558b05f11db0ef35472ae714",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
