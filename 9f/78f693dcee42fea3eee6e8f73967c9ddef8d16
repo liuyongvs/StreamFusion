@@ -1,0 +1,2384 @@
+.claude/wontdos/ci-dynamic-cds.md
+  h_05d51add47747d 1-27
+.claude/wontdos/ci-dynamic-cds.patch
+  h_05d51add47747d 1-59
+.claude/wontdos/ci-handoff-polling.md
+  h_05d51add47747d 1-16
+.gitattributes
+  h_05d51add47747d 1-2
+.github/workflows/ci-canonical-setup.yml
+  h_05d51add47747d 1-252
+.github/workflows/ci-profile.yml
+  h_05d51add47747d 9,12,14-35,39,48-49,52,56-168,170,225,241,270,299-301,305-306,310,315,322,332,339,342-348,362,368,412-413,416-419,423-454,458,464
+.github/workflows/ci.yml
+  h_05d51add47747d 18-19,64-88,94-96,100-109,138-142,207,209-211,215,218,230,272-273,313-358,360,363,367,369,378-380,388,392,394-402,407,411,424-425,441-451,485,489,501,505,523,529-536,538-559,562,569,595,743
+.github/workflows/flink-suite-line.yml
+  h_05d51add47747d 26,69-71,76,80-86,106
+.github/workflows/jvm-aggregates.yml
+  h_05d51add47747d 10-14
+.github/workflows/paimon1.yml
+  h_05d51add47747d 10-15,68,70-80
+CLAUDE.md
+  h_05d51add47747d 16-54,243-249
+bin/bench-iceberg-io.py
+  h_05d51add47747d 60
+bin/bench-jvm-previous.py
+  h_05d51add47747d 29-43,112
+bin/check-artifacts.sh
+  h_05d51add47747d 137-142,227-231
+bin/check-native-workspace.py
+  h_05d51add47747d 53-62
+bin/ci_java_build.py
+  h_05d51add47747d 1-145
+bin/ci_lake_tests.py
+  h_05d51add47747d 1-95
+bin/ci_native_source.py
+  h_05d51add47747d 1-66
+bin/ci_native_test_artifact.py
+  h_05d51add47747d 1-81
+bin/ci_runtime_test_shards.py
+  h_05d51add47747d 50-52
+bin/flink-suite.sh
+  h_05d51add47747d 413-415,802-808
+bin/generate-expression-protocol.py
+  h_05d51add47747d 1-118
+bin/profile-canonical-ci.py
+  h_05d51add47747d 16-17,30,35-36,43-44,46,57-59,61,63-65,67-68,72-79,105-106,117,141-145,147-149,168
+bin/profile-ci-details.py
+  h_05d51add47747d 17,86
+bin/profile-ci.py
+  h_05d51add47747d 5,7,9-10,12,36,70-145,153-154,156-157,162,164,168-170,191-192
+bin/profile-runtime-ci.py
+  h_05d51add47747d 16,34-38,77-78,87-88,101-102,107,117-118,123-124,145-149,181,190-193
+bin/test_bench_jvm_previous.py
+  h_05d51add47747d 1-53
+bin/test_ci_java_build.py
+  h_05d51add47747d 1-226
+bin/test_ci_lake_tests.py
+  h_05d51add47747d 1-90
+bin/test_ci_maven_dependencies.py
+  h_05d51add47747d 15,26-89
+bin/test_ci_module_groups.py
+  h_05d51add47747d 32-50
+bin/test_ci_native_source.py
+  h_05d51add47747d 1-63
+bin/test_ci_native_test_artifact.py
+  h_05d51add47747d 1-84
+bin/test_ci_runtime_test_shards.py
+  h_05d51add47747d 50-71,222-234
+bin/test_expression_protocol.py
+  h_05d51add47747d 1-60
+bin/test_module_source_ownership.py
+  h_05d51add47747d 2,43-82
+bin/test_paimon_host_classpath.py
+  h_05d51add47747d 45-46
+bin/test_profile_canonical_ci.py
+  h_05d51add47747d 1-106
+bin/test_profile_ci.py
+  h_05d51add47747d 4-5,7-8,10,28,30-31,36-37,60-142
+bin/test_profile_runtime_ci.py
+  h_05d51add47747d 37-50
+dev/ci/runtime-durations.json
+  h_05d51add47747d 926-996,998-1013,1026,1031,1040-1042,1061-1064,1072,1077-1078,1081,1091,1093,1606-1608,1613,1616,1907,1913,1915,1919,1921,1930-2118
+dev/flink-suite/agent/src/main/java/tech/streamfusion/suite/NativeExecution.java
+  h_05d51add47747d 314-326
+dev/flink-suite/agent/src/main/java/tech/streamfusion/suite/SqlInventory.java
+  h_05d51add47747d 84-85,94-95,242-243,328-333,348-349
+dev/flink-suite/agent/src/main/java/tech/streamfusion/suite/StreamFusionSuiteAgent.java
+  h_05d51add47747d 18,22,25,134,208-210,212,345,513,923-950,1183-1184,1195-1198,1366
+dev/flink-suite/agent/src/main/resources/canonical-native-execution.tsv
+  h_05d51add47747d 52,80
+dev/flink-suite/agent/src/main/resources/native-execution-flink1.18.tsv
+  h_05d51add47747d 4-7,158-163,166-172,174-175,188-191
+dev/flink-suite/agent/src/main/resources/native-execution.tsv
+  h_05d51add47747d 3-6,138-143,146-152,154-155,168-171
+dev/flink-suite/agent/src/test/java/tech/streamfusion/suite/CanonicalReleasedOverExecutionTest.java
+  h_05d51add47747d 1-75
+dev/flink-suite/agent/src/test/java/tech/streamfusion/suite/CanonicalRestoreExecutionTest.java
+  h_05d51add47747d 1152-1154
+dev/flink-suite/agent/src/test/java/tech/streamfusion/suite/NativeExecutionTest.java
+  h_05d51add47747d 226-278
+dev/flink-suite/agent/src/test/java/tech/streamfusion/suite/SqlInventoryTest.java
+  h_05d51add47747d 16-84,211-221,598-602,609-619,621-639
+dev/flink-suite/execution_routes.py
+  h_05d51add47747d 228-233,235,267-268
+dev/flink-suite/execution_scope.py
+  h_05d51add47747d 5
+dev/flink-suite/native_build.py
+  h_05d51add47747d 1-47
+dev/flink-suite/paimon-flink118-shared-tests.txt
+  h_05d51add47747d 12-16
+dev/flink-suite/runtime-route-scope-1.18.json
+  h_05d51add47747d 9,51,1215,1221,1251,1257,1263,1269,1275,1287,1293,1299,1305,1311,1317,1323,1395,1401,1407,1413
+dev/flink-suite/runtime-route-scope-2.2.json
+  h_05d51add47747d 9,51,1047,1053,1083,1089,1095,1101,1107,1119,1125,1131,1137,1143,1149,1155,1227,1233,1239,1245
+dev/flink-suite/sql_inventory.py
+  h_05d51add47747d 18-19,86-87,120
+dev/flink-suite/summarize.py
+  h_05d51add47747d 140
+dev/flink-suite/test_execution_routes.py
+  h_05d51add47747d 145-165
+dev/flink-suite/test_native_build.py
+  h_05d51add47747d 1-58
+dev/flink-suite/test_sql_inventory.py
+  h_05d51add47747d 27-42,47-54
+dev/flink-suite/test_summarize.py
+  h_05d51add47747d 390-402
+divergences/01-integer-truncating-avg.md
+  h_05d51add47747d 25-35
+divergences/07-expression-encoding-and-compile-once.md
+  h_05d51add47747d 28-35,49-58
+divergences/21-ingest-text-envelope.md
+  h_05d51add47747d 65-67,76-77,82-92,130-151
+divergences/25-flink-format-provider-artifacts.md
+  h_05d51add47747d 55-71
+divergences/bounded-analytic-arrow-execution.md
+  h_05d51add47747d 1-39
+divergences/bounded-datafusion-execution.md
+  h_05d51add47747d 52-62
+divergences/bounded-window-firing.md
+  h_05d51add47747d 1-35
+divergences/bounded-window-rank-output.md
+  h_05d51add47747d 1-26
+divergences/canonical-append-topn-state.md
+  h_05d51add47747d 38-40,49-60
+divergences/canonical-group-arithmetic-state.md
+  h_05d51add47747d 77-93
+divergences/canonical-over-distinct-state.md
+  h_05d51add47747d 1-59
+divergences/canonical-retracting-topn-state.md
+  h_05d51add47747d 30-37
+divergences/canonical-unbounded-over-binding.md
+  h_05d51add47747d 20-24,35-40,46-52
+divergences/canonical-updating-topn-state.md
+  h_05d51add47747d 44-67
+divergences/canonical-window-aggregate-binding.md
+  h_05d51add47747d 35-43
+divergences/task-local-native-lz4.md
+  h_05d51add47747d 1-20
+docs/backends/canonical-state.md
+  h_05d51add47747d 22-26,28-30,32-33,35-68,72-74,82-91,123-124,998-1001,1349,1894-1895,2313-2318,2356-2752
+docs/backends/rocksdb.md
+  h_05d51add47747d 8-19,59-64,417-421
+docs/batch-execution-runtime.md
+  h_05d51add47747d 3-4,6-7,11-112,114-119,298,308-310,373-376
+docs/benchmarks/batch-aggregates.md
+  h_05d51add47747d 3-6,57-58,98-99,128-129
+docs/benchmarks/batch-scalars.md
+  h_05d51add47747d 5-8,62-63,66,85-88
+docs/benchmarks/batch-sort-groundwork.md
+  h_05d51add47747d 120-125,130
+docs/benchmarks/ci-fast-loops-20261112.json
+  h_05d51add47747d 1-4073
+docs/benchmarks/ci-profile-20261112.json
+  h_05d51add47747d 1-5231
+docs/benchmarks/ci-shard-layout-20261113.json
+  h_05d51add47747d 1-2217
+docs/benchmarks/evidence.md
+  h_05d51add47747d 29-30
+docs/benchmarks/jvm-aggregates.md
+  h_05d51add47747d 255-256
+docs/benchmarks/native-criterion.md
+  h_05d51add47747d 2853-2862
+docs/benchmarks/paimon-batch.md
+  h_05d51add47747d 1-256
+docs/benchmarks/results/paimon-batch-boundaries-20261113.json
+  h_05d51add47747d 1-9385
+docs/benchmarks/results/paimon-batch-operations-20261114.json
+  h_05d51add47747d 1-16450
+docs/benchmarks/results/paimon-batch-retained-metrics-pilot-20261113.json
+  h_05d51add47747d 1
+docs/benchmarks/results/paimon-batch-tpch-validation22-20261113.json
+  h_05d51add47747d 1-1763
+docs/benchmarks/results/paimon-batch-tpch-validationlegacy-20261113.json
+  h_05d51add47747d 1-1763
+docs/benchmarks/results/paimon-native-lz4-evidence-20261115.json
+  h_05d51add47747d 1-379
+docs/benchmarks/results/paimon-tpcds-diagnostics-20261114.json
+  h_05d51add47747d 1-17308
+docs/benchmarks/results/paimon-tpcds-evidence-20261114.json
+  h_05d51add47747d 1-709
+docs/benchmarks/results/parquet-row-group-splits-20261112.json
+  h_05d51add47747d 1-2031
+docs/benchmarks/results/tpcds-sf1-20261114.json
+  h_05d51add47747d 1-118963
+docs/benchmarks/results/tpcds-sf1-before-all-or-nothing-20261114.json
+  h_05d51add47747d 1-78146
+docs/benchmarks/results/tpcds-sf1-native-lz4-20261115.json
+  h_05d51add47747d 1-218074
+docs/benchmarks/results/tpcds-sf1-previous-control-20261114.json
+  h_05d51add47747d 1-13147
+docs/benchmarks/tpcds.md
+  h_05d51add47747d 1-499
+docs/benchmarks/tpch.md
+  h_05d51add47747d 397-398,477-479,577-630
+docs/ci.md
+  h_05d51add47747d 17-18,250-253,266-272,274-275,284-290,300-316,340-351,381,519-524,548-564,717-826,838-839,849-850,939-955,967,974-975,980-981,992-1184,1235-1238,1655-1664,1718-1747
+docs/configuration.md
+  h_05d51add47747d 5-10,22-25,36,40-42,57,62,103-108,111-119,233-234
+docs/connectors/fluss.md
+  h_05d51add47747d 1132-1134
+docs/connectors/formats/cdc-json.md
+  h_05d51add47747d 68-76
+docs/connectors/formats/json.md
+  h_05d51add47747d 17-18,32-45
+docs/connectors/kafka.md
+  h_05d51add47747d 16-33
+docs/connectors/paimon.md
+  h_05d51add47747d 4,27-101,501,506,829-830,1099-1102,1642-1646,1652-1653
+docs/connectors/parquet.md
+  h_05d51add47747d 12-18,37-42
+docs/deployment.md
+  h_05d51add47747d 70-89,328,336,351-383
+docs/memory-management.md
+  h_05d51add47747d 64-74,135-156,235-267
+docs/operators/batch.md
+  h_05d51add47747d 13-14,22-40,51,77-80,96,99-132,135-136,195,221,227-228,231-233,247-256,262-263,265-267,272,278-279,289-294,301-303,306-308,320-321,332-335
+docs/operators/calc-filter.md
+  h_05d51add47747d 6,23-27,43-58,81-85,1347-1354
+docs/operators/changelog-normalize.md
+  h_05d51add47747d 85-88,98-108
+docs/operators/deduplication.md
+  h_05d51add47747d 232-293
+docs/operators/event-time-sort.md
+  h_05d51add47747d 144-158
+docs/operators/group-by.md
+  h_05d51add47747d 3151-3157,3402-3404,3408-3409,3549-3563,3944-4073
+docs/operators/index.md
+  h_05d51add47747d 27-32
+docs/operators/joins/interval-join.md
+  h_05d51add47747d 263-275
+docs/operators/joins/regular-join.md
+  h_05d51add47747d 288-294,339-371
+docs/operators/joins/temporal-join.md
+  h_05d51add47747d 222-230
+docs/operators/joins/window-join.md
+  h_05d51add47747d 169-186
+docs/operators/over.md
+  h_05d51add47747d 28-41,1511-1514,1563-1565,1573-1574,1592-1600,1605-1626,1640-1641,1696-1705,1842-1844,1880-1890,2025-2252
+docs/operators/sink-upsert-materialize.md
+  h_05d51add47747d 105-128,183-184,193-226
+docs/operators/top-n.md
+  h_05d51add47747d 385-403,505-566,626,697,824,966-1061
+docs/operators/window-aggregate.md
+  h_05d51add47747d 27,1973-2069
+docs/optimizations/canonical-state-installation.md
+  h_05d51add47747d 45-55
+docs/optimizations/expression-compile-once.md
+  h_05d51add47747d 10-17
+docs/optimizations/index.md
+  h_05d51add47747d 19-36,41,43
+docs/optimizations/native-lz4-shuffle.md
+  h_05d51add47747d 1-65
+docs/optimizations/native-parquet-source.md
+  h_05d51add47747d 10-14,39-55
+docs/optimizations/row-major-transpose.md
+  h_05d51add47747d 35-36
+docs/optimizations/string-copy-reduction.md
+  h_05d51add47747d 4,23-42
+docs/releasing.md
+  h_05d51add47747d 15-21,59-63
+docs/upstream-flink-suite.md
+  h_05d51add47747d 6-36,46-55,57,68-76,78-82,85-89,303-316,572,581-589,683-688,1029-1039,1044-1051,1078-1085,1104-1110,1493-1497,2134-2135
+mkdocs.yml
+  h_05d51add47747d 138-139
+native/Cargo.lock
+  h_05d51add47747d 5433,5464,5503-5504,5507,5509-5511,5513,5521,5526,5612
+native/avro/src/encode.rs
+  h_05d51add47747d 60,67-68,117,129,134-135,171,444,634-668
+native/avro/src/lib.rs
+  h_05d51add47747d 39-52
+native/bridge/src/flink_text.rs
+  h_05d51add47747d 8,106-109,112-120,123-140,142-164,183-184,550-585
+native/csv/Cargo.toml
+  h_05d51add47747d 12
+native/csv/src/encode.rs
+  h_05d51add47747d 278,704-725
+native/csv/src/lib.rs
+  h_05d51add47747d 36-49
+native/engine/expression-protocol.json
+  h_05d51add47747d 1-226
+native/engine/src/aggregates.rs
+  h_05d51add47747d 11,170,624,641,703-705,784-794,848-850,891-892,1988-1996,2193-2257,2267-2272
+native/engine/src/aggregates/floating_sum.rs
+  h_05d51add47747d 1-121
+native/engine/src/batch/aggregate.rs
+  h_05d51add47747d 1-2,262-275,284-288,351-368,460-569,586,682,1096,1108,1213,1223,1236,1944-2019
+native/engine/src/batch/join.rs
+  h_05d51add47747d 1-2,609
+native/engine/src/batch/mod.rs
+  h_05d51add47747d 1-9
+native/engine/src/batch/sort.rs
+  h_05d51add47747d 1-2
+native/engine/src/batch/task.rs
+  h_05d51add47747d 1
+native/engine/src/batch/window.rs
+  h_05d51add47747d 1-659
+native/engine/src/bridge.rs
+  h_05d51add47747d 99
+native/engine/src/dedup.rs
+  h_05d51add47747d 8-9,261-275,277-281,339,494,1141,1258-1266,1423-1432,1498-1501,1578-1597,1620-1622
+native/engine/src/dedup/canonical.rs
+  h_05d51add47747d 90-94,656-681
+native/engine/src/dedup/canonical/first.rs
+  h_05d51add47747d 53-57,63-64,82-92,119-125,128,217,220,227,229-233,428-484
+native/engine/src/dedup/indexed_tests.rs
+  h_05d51add47747d 2-101
+native/engine/src/expr.rs
+  h_05d51add47747d 1,31-33,37-43,45-46,54-56,58-59,69,81,100,109,127,138,151,174,191,210,223,246,269,283,307,322,340,356-360,362,387,390-391,424,435,456-460,486-487,491,495,500,506,523,531,552,570,622-624,630-639
+native/engine/src/expression_protocol.rs
+  h_05d51add47747d 1-135
+native/engine/src/flink_key.rs
+  h_05d51add47747d 15-32,41-180,1314-1563
+native/engine/src/group_agg.rs
+  h_05d51add47747d 6,407,2052,2206-2209,2237-2240,3481-3484,3553,3555-3557,3559-3563,3575,3589-3590,3938-3940,4690,4702-4708,4874,5138-5157,5279-5285,5558
+native/engine/src/group_agg/canonical.rs
+  h_05d51add47747d 129-162,167-175,212,219,223
+native/engine/src/group_agg/canonical/tests.rs
+  h_05d51add47747d 620-756
+native/engine/src/group_agg/generic_distinct_tests.rs
+  h_05d51add47747d 6-70
+native/engine/src/group_agg/stock_bundle.rs
+  h_05d51add47747d 1-137
+native/engine/src/group_agg/stock_extrema.rs
+  h_05d51add47747d 95,293-310,313
+native/engine/src/group_agg/stock_extrema/ffi.rs
+  h_05d51add47747d 69,74
+native/engine/src/group_agg/stock_extrema/transfer.rs
+  h_05d51add47747d 4-34,73-106,146-147,149-151,166-171,173-175,177,183,193-204,206-215,217-219,221,225,291,522-530,536,541,552,565
+native/engine/src/group_agg/stock_extrema/transfer/import_tests.rs
+  h_05d51add47747d 28-214
+native/engine/src/group_agg/stock_merge.rs
+  h_05d51add47747d 87-90,102-106,111-115,118,206-225,227-229,283-284,286-296
+native/engine/src/group_agg/stock_typed.rs
+  h_05d51add47747d 38-42,68-72,124-127,149-157,160,170-172,207,214,218,338-349
+native/engine/src/group_agg/stock_typed/merge_tests.rs
+  h_05d51add47747d 66-163
+native/engine/src/group_agg/stock_typed/tests.rs
+  h_05d51add47747d 2-83,628-672
+native/engine/src/join_common.rs
+  h_05d51add47747d 469,475-616,740-809
+native/engine/src/lib.rs
+  h_05d51add47747d 34,42
+native/engine/src/logical_input.rs
+  h_05d51add47747d 3-73,98-176
+native/engine/src/memory.rs
+  h_05d51add47747d 227,239,295-311,350-382
+native/engine/src/normalizer.rs
+  h_05d51add47747d 175,409-412,476-478
+native/engine/src/normalizer/canonical.rs
+  h_05d51add47747d 2
+native/engine/src/over_agg.rs
+  h_05d51add47747d 300,313,321-323,447-450,527-528,536-540,4661-4665,4704,4738
+native/engine/src/over_agg/canonical.rs
+  h_05d51add47747d 126-134
+native/engine/src/over_agg/canonical/distinct.rs
+  h_05d51add47747d 5-96,134,187-194,213,219-224,242,247-255,303-307,369-374,411
+native/engine/src/over_agg/canonical/distinct/tests.rs
+  h_05d51add47747d 3-602,873,896,898-899,973
+native/engine/src/over_agg/canonical/event/tests.rs
+  h_05d51add47747d 950-955,1652-1718
+native/engine/src/over_agg/canonical/tests.rs
+  h_05d51add47747d 546-627
+native/engine/src/over_agg/cleanup.rs
+  h_05d51add47747d 120,179
+native/engine/src/over_agg/event_cleanup.rs
+  h_05d51add47747d 6-14,16,18
+native/engine/src/over_agg/event_rows_tests.rs
+  h_05d51add47747d 4,12-19,83-154
+native/engine/src/over_agg/pending.rs
+  h_05d51add47747d 32-35,37-47,53-56,89-98
+native/engine/src/owned.rs
+  h_05d51add47747d 29-130
+native/engine/src/session_agg.rs
+  h_05d51add47747d 6,471,473-484,1170-1187
+native/engine/src/session_agg/output.rs
+  h_05d51add47747d 1-410
+native/engine/src/sink_materializer.rs
+  h_05d51add47747d 386-398
+native/engine/src/sink_materializer/tests.rs
+  h_05d51add47747d 772-825
+native/engine/src/sorter.rs
+  h_05d51add47747d 128-132
+native/engine/src/sorter/canonical.rs
+  h_05d51add47747d 264-277
+native/engine/src/state/mod.rs
+  h_05d51add47747d 39-46
+native/engine/src/state/rocks_jni.rs
+  h_05d51add47747d 404-408,4172-4199
+native/engine/src/state/rocks_store/keep_first_dedup_store.rs
+  h_05d51add47747d 80,208-215
+native/engine/src/state/rocks_store/mod.rs
+  h_05d51add47747d 20,24-25,162-167,489,491,493,604-650,858-859,875,877,879,1017-1025,1140,1163-1178,1302,1304,1353-1356,1375-1386,1390-1391,1399-1402,1443-1447,1477,1481,1488,1502,1592-1593,1597-1598,1601-1604,1652-1656,1693,1704-1705
+native/engine/src/state/rocks_store/ordered_scan.rs
+  h_05d51add47747d 1-179
+native/engine/src/state/rocks_store/retained_rows.rs
+  h_05d51add47747d 3,23,97-102
+native/engine/src/state/rocks_store/retained_rows/tests.rs
+  h_05d51add47747d 514-547
+native/engine/src/state/rocks_store/session_agg_store.rs
+  h_05d51add47747d 1,348-359
+native/engine/src/state/rocks_store/session_agg_store/firing.rs
+  h_05d51add47747d 1-208
+native/engine/src/state/rocks_store/window_agg_store.rs
+  h_05d51add47747d 1,8,394-405
+native/engine/src/state/rocks_store/window_agg_store/firing.rs
+  h_05d51add47747d 1-180
+native/engine/src/state/rocks_store/window_buffer.rs
+  h_05d51add47747d 1,36,118-119,122-123,155,291-296
+native/engine/src/state/rocks_store/window_rank_store.rs
+  h_05d51add47747d 1-2
+native/engine/src/state/rocks_store/window_rank_store/firing.rs
+  h_05d51add47747d 1-319
+native/engine/src/state/rocks_store/working_memory_tests.rs
+  h_05d51add47747d 1-148
+native/engine/src/topn.rs
+  h_05d51add47747d 5,20-35,443,445-447,627-641,938,1022-1027,2357,2446-2451,3292-3303,3496,3555-3560,4423-4425,4857,4859-4876,4880-4890,4895,4900-4914,4916-4919,4921,4923-4928,4931,4935-4957,4959,4963,5190-5192,5330-5348
+native/engine/src/topn/canonical.rs
+  h_05d51add47747d 40-44,168-173,185-190,461-506
+native/engine/src/topn/canonical/encoded.rs
+  h_05d51add47747d 175-177,357,364,504-505
+native/engine/src/topn/canonical/encoded/tests.rs
+  h_05d51add47747d 400-475
+native/engine/src/topn/canonical/retract.rs
+  h_05d51add47747d 43-47,259-264
+native/engine/src/topn/canonical/update.rs
+  h_05d51add47747d 8,15-18,31-35,102,110-124,154-160,201,208-213,221-226,238,252-258,631-751
+native/engine/src/topn/rocks_memory_tests.rs
+  h_05d51add47747d 125,141,162
+native/engine/src/topn/stock_state_tests.rs
+  h_05d51add47747d 3-98
+native/engine/src/topn/window_output.rs
+  h_05d51add47747d 1-441
+native/engine/src/updating_join.rs
+  h_05d51add47747d 861-864,1053-1056
+native/engine/src/window_agg.rs
+  h_05d51add47747d 7,9,1321-1322,1324-1351,1357,1361,1363,1366-1368,1370-1372,1376,1380-1384,1390-1426,1432-1434,1494-1509,1511,1513-1518,2978-3014
+native/engine/src/window_agg/canonical/tests.rs
+  h_05d51add47747d 2,203-211,245-309,710-714,716-717
+native/engine/src/window_agg/output.rs
+  h_05d51add47747d 1-319
+native/engine/src/window_agg/partial_output.rs
+  h_05d51add47747d 1-223
+native/engine/src/window_agg/shared.rs
+  h_05d51add47747d 445-449,457,485,489-490,574
+native/format-support/Cargo.toml
+  h_05d51add47747d 9
+native/format-support/src/encode.rs
+  h_05d51add47747d 1-910
+native/format-support/src/encoder.rs
+  h_05d51add47747d 1-192
+native/format-support/src/lib.rs
+  h_05d51add47747d 22-26
+native/integration-tests/Cargo.toml
+  h_05d51add47747d 11-17,23-30
+native/integration-tests/benches/format_encode.rs
+  h_05d51add47747d 11-13
+native/integration-tests/benches/kafka_sink.rs
+  h_05d51add47747d 9-11
+native/integration-tests/src/encode_bench.rs
+  h_05d51add47747d 1-5,7-10,38-39,41,44,47-55,60,64-74,77-81,83-84
+native/integration-tests/src/tests.rs
+  h_05d51add47747d 3
+native/json/Cargo.toml
+  h_05d51add47747d 12-13
+native/json/src/encode.rs
+  h_05d51add47747d 1-706
+native/json/src/json.rs
+  h_05d51add47747d 43-45,212-214,1505-1508,1615-1618,1638-1641,1651,1662,1665,1677,1685,1687,1694,1703,1705-1707,1736-1757,1797-1871,1935-1937,1946-1947,1964-1965,1987-1991,2032-2062
+native/json/src/lib.rs
+  h_05d51add47747d 38-48
+native/json/src/tests.rs
+  h_05d51add47747d 34-337
+native/kafka/Cargo.toml
+  h_05d51add47747d 13
+native/parquet/src/reader.rs
+  h_05d51add47747d 97,102,137-138,263-361,365,367,369-412,414-454,559-582,585-625,636-637
+native/protobuf/Cargo.toml
+  h_05d51add47747d 12
+native/protobuf/src/encode.rs
+  h_05d51add47747d 564-591
+native/protobuf/src/lib.rs
+  h_05d51add47747d 34-49
+native/raw/src/encode.rs
+  h_05d51add47747d 180-201
+native/raw/src/lib.rs
+  h_05d51add47747d 31-44
+pom.xml
+  h_05d51add47747d 17,20,199-200,207-235,247-255,262-267,283-290,297-305,336-340,352,358,380-381,418-433,453-454,619-628,684-711
+src/test/java-flink1.18/org/example/canonical/CanonicalSinkCompat.java
+  h_05d51add47747d 19-20,26-27
+src/test/java-flink1.18/tech/streamfusion/FlinkBatchTestContextLifecycleTest.java
+  h_05d51add47747d 1-28
+src/test/java-flink1.18/tech/streamfusion/compat/CanonicalTestCompat.java
+  h_05d51add47747d 48-60
+src/test/java-flink1.18/tech/streamfusion/compat/FlinkTestContexts.java
+  h_05d51add47747d 7-42
+src/test/java-flink1.18/tech/streamfusion/planner/stream/FixtureNodes.java
+  h_05d51add47747d 1
+src/test/java-flink2.2/org/example/canonical/CanonicalSinkCompat.java
+  h_05d51add47747d 21-24,30-33
+src/test/java-flink2.2/org/example/canonical/CanonicalWorkerCompat.java
+  h_05d51add47747d 44,49-81
+src/test/java-flink2.2/org/example/canonical/CanonicalWorkerCompatTest.java
+  h_05d51add47747d 1-77
+src/test/java-flink2.2/tech/streamfusion/CanonicalRetractingWindowJobTest.java
+  h_05d51add47747d 1-180
+src/test/java-flink2.2/tech/streamfusion/compat/CanonicalTestCompat.java
+  h_05d51add47747d 48-61
+src/test/java-flink2.2/tech/streamfusion/compat/FlinkTestContexts.java
+  h_05d51add47747d 7-27
+src/test/java-flink2.2/tech/streamfusion/operator/CanonicalBufferedDedupTypedTest.java
+  h_05d51add47747d 102,125,173,308,395,401-428
+src/test/java-flink2.2/tech/streamfusion/operator/CanonicalRetractingWindowStateTest.java
+  h_05d51add47747d 1-439
+src/test/java-flink2.2/tech/streamfusion/operator/CanonicalSessionWindowInteropTest.java
+  h_05d51add47747d 47
+src/test/java-flink2.2/tech/streamfusion/operator/CanonicalTumblingWindowInteropTest.java
+  h_05d51add47747d 48
+src/test/java-flink2.2/tech/streamfusion/planner/BinaryBoundaryBenchmarkFunctions.java
+  h_05d51add47747d 54-56
+src/test/java-flink2.2/tech/streamfusion/planner/stream/CanonicalBufferedDedupPlanTest.java
+  h_05d51add47747d 1
+src/test/java-flink2.2/tech/streamfusion/planner/stream/CanonicalGraphIdentitiesTest.java
+  h_05d51add47747d 1
+src/test/java-flink2.2/tech/streamfusion/planner/stream/DeltaJoinForceGateTest.java
+  h_05d51add47747d 1,37-38,233,246,252,286-287,336-339
+src/test/java-flink2.2/tech/streamfusion/planner/stream/FixtureNodes.java
+  h_05d51add47747d 1
+src/test/java-flink2.2/tech/streamfusion/planner/stream/FixtureNodesTest.java
+  h_05d51add47747d 1
+src/test/java-flink2.2/tech/streamfusion/planner/stream/GroupAggregateAppendExtremaStockContractTest.java
+  h_05d51add47747d 1
+src/test/java-flink2.2/tech/streamfusion/planner/stream/GroupAggregateAppendStockLayoutTest.java
+  h_05d51add47747d 1,4
+src/test/java-flink2.2/tech/streamfusion/planner/stream/GroupAggregateStockContractTest.java
+  h_05d51add47747d 1
+src/test/java-flink2.2/tech/streamfusion/planner/stream/StockCompiledPlanLoggingTest.java
+  h_05d51add47747d 1
+src/test/java/org/apache/flink/runtime/testutils/RetainedCounterReporter.java
+  h_05d51add47747d 1-17
+src/test/java/org/apache/flink/runtime/testutils/RetainedCounterReporterTest.java
+  h_05d51add47747d 1-27
+src/test/java/org/example/canonical/CanonicalFixtureFactory.java
+  h_05d51add47747d 462,475-514,565-566,571-576,583-584,587,594-596,609,611-614,617-621,630-636,667-668,681,688-695,732,739,761-780,807-871,1044-1045,1052-1054,1059-1071
+src/test/java/org/example/canonical/CanonicalFixtureSinkProtocolTest.java
+  h_05d51add47747d 1-145
+src/test/java/org/example/canonical/CanonicalJobWorker.java
+  h_05d51add47747d 31-34,36,41-42,85-87,189-194,240-248,260-266,268-269,339-350,362-377,393-454,523-529,703-716,795-807
+src/test/java/tech/streamfusion/BatchAggregateSqlTest.java
+  h_05d51add47747d 25,66,102,104-105,111,133,135
+src/test/java/tech/streamfusion/BatchBooleanTreeSqlTest.java
+  h_05d51add47747d 1-37
+src/test/java/tech/streamfusion/BatchExpandSqlTest.java
+  h_05d51add47747d 1-43
+src/test/java/tech/streamfusion/BatchExtremaSqlTest.java
+  h_05d51add47747d 90-98
+src/test/java/tech/streamfusion/BatchLimitSqlTest.java
+  h_05d51add47747d 1-37
+src/test/java/tech/streamfusion/BatchNullSafePredicateSqlTest.java
+  h_05d51add47747d 1-71
+src/test/java/tech/streamfusion/BatchParquetSourceSqlTest.java
+  h_05d51add47747d 58-62,80,153-157,160
+src/test/java/tech/streamfusion/BatchRankSqlTest.java
+  h_05d51add47747d 1-38
+src/test/java/tech/streamfusion/BatchResidualPredicateSqlTest.java
+  h_05d51add47747d 1-33
+src/test/java/tech/streamfusion/BatchScalarSubquerySqlTest.java
+  h_05d51add47747d 11,31
+src/test/java/tech/streamfusion/BatchSharedAggregateSqlTest.java
+  h_05d51add47747d 35-47
+src/test/java/tech/streamfusion/BatchShortCircuitSqlTest.java
+  h_05d51add47747d 1-37
+src/test/java/tech/streamfusion/BatchSortedLimitSqlTest.java
+  h_05d51add47747d 28,54,56,59,61-62,73
+src/test/java/tech/streamfusion/BatchSqlTest.java
+  h_05d51add47747d 15-47,90,110,132,146-160
+src/test/java/tech/streamfusion/BatchWindowSqlTest.java
+  h_05d51add47747d 1-127
+src/test/java/tech/streamfusion/CanonicalBooleanOverDistinctCountJobTest.java
+  h_05d51add47747d 1-17
+src/test/java/tech/streamfusion/CanonicalBoundedOverJobTest.java
+  h_05d51add47747d 68-94,111-114
+src/test/java/tech/streamfusion/CanonicalCompositeExtremaKeyJobTest.java
+  h_05d51add47747d 1-33
+src/test/java/tech/streamfusion/CanonicalCompositeExtremaMiniBatchJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalCountPayloadGroupJobTest.java
+  h_05d51add47747d 1-108
+src/test/java/tech/streamfusion/CanonicalDecimalGroupJobTest.java
+  h_05d51add47747d 1-22
+src/test/java/tech/streamfusion/CanonicalDecimalMiniBatchGroupJobTest.java
+  h_05d51add47747d 1-15
+src/test/java/tech/streamfusion/CanonicalDecimalOverDistinctArithmeticJobTest.java
+  h_05d51add47747d 1-69
+src/test/java/tech/streamfusion/CanonicalDecimalOverDistinctCountJobTest.java
+  h_05d51add47747d 1-8
+src/test/java/tech/streamfusion/CanonicalDecimalUnboundedOverJobTest.java
+  h_05d51add47747d 1-51
+src/test/java/tech/streamfusion/CanonicalDedupRowKeyJobTest.java
+  h_05d51add47747d 1-158
+src/test/java/tech/streamfusion/CanonicalEventRowsCleanupJobTest.java
+  h_05d51add47747d 1-32
+src/test/java/tech/streamfusion/CanonicalFirstNJobTest.java
+  h_05d51add47747d 218-222,225
+src/test/java/tech/streamfusion/CanonicalFirstNRowKeyJobTest.java
+  h_05d51add47747d 1-55
+src/test/java/tech/streamfusion/CanonicalFloatingOverDistinctArithmeticJobTest.java
+  h_05d51add47747d 1-63
+src/test/java/tech/streamfusion/CanonicalFloatingOverDistinctCountJobTest.java
+  h_05d51add47747d 1-8
+src/test/java/tech/streamfusion/CanonicalFloatingWindowJobTest.java
+  h_05d51add47747d 1-263
+src/test/java/tech/streamfusion/CanonicalGroupArithmeticJobTest.java
+  h_05d51add47747d 26-48
+src/test/java/tech/streamfusion/CanonicalGroupRowKeyJobTest.java
+  h_05d51add47747d 1-126
+src/test/java/tech/streamfusion/CanonicalIndependentOverDistinctJobTest.java
+  h_05d51add47747d 1-32
+src/test/java/tech/streamfusion/CanonicalJobRunner.java
+  h_05d51add47747d 128-137,199-223,272,274,369-371
+src/test/java/tech/streamfusion/CanonicalLegacyEventUnboundedOverJobTest.java
+  h_05d51add47747d 1-36
+src/test/java/tech/streamfusion/CanonicalMaterializerTypeFixture.java
+  h_05d51add47747d 1-110
+src/test/java/tech/streamfusion/CanonicalNestedJoinFixture.java
+  h_05d51add47747d 1-185
+src/test/java/tech/streamfusion/CanonicalNestedJoinJobTest.java
+  h_05d51add47747d 1-78
+src/test/java/tech/streamfusion/CanonicalNestedRankJobTest.java
+  h_05d51add47747d 1-169
+src/test/java/tech/streamfusion/CanonicalNormalizerRowKeyJobTest.java
+  h_05d51add47747d 22-36,39,41-44,53,58,129,134,138-141
+src/test/java/tech/streamfusion/CanonicalOrdinaryFirstNRowKeyJobTest.java
+  h_05d51add47747d 1-13
+src/test/java/tech/streamfusion/CanonicalOverCountPayloadJobTest.java
+  h_05d51add47747d 1-109
+src/test/java/tech/streamfusion/CanonicalOverCountRangePayloadJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalOverCountRowsPayloadJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalOverJobMatrixTest.java
+  h_05d51add47747d 1-112
+src/test/java/tech/streamfusion/CanonicalRetractingExtremaMiniBatchJobTest.java
+  h_05d51add47747d 1-36
+src/test/java/tech/streamfusion/CanonicalRetractingMiniBatchDistinctJobTest.java
+  h_05d51add47747d 1-26
+src/test/java/tech/streamfusion/CanonicalRetractingMiniBatchGroupJobTest.java
+  h_05d51add47747d 1-15
+src/test/java/tech/streamfusion/CanonicalRetractingTwoPhaseGroupJobTest.java
+  h_05d51add47747d 1-16
+src/test/java/tech/streamfusion/CanonicalRowKeyRankJobTest.java
+  h_05d51add47747d 1-82
+src/test/java/tech/streamfusion/CanonicalScalarOverDistinctCountJobTest.java
+  h_05d51add47747d 1-46
+src/test/java/tech/streamfusion/CanonicalScalarRankJobTest.java
+  h_05d51add47747d 1-218
+src/test/java/tech/streamfusion/CanonicalSinkMaterializerJobTest.java
+  h_05d51add47747d 1-143
+src/test/java/tech/streamfusion/CanonicalSinkMaterializerWithInputKeyJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalSinkMaterializerWithoutInputKeyJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalStringOverDistinctCountJobTest.java
+  h_05d51add47747d 1-8
+src/test/java/tech/streamfusion/CanonicalTemporalSortJobTest.java
+  h_05d51add47747d 59-61,66,84-90,113,153
+src/test/java/tech/streamfusion/CanonicalTemporalSortPayloadJobTest.java
+  h_05d51add47747d 1-107
+src/test/java/tech/streamfusion/CanonicalTestSchemas.java
+  h_05d51add47747d 1-22
+src/test/java/tech/streamfusion/CanonicalTestSnapshots.java
+  h_05d51add47747d 1-37
+src/test/java/tech/streamfusion/CanonicalTimestampOverDistinctCountJobTest.java
+  h_05d51add47747d 1-8
+src/test/java/tech/streamfusion/CanonicalTypedKeyEventDecimalValueOverJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalTypedKeyEventHighScaleDecimalValueOverJobTest.java
+  h_05d51add47747d 1-15
+src/test/java/tech/streamfusion/CanonicalTypedKeyEventIntKeyOverJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalTypedKeyEventIntValueOverJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalTypedKeyEventOverJobTest.java
+  h_05d51add47747d 1-54
+src/test/java/tech/streamfusion/CanonicalTypedKeyEventSmallIntValueOverJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalTypedKeyEventStringKeyOverJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalTypedKeyEventTinyIntValueOverJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalTypedKeyEventWideDecimalValueOverJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerArrayInputKeyJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerArrayJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerBinaryInputKeyJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerBinaryJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerDecimalInputKeyJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerDecimalJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerDoubleInputKeyJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerDoubleJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerIntInputKeyJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerIntJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerJobTest.java
+  h_05d51add47747d 1-161
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerMapPayloadInputKeyJobTest.java
+  h_05d51add47747d 1-11
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerMapPayloadJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerMatrixTest.java
+  h_05d51add47747d 1-105
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerNestedRowKeyInputKeyJobTest.java
+  h_05d51add47747d 1-11
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerNestedRowKeyJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerRowKeyInputKeyJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerRowKeyJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerRowPayloadInputKeyJobTest.java
+  h_05d51add47747d 1-11
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerRowPayloadJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerTimestampInputKeyJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerTimestampJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerTinyIntInputKeyJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalTypedMaterializerTinyIntJobTest.java
+  h_05d51add47747d 1-10
+src/test/java/tech/streamfusion/CanonicalUnboundedEventRangeOverExtremaJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalUnboundedEventRowsOverExtremaJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalUnboundedOverDistinctArithmeticJobTest.java
+  h_05d51add47747d 1-32
+src/test/java/tech/streamfusion/CanonicalUnboundedOverDistinctJobTest.java
+  h_05d51add47747d 1-63
+src/test/java/tech/streamfusion/CanonicalUnboundedOverDistinctRowKeyJobTest.java
+  h_05d51add47747d 1-20
+src/test/java/tech/streamfusion/CanonicalUnboundedOverExtremaJobTest.java
+  h_05d51add47747d 1-93
+src/test/java/tech/streamfusion/CanonicalUnboundedOverNarrowDistinctJobTest.java
+  h_05d51add47747d 1-9
+src/test/java/tech/streamfusion/CanonicalUnboundedOverNullableDistinctArithmeticJobTest.java
+  h_05d51add47747d 1-18
+src/test/java/tech/streamfusion/CanonicalUnboundedOverNullableDistinctJobTest.java
+  h_05d51add47747d 1-17
+src/test/java/tech/streamfusion/CanonicalUnboundedOverRowKeyJobTest.java
+  h_05d51add47747d 1-80
+src/test/java/tech/streamfusion/CanonicalUnboundedOverRowKeyStringJobTest.java
+  h_05d51add47747d 1-22
+src/test/java/tech/streamfusion/CanonicalUnboundedProcessingOverExtremaJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalUpdateRankOffsetJobTest.java
+  h_05d51add47747d 1-28
+src/test/java/tech/streamfusion/CanonicalUpdatingRankBoundJobTest.java
+  h_05d51add47747d 1-39
+src/test/java/tech/streamfusion/CanonicalVariableExtremaKeyJobTest.java
+  h_05d51add47747d 1-15
+src/test/java/tech/streamfusion/CanonicalVariableExtremaMiniBatchJobTest.java
+  h_05d51add47747d 1-14
+src/test/java/tech/streamfusion/CanonicalWindowDedupPayloadJobTest.java
+  h_05d51add47747d 1-8
+src/test/java/tech/streamfusion/CanonicalWindowRankJobTest.java
+  h_05d51add47747d 78,109,144
+src/test/java/tech/streamfusion/CanonicalWindowRankPayloadJobTest.java
+  h_05d51add47747d 1-85
+src/test/java/tech/streamfusion/CanonicalWorkerCache.java
+  h_05d51add47747d 25,30-33,35,79,96-102,195-197
+src/test/java/tech/streamfusion/CanonicalWorkerCacheTest.java
+  h_05d51add47747d 9,46-73,131-192
+src/test/java/tech/streamfusion/CanonicalWorkerExitTest.java
+  h_05d51add47747d 1-79
+src/test/java/tech/streamfusion/NativeCdcDecodeSqlHarnessTest.java
+  h_05d51add47747d 22-25,29-30,38-40
+src/test/java/tech/streamfusion/NativeLz4ShuffleSqlTest.java
+  h_05d51add47747d 1-115
+src/test/java/tech/streamfusion/NativeLz4ShuffleTest.java
+  h_05d51add47747d 1-195
+src/test/java/tech/streamfusion/NativeProtobufDecodeSqlHarnessTest.java
+  h_05d51add47747d 20-25,29-31,34-38,40-41,62-63,83-84,157-163,253-254
+src/test/java/tech/streamfusion/RecoveryExecutionMetrics.java
+  h_05d51add47747d 17,20-32,35-36,66-88,93-104,112-113,115-116,141-147,157-168,172-187,225-245
+src/test/java/tech/streamfusion/SharedFlinkCluster.java
+  h_05d51add47747d 19,77-85,93-103
+src/test/java/tech/streamfusion/SharedFlinkClusterLifecycleTest.java
+  h_05d51add47747d 66-67,72-100
+src/test/java/tech/streamfusion/StatefulSessionTest.java
+  h_05d51add47747d 4-6,70-115
+src/test/java/tech/streamfusion/StatefulTumblingTest.java
+  h_05d51add47747d 4,139-222
+src/test/java/tech/streamfusion/extensions/HealthyPlannerExtension.java
+  h_05d51add47747d 1-22
+src/test/java/tech/streamfusion/format/LegacyEncodeCompletion.java
+  h_05d51add47747d 1-11
+src/test/java/tech/streamfusion/format/LegacyEncoderPlanTest.java
+  h_05d51add47747d 1-32
+src/test/java/tech/streamfusion/format/NativeEncoderAdmissionTest.java
+  h_05d51add47747d 1-84
+src/test/java/tech/streamfusion/format/NativeFormatProviderContractTest.java
+  h_05d51add47747d 28,53-54,56-61,112,115-117,122-123
+src/test/java/tech/streamfusion/kafka/JdkFloatSpellingTest.java
+  h_05d51add47747d 9,12-14,21
+src/test/java/tech/streamfusion/kafka/KafkaMessageEncoderLifecycleTest.java
+  h_05d51add47747d 1-188
+src/test/java/tech/streamfusion/kafka/NativeKafkaAvroEncoderTest.java
+  h_05d51add47747d 273
+src/test/java/tech/streamfusion/kafka/NativeKafkaDecodeSqlHarnessTest.java
+  h_05d51add47747d 30-33,35-36,66-67
+src/test/java/tech/streamfusion/kafka/NativeKafkaSinkSqlPlanTest.java
+  h_05d51add47747d 15
+src/test/java/tech/streamfusion/operator/CanonicalAppendRankTypedTest.java
+  h_05d51add47747d 37-42,62-231,237-255,273-291,311-324,500-514,554-561,665-672
+src/test/java/tech/streamfusion/operator/CanonicalBoundedOverConstantInteropTest.java
+  h_05d51add47747d 93
+src/test/java/tech/streamfusion/operator/CanonicalBoundedRangeInteropTest.java
+  h_05d51add47747d 53-63,78-147,265-317,421,654,658,702-753,758,764-807,813-817,819,835-838,872,895,971-972,1042,1051,1055,1091,1093-1094,1096-1099,1106,1193-1197,1208-1211
+src/test/java/tech/streamfusion/operator/CanonicalDecimalOverDistinctStateTest.java
+  h_05d51add47747d 1-117
+src/test/java/tech/streamfusion/operator/CanonicalDedupRowKeyStateTest.java
+  h_05d51add47747d 1-400
+src/test/java/tech/streamfusion/operator/CanonicalEventRowsCleanupStateTest.java
+  h_05d51add47747d 1-191
+src/test/java/tech/streamfusion/operator/CanonicalEventUnboundedOverInteropTest.java
+  h_05d51add47747d 66-75,119-199,304-317,357,399,461,574-586,833,835-836,842-845,877-986,989-991,995-1048,1054-1060,1063,1077,1102,1130-1133,1158,1178-1179,1232-1246,1272-1277,1300-1304,1333-1339
+src/test/java/tech/streamfusion/operator/CanonicalFirstNRowKeyStateTest.java
+  h_05d51add47747d 1-225
+src/test/java/tech/streamfusion/operator/CanonicalJoinPayloadStateTest.java
+  h_05d51add47747d 1-378
+src/test/java/tech/streamfusion/operator/CanonicalLocalWindowBarrierTest.java
+  h_05d51add47747d 5,25,92-148
+src/test/java/tech/streamfusion/operator/CanonicalMaterializerRowKeyStateTest.java
+  h_05d51add47747d 1-220
+src/test/java/tech/streamfusion/operator/CanonicalOverDistinctAsyncTest.java
+  h_05d51add47747d 1-116
+src/test/java/tech/streamfusion/operator/CanonicalOverDistinctBridgeTest.java
+  h_05d51add47747d 87-88,110-111
+src/test/java/tech/streamfusion/operator/CanonicalOverDistinctValueFixture.java
+  h_05d51add47747d 1-61
+src/test/java/tech/streamfusion/operator/CanonicalOverKeyFixture.java
+  h_05d51add47747d 1-82
+src/test/java/tech/streamfusion/operator/CanonicalOverSnapshotTestSupport.java
+  h_05d51add47747d 1-128
+src/test/java/tech/streamfusion/operator/CanonicalOverValueFixture.java
+  h_05d51add47747d 1-160
+src/test/java/tech/streamfusion/operator/CanonicalRankPayloadFixture.java
+  h_05d51add47747d 1-48
+src/test/java/tech/streamfusion/operator/CanonicalRankRowKeyFixture.java
+  h_05d51add47747d 1-32
+src/test/java/tech/streamfusion/operator/CanonicalRankScalarFixture.java
+  h_05d51add47747d 1-175
+src/test/java/tech/streamfusion/operator/CanonicalRetractingRankTypedTest.java
+  h_05d51add47747d 42-61,148-153,159-172,219-242,275-278,280-288,295-313,430-431,465-473,497
+src/test/java/tech/streamfusion/operator/CanonicalRowKeyFixture.java
+  h_05d51add47747d 1-117
+src/test/java/tech/streamfusion/operator/CanonicalSharedWindowInteropTest.java
+  h_05d51add47747d 53
+src/test/java/tech/streamfusion/operator/CanonicalTemporalSortInteropTest.java
+  h_05d51add47747d 44-54,417-419,523-525
+src/test/java/tech/streamfusion/operator/CanonicalUnboundedOverDistinctStateTest.java
+  h_05d51add47747d 1-338
+src/test/java/tech/streamfusion/operator/CanonicalUnboundedOverRowKeyStateTest.java
+  h_05d51add47747d 1-146
+src/test/java/tech/streamfusion/operator/CanonicalUnboundedOverScalarTest.java
+  h_05d51add47747d 54-67,100-192,194-213,281-374,382,386-387,417-419,422-465,468-470,474-519,523-531,533,558-564,577,589-593,595,597,599,611,619-635,643-645,677,686,714-719,743-750,762-763
+src/test/java/tech/streamfusion/operator/CanonicalUpdateRankTypedTest.java
+  h_05d51add47747d 39-126,129-144,159-170,178-183,198-207,220-232,258,262-299,325-330,335-350,366-370,376-377,389-395,428,445,448-464,495-498,502,506-515,527,530,535,540-541,546-548
+src/test/java/tech/streamfusion/operator/CanonicalWindowJoinInteropTest.java
+  h_05d51add47747d 32
+src/test/java/tech/streamfusion/operator/CanonicalWindowRankBridgeTest.java
+  h_05d51add47747d 94-176
+src/test/java/tech/streamfusion/operator/CanonicalWindowRankPayloadStateTest.java
+  h_05d51add47747d 1-138
+src/test/java/tech/streamfusion/operator/CdcDecodeParityTest.java
+  h_05d51add47747d 16,18-19,22,83-160,368-406
+src/test/java/tech/streamfusion/operator/ColumnarOutputFailureTest.java
+  h_05d51add47747d 1-57
+src/test/java/tech/streamfusion/operator/FirstNCanonicalTestSupport.java
+  h_05d51add47747d 84-89,103,107,122,126-132,192-194
+src/test/java/tech/streamfusion/operator/FlinkNativeFixedCalendarWindowTest.java
+  h_05d51add47747d 39
+src/test/java/tech/streamfusion/operator/JsonDecodeParityTest.java
+  h_05d51add47747d 153-168,250-257,547-605
+src/test/java/tech/streamfusion/operator/MiniBatchBoundaryTest.java
+  h_05d51add47747d 7
+src/test/java/tech/streamfusion/operator/MiniBatchMetricsTest.java
+  h_05d51add47747d 12-13
+src/test/java/tech/streamfusion/operator/NativeParquetSourceTest.java
+  h_05d51add47747d 60,145,160-163,172-180,192,194,220-341,411-414,417-424,426
+src/test/java/tech/streamfusion/operator/NativeResourcesTest.java
+  h_05d51add47747d 1-152
+src/test/java/tech/streamfusion/operator/NativeRuntimeOptionsTest.java
+  h_05d51add47747d 1-148
+src/test/java/tech/streamfusion/operator/NativeUdfPlanningCopyTest.java
+  h_05d51add47747d 1-20
+src/test/java/tech/streamfusion/operator/ParquetSplitBenchmark.java
+  h_05d51add47747d 1-247
+src/test/java/tech/streamfusion/operator/RuntimeResponsibilityBoundaryTest.java
+  h_05d51add47747d 1-94
+src/test/java/tech/streamfusion/operator/SerializedJoinInputTest.java
+  h_05d51add47747d 1-124
+src/test/java/tech/streamfusion/operator/SessionAdmissionWatermarkTest.java
+  h_05d51add47747d 27
+src/test/java/tech/streamfusion/planner/CollectionValueIdentityTest.java
+  h_05d51add47747d 10,20-22,25-46,64-65,73,86-113
+src/test/java/tech/streamfusion/planner/ExpressionProtocolTest.java
+  h_05d51add47747d 1-24
+src/test/java/tech/streamfusion/planner/JsonStringIdentityTest.java
+  h_05d51add47747d 11,28-34
+src/test/java/tech/streamfusion/planner/NativePlannerExtensionsTest.java
+  h_05d51add47747d 27-28,57-59,64,89-90,182,198-199,213,220-221,245-246
+src/test/java/tech/streamfusion/planner/PlannerModeBoundaryTest.java
+  h_05d51add47747d 1-125
+src/test/java/tech/streamfusion/planner/PreparedExpressionTest.java
+  h_05d51add47747d 1-106
+src/test/java/tech/streamfusion/planner/ScalarCastRulesTest.java
+  h_05d51add47747d 1-116
+src/test/java/tech/streamfusion/planner/batch/StatelessExecModeTest.java
+  h_05d51add47747d 1-65
+src/test/java/tech/streamfusion/planner/stream/CanonicalAppendExtremaInitializationTest.java
+  h_05d51add47747d 1,3
+src/test/java/tech/streamfusion/planner/stream/CanonicalAppendExtremaPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalAppendExtremaValidationTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalAppendRankPlanTest.java
+  h_05d51add47747d 1,209-210,244-245,249-254,256
+src/test/java/tech/streamfusion/planner/stream/CanonicalBareUpdateDedupPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalBoundedOverAdmissionTest.java
+  h_05d51add47747d 1,85-88,92-95
+src/test/java/tech/streamfusion/planner/stream/CanonicalBoundedOverPlanTest.java
+  h_05d51add47747d 1,30-39,51,113-162,169,172-174,176,180-182,199,260-263,281
+src/test/java/tech/streamfusion/planner/stream/CanonicalDecimalGroupStateTest.java
+  h_05d51add47747d 1-147
+src/test/java/tech/streamfusion/planner/stream/CanonicalDedupRowKeyPlanTest.java
+  h_05d51add47747d 1-118
+src/test/java/tech/streamfusion/planner/stream/CanonicalEagerDedupPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalEventUnboundedOverPlanTest.java
+  h_05d51add47747d 1,17-26,55-63
+src/test/java/tech/streamfusion/planner/stream/CanonicalExtremaScalarKeyFixture.java
+  h_05d51add47747d 1-81
+src/test/java/tech/streamfusion/planner/stream/CanonicalFirstNPlanTest.java
+  h_05d51add47747d 1,41-70,77-79,81-84,86-88,149-168
+src/test/java/tech/streamfusion/planner/stream/CanonicalGeneratedIdentityPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalGlobalGroupArithmeticInitializationTest.java
+  h_05d51add47747d 1,3
+src/test/java/tech/streamfusion/planner/stream/CanonicalGlobalGroupArithmeticPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupArithmeticAdmissionTest.java
+  h_05d51add47747d 1,83-94,109-114
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupArithmeticAppendInitializationTest.java
+  h_05d51add47747d 1,4,149
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupArithmeticAppendValidationTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupArithmeticAverageOverflowTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupArithmeticEmptyStateTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupArithmeticInitializationTest.java
+  h_05d51add47747d 1,30,313,387,434-435
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupArithmeticIntKeyTest.java
+  h_05d51add47747d 1,3
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupArithmeticPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupArithmeticRecoveryTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupArithmeticValidationTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupCountPayloadPlanTest.java
+  h_05d51add47747d 1-62
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupDistinctMergePlanTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupDistinctMergeTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupRowKeyPlanTest.java
+  h_05d51add47747d 1-111
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupRowKeyStateTest.java
+  h_05d51add47747d 1-122
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupStringExtremaAdmissionTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupStringExtremaTest.java
+  h_05d51add47747d 1,4-6
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupStringPlanTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupStringRepresentationTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupStringStockNormalizationTest.java
+  h_05d51add47747d 1,4-6
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupStringValidationTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupSumDistinctPlanTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupSumDistinctTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupTypedLifecycleTest.java
+  h_05d51add47747d 1,4,23,43,48,83,98,101,122,142-160,223-229,263
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupTypedPlanTest.java
+  h_05d51add47747d 1,24-30,47-51,132,144-146
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupTypedTemporalAdmissionTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupTypedTemporalExtremaTest.java
+  h_05d51add47747d 1,4-5
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupTypedValidationTest.java
+  h_05d51add47747d 1,4-5
+src/test/java/tech/streamfusion/planner/stream/CanonicalGroupWideIndexPlanTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalHiddenExtremaTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalIntervalJoinBoundaryTest.java
+  h_05d51add47747d 1,20
+src/test/java/tech/streamfusion/planner/stream/CanonicalIntervalJoinPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalKafkaSinkAdmissionTest.java
+  h_05d51add47747d 1,12
+src/test/java/tech/streamfusion/planner/stream/CanonicalManagedUdfGeneratedUidPlanTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalManagedUdfGlobalPlanTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalManagedUdfGlobalStateTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalManagedUdfGroupPlanTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalManagedUdfGroupStateTest.java
+  h_05d51add47747d 1,4-5
+src/test/java/tech/streamfusion/planner/stream/CanonicalManagedUdfKeyPrecisionTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalManagedUdfNestedKeyProjectionTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalManagedUdfWideKeyPlanTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalManagedUdfWideKeyRoutingTest.java
+  h_05d51add47747d 1,16-17
+src/test/java/tech/streamfusion/planner/stream/CanonicalManagedUdfWideKeyStateTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalMiniBatchGroupPlanTest.java
+  h_05d51add47747d 1,4,21-81
+src/test/java/tech/streamfusion/planner/stream/CanonicalMiniBatchGroupStateTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalMiniBatchGroupValidationTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalNestedJoinPlanTest.java
+  h_05d51add47747d 1-98
+src/test/java/tech/streamfusion/planner/stream/CanonicalNormalizerPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalNormalizerRowKeyPlanTest.java
+  h_05d51add47747d 1,122-131
+src/test/java/tech/streamfusion/planner/stream/CanonicalOverCountPayloadPlanTest.java
+  h_05d51add47747d 1-140
+src/test/java/tech/streamfusion/planner/stream/CanonicalOverDistinctPlanTest.java
+  h_05d51add47747d 1-138
+src/test/java/tech/streamfusion/planner/stream/CanonicalOverRowKeyPlanTest.java
+  h_05d51add47747d 1-118
+src/test/java/tech/streamfusion/planner/stream/CanonicalOverTypedKeyPlanTest.java
+  h_05d51add47747d 1-54
+src/test/java/tech/streamfusion/planner/stream/CanonicalRankPayloadPlanTest.java
+  h_05d51add47747d 1-113
+src/test/java/tech/streamfusion/planner/stream/CanonicalRankPlanBindings.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalRankRowKeyPlanTest.java
+  h_05d51add47747d 1-127
+src/test/java/tech/streamfusion/planner/stream/CanonicalRankScalarPlanTest.java
+  h_05d51add47747d 1-156
+src/test/java/tech/streamfusion/planner/stream/CanonicalRegularJoinPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalRetractingExtremaAsyncTest.java
+  h_05d51add47747d 1,4-7
+src/test/java/tech/streamfusion/planner/stream/CanonicalRetractingExtremaBoundaryTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalRetractingExtremaInitializationTest.java
+  h_05d51add47747d 1,3
+src/test/java/tech/streamfusion/planner/stream/CanonicalRetractingExtremaMiniBatchStateTest.java
+  h_05d51add47747d 1-150
+src/test/java/tech/streamfusion/planner/stream/CanonicalRetractingExtremaPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalRetractingExtremaScalarKeyPlanTest.java
+  h_05d51add47747d 1-144
+src/test/java/tech/streamfusion/planner/stream/CanonicalRetractingExtremaScalarKeyStateTest.java
+  h_05d51add47747d 1-224
+src/test/java/tech/streamfusion/planner/stream/CanonicalRetractingExtremaValidationTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalRetractingMiniBatchGroupStateTest.java
+  h_05d51add47747d 1-235
+src/test/java/tech/streamfusion/planner/stream/CanonicalRetractingRankAdmissionTest.java
+  h_05d51add47747d 1,21,27-28,45-49,69-71,79-80
+src/test/java/tech/streamfusion/planner/stream/CanonicalRetractingRankPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalRetractingRankProctimePlanTest.java
+  h_05d51add47747d 1,25,60-78
+src/test/java/tech/streamfusion/planner/stream/CanonicalSharedFirstNPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalSinkMaterializerPlanTest.java
+  h_05d51add47747d 1-215
+src/test/java/tech/streamfusion/planner/stream/CanonicalTemporalJoinBoundaryTest.java
+  h_05d51add47747d 1,20
+src/test/java/tech/streamfusion/planner/stream/CanonicalTemporalJoinPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalTemporalSortAdmissionTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalTemporalSortPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalTypedRetractingExtremaBoundaryTest.java
+  h_05d51add47747d 1,4-7
+src/test/java/tech/streamfusion/planner/stream/CanonicalTypedRetractingExtremaPlanTest.java
+  h_05d51add47747d 1,4,25-43,63-81,90-94,178-179
+src/test/java/tech/streamfusion/planner/stream/CanonicalTypedRetractingExtremaTest.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/CanonicalTypedRetractingExtremaValidationTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalUnboundedOverAdmissionTest.java
+  h_05d51add47747d 1,91,93-100,104-107,109-111
+src/test/java/tech/streamfusion/planner/stream/CanonicalUnboundedOverExtremaPlanTest.java
+  h_05d51add47747d 1-125
+src/test/java/tech/streamfusion/planner/stream/CanonicalUnboundedOverPlanTest.java
+  h_05d51add47747d 1,10-13,17-26
+src/test/java/tech/streamfusion/planner/stream/CanonicalUpdateRankAdmissionTest.java
+  h_05d51add47747d 1,19,29,36-38,41-42,45,47
+src/test/java/tech/streamfusion/planner/stream/CanonicalUpdateRankPlanTest.java
+  h_05d51add47747d 1,28,33-34,40,65-66,96-97,99
+src/test/java/tech/streamfusion/planner/stream/CanonicalUpdatingRankBoundPlanTest.java
+  h_05d51add47747d 1-77
+src/test/java/tech/streamfusion/planner/stream/CanonicalWindowAggregateBindingPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalWindowJoinBoundaryTest.java
+  h_05d51add47747d 1,20
+src/test/java/tech/streamfusion/planner/stream/CanonicalWindowJoinPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalWindowRankAdmissionTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalWindowRankPlanTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/CanonicalWindowRankProctimeRegressionTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/FixturePlanCache.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/FixturePlanCacheTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/GroupAggregateStockTestFixture.java
+  h_05d51add47747d 1,30,86-121,132-141,143-160,168,172-176,188-195,212-239,245,248,253-273,287,289-292,312-315,320,326,332,338,344,350,356,362
+src/test/java/tech/streamfusion/planner/stream/JsonDocumentTransposeTest.java
+  h_05d51add47747d 1-46
+src/test/java/tech/streamfusion/planner/stream/KafkaSinkTranslatorTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/KafkaTablesTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/KeyedDecodeOperatorTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/KeyedDecodeSpecTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/ManagedUdfGroupStockFixture.java
+  h_05d51add47747d 1,4
+src/test/java/tech/streamfusion/planner/stream/ManagedUdfKeyShape.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/MiniBatchGroupStockFixture.java
+  h_05d51add47747d 1,4,30,43,52-70,73,79-83,144-148,209-250,255,268-278,281-304,310-336,349-356
+src/test/java/tech/streamfusion/planner/stream/NativeProbeFallbackTest.java
+  h_05d51add47747d 1,27-29,48,262,277,295,323
+src/test/java/tech/streamfusion/planner/stream/OrcSinkTranslatorTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/OverPlanningRouteTest.java
+  h_05d51add47747d 1-23
+src/test/java/tech/streamfusion/planner/stream/OverWindowSpecTest.java
+  h_05d51add47747d 1-110
+src/test/java/tech/streamfusion/planner/stream/ParquetSinkTranslatorTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/PlannerDiagnosticsTest.java
+  h_05d51add47747d 1
+src/test/java/tech/streamfusion/planner/stream/PlannerLoggingTest.java
+  h_05d51add47747d 1,13-14,84-89
+src/test/java/tech/streamfusion/planner/stream/PreparedAdmissionTest.java
+  h_05d51add47747d 1-134
+src/test/java/tech/streamfusion/planner/stream/ProtobufGateTest.java
+  h_05d51add47747d 1,15-17,82-83
+src/test/java/tech/streamfusion/planner/stream/TypedGroupStockFixture.java
+  h_05d51add47747d 1,4,22,54-80,83-84,124-127,150-151,187-212,233-235,243-251,254,258,262,264-266,276
+src/test/java/tech/streamfusion/planner/stream/WatermarkExpressionPlannerTest.java
+  h_05d51add47747d 1,16-17,73,80,84-85
+src/test/java/tech/streamfusion/planner/stream/WindowAggregateValueTypeTest.java
+  h_05d51add47747d 1
+src/test/resources/runtime-compatibility/LegacyEncodeFormatFixture.java
+  h_05d51add47747d 1-22
+src/test/resources/runtime-compatibility/LegacyOperatorFixture.java
+  h_05d51add47747d 1-16
+src/test/resources/runtime-compatibility/README.md
+  h_05d51add47747d 1-34
+src/test/resources/runtime-compatibility/operator-descriptors.tsv
+  h_05d51add47747d 1-75
+streamfusion-avro-confluent-registry/pom.xml
+  h_05d51add47747d 14,18,31
+streamfusion-avro-confluent-registry/src/main/java/tech/streamfusion/format/avroconfluent/AvroConfluentFormatProvider.java
+  h_05d51add47747d 3-5,18-24,52-53,59-60,76-80
+streamfusion-avro-confluent-registry/src/main/java/tech/streamfusion/format/avroconfluent/DebeziumAvroConfluentFormatProvider.java
+  h_05d51add47747d 3-4,20-24,28-38,78-81,85-86,100-104
+streamfusion-avro/pom.xml
+  h_05d51add47747d 12,16,29
+streamfusion-avro/src/main/java/tech/streamfusion/format/avro/AvroFormatProvider.java
+  h_05d51add47747d 16-22,59-60,75-82
+streamfusion-avro/src/main/java/tech/streamfusion/format/avro/NativeAvroFormat.java
+  h_05d51add47747d 10-13,46-48,63-82
+streamfusion-core/pom.xml
+  h_05d51add47747d 27-31
+streamfusion-core/src/main/java-flink1.18/tech/streamfusion/compat/FlinkCompat.java
+  h_05d51add47747d 205,207
+streamfusion-core/src/main/java-flink1.18/tech/streamfusion/compat/FlinkPlanCompat.java
+  h_05d51add47747d 178-192,231-241
+streamfusion-core/src/main/java-flink1.18/tech/streamfusion/compat/FlinkStreamOperator.java
+  h_05d51add47747d 9-17,22-32
+streamfusion-core/src/main/java-flink1.18/tech/streamfusion/planner/stream/FlinkPlannerCompat.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java-flink1.18/tech/streamfusion/planner/stream/NativeCanonicalSinkExecNode.java
+  h_05d51add47747d 1-98
+streamfusion-core/src/main/java-flink1.18/tech/streamfusion/planner/stream/PreparedLegacySink.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java-flink1.18/tech/streamfusion/planner/stream/SinkMaterializerFactory.java
+  h_05d51add47747d 1-23
+streamfusion-core/src/main/java-flink1.18/tech/streamfusion/planner/stream/TimestampComparisonCoercion.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java-flink2.2/tech/streamfusion/compat/FlinkCompat.java
+  h_05d51add47747d 148
+streamfusion-core/src/main/java-flink2.2/tech/streamfusion/compat/FlinkPlanCompat.java
+  h_05d51add47747d 176-189,228-245
+streamfusion-core/src/main/java-flink2.2/tech/streamfusion/compat/FlinkStreamOperator.java
+  h_05d51add47747d 8-16,19-28
+streamfusion-core/src/main/java-flink2.2/tech/streamfusion/planner/stream/FlinkPlannerCompat.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java-flink2.2/tech/streamfusion/planner/stream/NativeCanonicalSinkExecNode.java
+  h_05d51add47747d 1-100
+streamfusion-core/src/main/java-flink2.2/tech/streamfusion/planner/stream/PreparedLegacySink.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java-flink2.2/tech/streamfusion/planner/stream/SinkMaterializerFactory.java
+  h_05d51add47747d 1,9,15-34
+streamfusion-core/src/main/java/tech/streamfusion/Native.java
+  h_05d51add47747d 1360-1366,1395-1397,1804-1807,3698-3703,3747-3777
+streamfusion-core/src/main/java/tech/streamfusion/arrow/ArrowConversion.java
+  h_05d51add47747d 161-175,279-280,284-285
+streamfusion-core/src/main/java/tech/streamfusion/configuration/NativeRuntimeOptions.java
+  h_05d51add47747d 1-103
+streamfusion-core/src/main/java/tech/streamfusion/configuration/StreamFusionConfig.java
+  h_05d51add47747d 1-49
+streamfusion-core/src/main/java/tech/streamfusion/format/EncodeFormat.java
+  h_05d51add47747d 1-103
+streamfusion-core/src/main/java/tech/streamfusion/format/EncodedMessages.java
+  h_05d51add47747d 1-30
+streamfusion-core/src/main/java/tech/streamfusion/format/FormatCodes.java
+  h_05d51add47747d 7-8,16,19,22,25,28,33,56-64
+streamfusion-core/src/main/java/tech/streamfusion/format/JdkFloatSpelling.java
+  h_05d51add47747d 1,8-10,18-32,36,38,45,51,56,74-76
+streamfusion-core/src/main/java/tech/streamfusion/format/NativeEncoderPlan.java
+  h_05d51add47747d 1-20
+streamfusion-core/src/main/java/tech/streamfusion/format/NativeFormatContext.java
+  h_05d51add47747d 7
+streamfusion-core/src/main/java/tech/streamfusion/format/NativeFormatOptions.java
+  h_05d51add47747d 152,166
+streamfusion-core/src/main/java/tech/streamfusion/format/NativeFormatProvider.java
+  h_05d51add47747d 4-6,10-12,27-40
+streamfusion-core/src/main/java/tech/streamfusion/format/NativeHandleMessageEncoder.java
+  h_05d51add47747d 1-62
+streamfusion-core/src/main/java/tech/streamfusion/format/NativeMessageEncoder.java
+  h_05d51add47747d 1-11
+streamfusion-core/src/main/java/tech/streamfusion/format/NativeMessageEncoderFactory.java
+  h_05d51add47747d 1-10
+streamfusion-core/src/main/java/tech/streamfusion/operator/AbstractNativeStatefulOperator.java
+  h_05d51add47747d 48,67-68,208,222-223,233,295,301,304,320-325,335,364-365,369-385,603-613,659,663,667-672,674,680,685,690-712,727-728
+streamfusion-core/src/main/java/tech/streamfusion/operator/ArrowToRowDataOperator.java
+  h_05d51add47747d 40-41
+streamfusion-core/src/main/java/tech/streamfusion/operator/BatchCoalescer.java
+  h_05d51add47747d 36-44,50,169,172
+streamfusion-core/src/main/java/tech/streamfusion/operator/BatchUnionSchemaOperator.java
+  h_05d51add47747d 16-17,24-30
+streamfusion-core/src/main/java/tech/streamfusion/operator/ColumnarRecordMetrics.java
+  h_05d51add47747d 30-49
+streamfusion-core/src/main/java/tech/streamfusion/operator/EncodedPredicate.java
+  h_05d51add47747d 59-64
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeAllocator.java
+  h_05d51add47747d 42-43
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeAsyncLookupJoinOperator.java
+  h_05d51add47747d 102
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeBatchJoinOperator.java
+  h_05d51add47747d 17
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeBatchLimitOperator.java
+  h_05d51add47747d 1-53
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeBatchWindowOperator.java
+  h_05d51add47747d 1-101
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeBoundedBatchOperator.java
+  h_05d51add47747d 14
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeBytesDecodeOperator.java
+  h_05d51add47747d 215-217
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeCalcOperator.java
+  h_05d51add47747d 89-90,93-94,104-107,119-120,129-134,145,218
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarChangelogNormalizeOperator.java
+  h_05d51add47747d 13-15,31,181-183
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarDeduplicateOperator.java
+  h_05d51add47747d 30,33,55-66,76,82
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarGlobalWindowAggregateOperator.java
+  h_05d51add47747d 12,24-25,205-214
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarGroupAggregateOperator.java
+  h_05d51add47747d 12-14,26,84,210-212
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarJvmGroupOperator.java
+  h_05d51add47747d 26-27,243-244,315,454-460,465-475
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarJvmOverOperator.java
+  h_05d51add47747d 77,254-262,267-272
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarKeepLastDeduplicateOperator.java
+  h_05d51add47747d 13-15,38,212-214
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarLocalGroupAggregateOperator.java
+  h_05d51add47747d 14-16,95-96,99,104,116-124,239
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarLocalWindowAggregateOperator.java
+  h_05d51add47747d 29-30,180-181,203,206-218
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarSessionWindowAggregateOperator.java
+  h_05d51add47747d 9,24-25,270-279
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarShareOperator.java
+  h_05d51add47747d 18,21,27-41,45-46
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarTableFunctionOperator.java
+  h_05d51add47747d 112,199-207,219-224
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarTopNOperator.java
+  h_05d51add47747d 16-18,31,268,298,329-338,437-438,499-501
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarUpdatingJoinOperator.java
+  h_05d51add47747d 14-16,35,117-118,121-124,141,187,215,293-300,381-383,386-390,516
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarWindowAggregateOperator.java
+  h_05d51add47747d 8,30-31,363-372
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeColumnarWindowRankOperator.java
+  h_05d51add47747d 14-15,442-452
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeExpandOperator.java
+  h_05d51add47747d 1-127
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeFilterOperator.java
+  h_05d51add47747d 40,63-64,74-77,80-85,90
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeIntervalJoinOperator.java
+  h_05d51add47747d 42,112-116
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeLookupJoinOperator.java
+  h_05d51add47747d 63,73
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeOverAggregateOperator.java
+  h_05d51add47747d 29,42,48,83-84,89-98,121,153,157-168,247-253,454-455
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeResources.java
+  h_05d51add47747d 1-37
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeRowWindowOperatorCore.java
+  h_05d51add47747d 16-17,30-31,93,102-114,118-141,144-170
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeTemporalJoinOperator.java
+  h_05d51add47747d 40,79-83
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeUdf.java
+  h_05d51add47747d 133-134,316-323,343-352,475-476,611,654-660,671
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeWindowJoinOperator.java
+  h_05d51add47747d 15-16,41,163-167
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeWindowOperatorCore.java
+  h_05d51add47747d 37
+streamfusion-core/src/main/java/tech/streamfusion/operator/RowDataToArrowOperator.java
+  h_05d51add47747d 108-114
+streamfusion-core/src/main/java/tech/streamfusion/operator/SerializedJoinInput.java
+  h_05d51add47747d 1-95
+streamfusion-core/src/main/java/tech/streamfusion/operator/TaskOffHeapMemory.java
+  h_05d51add47747d 206-221
+streamfusion-core/src/main/java/tech/streamfusion/operator/WindowCalendar.java
+  h_05d51add47747d 5
+streamfusion-core/src/main/java/tech/streamfusion/operator/aggregate/stream/JvmAccumulatorCache.java
+  h_05d51add47747d 1,21-22,32,48,83,91,95
+streamfusion-core/src/main/java/tech/streamfusion/operator/aggregate/stream/JvmMiniBatchGroup.java
+  h_05d51add47747d 1,15-16,25,40,46,54,58,67
+streamfusion-core/src/main/java/tech/streamfusion/operator/batch/BoundedArrowOutput.java
+  h_05d51add47747d 1,8-9,12-13,16
+streamfusion-core/src/main/java/tech/streamfusion/operator/join/stream/FlinkWindowJoinMetrics.java
+  h_05d51add47747d 1,9-10,19,30,34
+streamfusion-core/src/main/java/tech/streamfusion/operator/stream/MiniBatchBoundary.java
+  h_05d51add47747d 1,4-5,10,15,26,39,43
+streamfusion-core/src/main/java/tech/streamfusion/operator/stream/MiniBatchMetrics.java
+  h_05d51add47747d 1,7-9,35,39,64,68,76,80,84,113
+streamfusion-core/src/main/java/tech/streamfusion/operator/window/stream/FlinkWindowMetrics.java
+  h_05d51add47747d 1,9-10,17,26,31
+streamfusion-core/src/main/java/tech/streamfusion/operator/window/stream/WindowTimeDomain.java
+  h_05d51add47747d 1,7-8,11,19,26
+streamfusion-core/src/main/java/tech/streamfusion/planner/ArrowRowTypeSupport.java
+  h_05d51add47747d 6,9-10,15
+streamfusion-core/src/main/java/tech/streamfusion/planner/ArrowToRowDataExecNode.java
+  h_05d51add47747d 1-26
+streamfusion-core/src/main/java/tech/streamfusion/planner/BatchPlanScan.java
+  h_05d51add47747d 1-4
+streamfusion-core/src/main/java/tech/streamfusion/planner/CollectionExpressionSemantics.java
+  h_05d51add47747d 1-268
+streamfusion-core/src/main/java/tech/streamfusion/planner/ExpressionPlanning.java
+  h_05d51add47747d 1-136
+streamfusion-core/src/main/java/tech/streamfusion/planner/FlinkKeyGroupUtils.java
+  h_05d51add47747d 13-14,22,31,38,91,96,111-112,115,123
+streamfusion-core/src/main/java/tech/streamfusion/planner/JsonStringIdentity.java
+  h_05d51add47747d 11,19-23,26,92,164,177
+streamfusion-core/src/main/java/tech/streamfusion/planner/JvmFunctionConversions.java
+  h_05d51add47747d 23,52,63,99,183,214-217,230,246
+streamfusion-core/src/main/java/tech/streamfusion/planner/JvmFunctionTypes.java
+  h_05d51add47747d 8,11,15,28,32
+streamfusion-core/src/main/java/tech/streamfusion/planner/LegacyBinaryResults.java
+  h_05d51add47747d 11,53,61
+streamfusion-core/src/main/java/tech/streamfusion/planner/NativeCalcExecNode.java
+  h_05d51add47747d 1-50
+streamfusion-core/src/main/java/tech/streamfusion/planner/NativeConfig.java
+  h_05d51add47747d 11-12,23-25,29,35,158,162,180-186
+streamfusion-core/src/main/java/tech/streamfusion/planner/NativePlanner.java
+  h_05d51add47747d 3
+streamfusion-core/src/main/java/tech/streamfusion/planner/NativePlannerExtension.java
+  h_05d51add47747d 5,14-50
+streamfusion-core/src/main/java/tech/streamfusion/planner/NativePlannerExtensions.java
+  h_05d51add47747d 10,13,17,20,25-30,36,49,51,82,86
+streamfusion-core/src/main/java/tech/streamfusion/planner/NativeShareExecNode.java
+  h_05d51add47747d 1-20
+streamfusion-core/src/main/java/tech/streamfusion/planner/NativeUnionExecNode.java
+  h_05d51add47747d 1-26
+streamfusion-core/src/main/java/tech/streamfusion/planner/PhysicalPlanScan.java
+  h_05d51add47747d 1-8
+streamfusion-core/src/main/java/tech/streamfusion/planner/RexExpression.java
+  h_05d51add47747d 32-36,46,53-59,62-64,66,68,72,75,81,87,89,91-96,101,105,111-112,115-126,128-130,132,134-136,139-145,211-229,232-233,237-238,242-243,247-248,252-253,257-258,262-263,299-300,304-308,310-319,327,340-344,346-350,357-363,538,564-565,1288,1290-1293,1419-1420,1424-1425,1429-1430,1481-1482,1486-1487,1491-1492,1497-1498,1503-1504,1515-1516,1525-1526,1530-1531,1535-1536,1548-1549,1553-1554,1562-1563,1571-1572,1590-1591,1855,1857,2023,2042,2046,2113-2114,2980,3260-3261,3644-3701,3714,4277-4279,5109,5153-5154,7443
+streamfusion-core/src/main/java/tech/streamfusion/planner/RowDataToArrowExecNode.java
+  h_05d51add47747d 1-102
+streamfusion-core/src/main/java/tech/streamfusion/planner/ScalarCastRules.java
+  h_05d51add47747d 1-295
+streamfusion-core/src/main/java/tech/streamfusion/planner/StreamFusionPlannerFactory.java
+  h_05d51add47747d 11-12
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchAggregateExecNode.java
+  h_05d51add47747d 1,18
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchAggregateSpec.java
+  h_05d51add47747d 1,50,79
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchArrowGraphBoundaries.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchArrowSourceConversion.java
+  h_05d51add47747d 1,13-15,53,60-100
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchBroadcastExchangeExecNode.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchColumnarExecNode.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchConnectorPlans.java
+  h_05d51add47747d 1-132
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchCrossJoinRewrite.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchExpandExecNode.java
+  h_05d51add47747d 1-66
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchForwardExchangeExecNode.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchHashExchangeExecNode.java
+  h_05d51add47747d 1,17-18
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchJoinExecNode.java
+  h_05d51add47747d 1,18
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchJoinSpec.java
+  h_05d51add47747d 1,14-15,64,99,104
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchLimitExecNode.java
+  h_05d51add47747d 1-52
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchNativeExecNode.java
+  h_05d51add47747d 1,12-13,36,40-42,45-46
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalArrowToRowData.java
+  h_05d51add47747d 1,10-12,31
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeAggregate.java
+  h_05d51add47747d 1,10-12
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeCalc.java
+  h_05d51add47747d 1,10-14,18,20-22,26,28,33,42,45
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeConnectorSink.java
+  h_05d51add47747d 1-94
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeConnectorSource.java
+  h_05d51add47747d 1-56
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeExchange.java
+  h_05d51add47747d 1,9-11
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeExpand.java
+  h_05d51add47747d 1-48
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeJoin.java
+  h_05d51add47747d 1,13-16
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeLimit.java
+  h_05d51add47747d 1-53
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeShare.java
+  h_05d51add47747d 1,14-16,42
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeSingleRel.java
+  h_05d51add47747d 1,11-12
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeSort.java
+  h_05d51add47747d 1,11-13
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeUnion.java
+  h_05d51add47747d 1,15-18,45
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalNativeWindow.java
+  h_05d51add47747d 1-45
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPhysicalRowDataToArrow.java
+  h_05d51add47747d 1,10-12,35
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchPlanScan.java
+  h_05d51add47747d 1,14,18,20-21,34-42,45,52,74-85,90,94,99-100,121,124-128,133,139,152,154-169,176-196,222-228,231,279,318,348,356-359,379-396,429-432,445-480,514
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchResidualPredicateRewrite.java
+  h_05d51add47747d 1-80
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchSingletonExchangeExecNode.java
+  h_05d51add47747d 1,23-25
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchSortExecNode.java
+  h_05d51add47747d 1,18,21-23
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchWindowExecNode.java
+  h_05d51add47747d 1-67
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/BatchWindowSpec.java
+  h_05d51add47747d 1-175
+streamfusion-core/src/main/java/tech/streamfusion/planner/batch/NativeBatchPlanner.java
+  h_05d51add47747d 1,11-12,15,19,98-101
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/Admission.java
+  h_05d51add47747d 1-57
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/ArrowBoundaryTypes.java
+  h_05d51add47747d 1-68
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/BoundedArrowTypeCheck.java
+  h_05d51add47747d 1,13-14,16,22,37
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/CalcOutputTypeCheck.java
+  h_05d51add47747d 1,28,40-41,45-46,50-51,56-60,62,91,99-100
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/CalcSpec.java
+  h_05d51add47747d 1-35
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/CastTarget.java
+  h_05d51add47747d 1-33
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/CommonArrowToRowDataExecNode.java
+  h_05d51add47747d 1,20-21,28,36,53-57
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/CommonCalcExecNode.java
+  h_05d51add47747d 1,14-17,23-24,39-48,82-86,97-106
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/CommonRowDataToArrowExecNode.java
+  h_05d51add47747d 1,26,29-30,42-43,45,49,53-55,57-59,61,64,74,93,115,159,161,165-171,174-176,181,185-189,214-219
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/CommonShareExecNode.java
+  h_05d51add47747d 1,14-16,23-24,30,46-50
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/CommonUnionExecNode.java
+  h_05d51add47747d 1,25-26,29,37,53-57
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/EncodedExpression.java
+  h_05d51add47747d 1-56
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/ExpressionInput.java
+  h_05d51add47747d 1-19
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/ExpressionKind.java
+  h_05d51add47747d 1-113
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/NativePlanDetails.java
+  h_05d51add47747d 1,12-13,21,56,75,92,97,108
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/NativeProbeFailure.java
+  h_05d51add47747d 1,4,7
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/NativeRelDigests.java
+  h_05d51add47747d 1,18-19,22,28,32
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/PlanningRejection.java
+  h_05d51add47747d 1-30
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/PreparedExpression.java
+  h_05d51add47747d 1-157
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/SourceReusePolicy.java
+  h_05d51add47747d 1-18
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/StreamPlanningContext.java
+  h_05d51add47747d 1-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/common/StreamRule.java
+  h_05d51add47747d 1-140
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/ByteStringInputs.java
+  h_05d51add47747d 1,8
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/CalcMatcher.java
+  h_05d51add47747d 1,10-16,35-50,52-54,57-77,83-84,97-101,234,242-243
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/CalcProjectionPruner.java
+  h_05d51add47747d 1,20,59,63
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/CanonicalGraphIdentities.java
+  h_05d51add47747d 1,17
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/CanonicalSinkIdentities.java
+  h_05d51add47747d 1,4-12
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/CanonicalSinkMaterializerRuntime.java
+  h_05d51add47747d 1,6,19-21,24-26,28,31-32,36,38,41-43,45,49-50,53,58-66,73-78,82,87,91,96-97,106-107,116,124,129-130,133,136-141
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/CapturedJvmGroupExecNode.java
+  h_05d51add47747d 1,18,102
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/ChangelogNormalizeMatcher.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/CollectionValueIdentity.java
+  h_05d51add47747d 1-7,21-24,50,71,126,254-255
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/DeduplicateMatcher.java
+  h_05d51add47747d 1,13,104-105
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/ExpandMatcher.java
+  h_05d51add47747d 1,11,88-90
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/FileSinkMatcher.java
+  h_05d51add47747d 1,17-19,228
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/FileSinkOptions.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/FilesystemTables.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/FilterCalcMatcher.java
+  h_05d51add47747d 1,11-16,22,31-35,45-59,62-66,87-88,91-92,95-97,100
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/FirstNMatcher.java
+  h_05d51add47747d 1,11
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/GeneratedUnnestMatcher.java
+  h_05d51add47747d 1,8-11,39-40,42,81,87
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/GlobalGroupAggregateMatcher.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/GlobalWindowAggregateMatcher.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/GroupAggregateMatcher.java
+  h_05d51add47747d 1,13-14,70-71
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/GroupWindowAggregateMatcher.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/IntervalJoinMatcher.java
+  h_05d51add47747d 1,15-16,41-42,88,94-95
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/JvmGroupAggregateMatcher.java
+  h_05d51add47747d 1,15-17,76,144,151,169
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/JvmOverAggregateMatcher.java
+  h_05d51add47747d 1,21-22
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/JvmTwoPhaseAggregateMatcher.java
+  h_05d51add47747d 1,16
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/LimitMatcher.java
+  h_05d51add47747d 1,14-15
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/LocalGroupAggregateMatcher.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/LookupJoinMatcher.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/MiniBatchAssignerMatcher.java
+  h_05d51add47747d 1,8
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeChangelogNormalizeExecNode.java
+  h_05d51add47747d 1,20
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeColumnarExchangeExecNode.java
+  h_05d51add47747d 1,23-25
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeColumnarGlobalWindowAggExecNode.java
+  h_05d51add47747d 1,20
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeColumnarGroupAggExecNode.java
+  h_05d51add47747d 1,19,42-45
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeColumnarLocalGroupAggExecNode.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeColumnarLocalWindowAggExecNode.java
+  h_05d51add47747d 1,22
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeColumnarSessionWindowAggExecNode.java
+  h_05d51add47747d 1,20
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeColumnarTopNExecNode.java
+  h_05d51add47747d 1,19,54-57
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeColumnarUpdatingJoinExecNode.java
+  h_05d51add47747d 1,20-21,49,73
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeColumnarWindowAggExecNode.java
+  h_05d51add47747d 1,20
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeDeduplicateExecNode.java
+  h_05d51add47747d 1,22,44-47,164-167,179-183
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeDropUpdateBeforeExecNode.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeExpandExecNode.java
+  h_05d51add47747d 1,15-17
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeFileSinkExecNode.java
+  h_05d51add47747d 1,31
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeFilterExecNode.java
+  h_05d51add47747d 1,15-18
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeFirstNExecNode.java
+  h_05d51add47747d 1,19,36-39
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeGeneratedUnnestExecNode.java
+  h_05d51add47747d 1,27
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeIntervalJoinExecNode.java
+  h_05d51add47747d 1,18-20,40,60,117
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeJvmGroupExecNode.java
+  h_05d51add47747d 1,32-33,155
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeJvmOverExecNode.java
+  h_05d51add47747d 1,24-25
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeJvmTwoPhaseGroupExecNode.java
+  h_05d51add47747d 1,33-34
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeLookupJoinExecNode.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeMiniBatchAssignerExecNode.java
+  h_05d51add47747d 1,6,15-18
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeOverAggExecNode.java
+  h_05d51add47747d 1,19,41-49,87-88,95,98-108,110-119,122,128-131,134-148,197-205
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeStreamPlanner.java
+  h_05d51add47747d 1,20-21,24-25,29,162-167,244
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeTableFunctionExecNode.java
+  h_05d51add47747d 1,26-27,76
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeTemporalJoinExecNode.java
+  h_05d51add47747d 1,18-20,35,52,106
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeTemporalSortExecNode.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeUnnestExecNode.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeWatermarkAssignerExecNode.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeWindowJoinExecNode.java
+  h_05d51add47747d 1,18-20,50,73,137
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeWindowRankExecNode.java
+  h_05d51add47747d 1,19
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NativeWindowTableFunctionExecNode.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/NonTimeRowNumberMatcher.java
+  h_05d51add47747d 1,21,197
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/OverAggregateMatcher.java
+  h_05d51add47747d 1,19,39-40,43-44,48-52,55-56,59-60,158,163,292-293,330,350,355-357,381
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/OverConstantArguments.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/OverWindowSpec.java
+  h_05d51add47747d 1-118
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/PlanContext.java
+  h_05d51add47747d 1,10-12,21,23-24,31-42,65,69,83-84,88-89,98-101,103-105,109,113-114
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/PlannerDiagnostics.java
+  h_05d51add47747d 1,7,23
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/ProjectableNativeSource.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/RegularJoinMatcher.java
+  h_05d51add47747d 1,18-20,71-72,110-111,114,120-121
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/ScanWatermarkSpec.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/ShareableScan.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/SinkConstraintGate.java
+  h_05d51add47747d 1,6,18,22
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/SqlPlanOrigins.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StockCompiledPlanLowering.java
+  h_05d51add47747d 1,59-70,372,404-445,447-485,510,530,818,925-928,1042,1046-1054,1071-1072,1198-1200,1213,1222-1223,1235-1236,1240-1245,1381,1811-1821,1824-1825,1839,1853,1862-1868,1886-1890,1897,1901-1902,1918,1944-1971,1977-1984,1991,1996-1997,2005,2013,2020,2026-2027,2034,2045-2046,2054,2062-2063,2423,2425,2450,2489-2494,2563,2565-2568,2590,2594,2673,2737,2749-2750,2769,2784,2788,2808-2817,2819-2822,2828-2832,2836,2839-2841,3010-3015,3018-3027,3163-3169,3209-3211,3413-3415,3497-3498,3501,3520,3522-3525,3527-3538,3545,3591-3592,3605-3613,3625-3626,3630-3632,3699-3706,3712,3717,3890-4050,4124-4140,4145-4148,4153,4194-4195,4205,4208,4323-4324,4335,4338,4479-4480,4488,4491,4622-4626,4635-4647,4673-4677,4736-4751,4759-4760
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StockOverPlan.java
+  h_05d51add47747d 1-84
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalArrowToRowData.java
+  h_05d51add47747d 1,11-12
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeBiRel.java
+  h_05d51add47747d 1,10-12
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeCalc.java
+  h_05d51add47747d 1,16-22,53,62,67,83,166-175,184-185
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeChangelogNormalize.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeColumnarExchange.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeColumnarGlobalWindowAggregate.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeColumnarGroupAggregate.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeColumnarLocalGroupAggregate.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeColumnarLocalWindowAggregate.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeColumnarSessionWindowAggregate.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeColumnarTopN.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeColumnarUpdatingJoin.java
+  h_05d51add47747d 1,13-16,31,51
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeColumnarWindowAggregate.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeDeduplicate.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeDropUpdateBefore.java
+  h_05d51add47747d 1,12-13
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeExpand.java
+  h_05d51add47747d 1,12-13
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeFileSink.java
+  h_05d51add47747d 1,11-12
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeFilter.java
+  h_05d51add47747d 1,14-19,39,114-118,131,147
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeFirstN.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeGeneratedUnnest.java
+  h_05d51add47747d 1,13-14,71-75
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeIntervalJoin.java
+  h_05d51add47747d 1,12-15,33,49
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeJvmGroup.java
+  h_05d51add47747d 1,15-16,47-51
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeJvmOver.java
+  h_05d51add47747d 1,11-12
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeJvmTwoPhaseGroup.java
+  h_05d51add47747d 1,14-15
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeLookupJoin.java
+  h_05d51add47747d 1,21-22
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeMiniBatchAssigner.java
+  h_05d51add47747d 1,12-13
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeOverAggregate.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeShare.java
+  h_05d51add47747d 1,16-18
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeSingleRel.java
+  h_05d51add47747d 1,10-11,24-25,54-58
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeTableFunction.java
+  h_05d51add47747d 1,13-16,80-84
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeTemporalJoin.java
+  h_05d51add47747d 1,12-15,31,44
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeTemporalSort.java
+  h_05d51add47747d 1,12-13
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeUnion.java
+  h_05d51add47747d 1,17-20
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeUnnest.java
+  h_05d51add47747d 1,12-14,76-80
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeWatermarkAssigner.java
+  h_05d51add47747d 1,13-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeWindowJoin.java
+  h_05d51add47747d 1,12-15,34,54
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeWindowRank.java
+  h_05d51add47747d 1,12-14
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeWindowTableFunction.java
+  h_05d51add47747d 1,12-13
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalRowDataToArrow.java
+  h_05d51add47747d 1,13-14,201-204
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/StreamPlanScan.java
+  h_05d51add47747d 1,49-59,74-76,79,88,98,103,107,134,143,157-158,178,185,190,195,200,206,217,228,239-240,252,260,266,315-317,423,488-489,491-492,495,499,544-545,596-597,599-602,678-679,749,763,799-800,826,894-895,920-923,977-978,994,1021-1024,1029-1032,1047,1057-1062,1065,1127-1131,1141-1142,1148,1151-1153
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/Substitution.java
+  h_05d51add47747d 1,3,8-12,32-37,40-42,44-45,62-69,72,85,91,96,102,108,118,123,131,134-135,137,148-149,152,154-157,168,172,177-186,203,206,208,211-212,214-216
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/TableFunctionMatcher.java
+  h_05d51add47747d 1,13-15
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/TemporalJoinMatcher.java
+  h_05d51add47747d 1,17-18,84-85,97-98,100,105-107
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/TemporalSortMatcher.java
+  h_05d51add47747d 1,8,52-53
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/TopNMatcher.java
+  h_05d51add47747d 1,28
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/UnionMatcher.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/UnnestMatcher.java
+  h_05d51add47747d 1,20-23,69-71,139,146-147,165,167,200,255,316
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/WatermarkAssignerMatcher.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/WatermarkExpressionPlanner.java
+  h_05d51add47747d 1,8-10,18-19
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/WindowAggregateMatcher.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/WindowDeduplicateMatcher.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/WindowJoinMatcher.java
+  h_05d51add47747d 1,12-13,99,105-106
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/WindowRankMatcher.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/WindowTableFunctionMatcher.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/planner/stream/WindowZoneGate.java
+  h_05d51add47747d 1
+streamfusion-core/src/main/java/tech/streamfusion/shuffle/NativeLz4BlockDecompressor.java
+  h_05d51add47747d 1-106
+streamfusion-core/src/main/java/tech/streamfusion/shuffle/NativeShuffleDecompression.java
+  h_05d51add47747d 1-113
+streamfusion-core/src/main/java/tech/streamfusion/state/RocksDBNativeKeyedStateBackend.java
+  h_05d51add47747d 313-323,329-342
+streamfusion-core/src/main/java/tech/streamfusion/state/StockAppendTopNStateContract.java
+  h_05d51add47747d 49,64-88,99-105,188-189,269-270,328
+streamfusion-core/src/main/java/tech/streamfusion/state/StockBoundedOverStateContract.java
+  h_05d51add47747d 96-97,102-105,221,229,270,326-330,456-471,505,542,547,574-576,582,589-606,615,687-699,818-828,892
+streamfusion-core/src/main/java/tech/streamfusion/state/StockBufferedDedupStateContract.java
+  h_05d51add47747d 333,350
+streamfusion-core/src/main/java/tech/streamfusion/state/StockChangelogNormalizeStateContract.java
+  h_05d51add47747d 79,83
+streamfusion-core/src/main/java/tech/streamfusion/state/StockDedupStateContract.java
+  h_05d51add47747d 196,295
+streamfusion-core/src/main/java/tech/streamfusion/state/StockGroupExtremaStateContract.java
+  h_05d51add47747d 82-83,158-183
+streamfusion-core/src/main/java/tech/streamfusion/state/StockGroupTypedStateContract.java
+  h_05d51add47747d 78-79,114,122,129-130,139-146,160,180-184,305-306
+streamfusion-core/src/main/java/tech/streamfusion/state/StockJoinStateContract.java
+  h_05d51add47747d 354-358,362-366
+streamfusion-core/src/main/java/tech/streamfusion/state/StockKeyedRowSchema.java
+  h_05d51add47747d 1-44
+streamfusion-core/src/main/java/tech/streamfusion/state/StockOverDistinctView.java
+  h_05d51add47747d 1-486
+streamfusion-core/src/main/java/tech/streamfusion/state/StockOverEventFoldStateContract.java
+  h_05d51add47747d 57,76-107,215-217,230,291-296
+streamfusion-core/src/main/java/tech/streamfusion/state/StockOverEventRowsStateContract.java
+  h_05d51add47747d 7,24-53,69
+streamfusion-core/src/main/java/tech/streamfusion/state/StockOverFoldStateContract.java
+  h_05d51add47747d 36-38,48-82,86-87,90-95,98,100-107,110-111,113-115,124-144,148,152-155,157-215,220-229,259-264,281,297,312,322-327,339-343,346-353,356,365,368-373,375-376,381,412-426,439-442
+streamfusion-core/src/main/java/tech/streamfusion/state/StockRetractingTopNStateContract.java
+  h_05d51add47747d 57,68-90,309-310,355
+streamfusion-core/src/main/java/tech/streamfusion/state/StockRowBatch.java
+  h_05d51add47747d 31,48-63,65,80-83
+streamfusion-core/src/main/java/tech/streamfusion/state/StockSinkMaterializerStateContract.java
+  h_05d51add47747d 50,85-88,366,383-392,447,471,537
+streamfusion-core/src/main/java/tech/streamfusion/state/StockStateCleanup.java
+  h_05d51add47747d 52-53,67-77
+streamfusion-core/src/main/java/tech/streamfusion/state/StockUpdatingTopNStateContract.java
+  h_05d51add47747d 53-54,64-101,111-117,141-142,145-146,174-182,190,200-201,220-232,280-281,333,336,343,353-374,383-385,425
+streamfusion-csv/pom.xml
+  h_05d51add47747d 12,16,29
+streamfusion-csv/src/main/java/tech/streamfusion/format/csv/CsvEncodeGate.java
+  h_05d51add47747d 1-50
+streamfusion-csv/src/main/java/tech/streamfusion/format/csv/CsvEncodeOptions.java
+  h_05d51add47747d 1,4,6-8,11-12,15-17,19,64
+streamfusion-csv/src/main/java/tech/streamfusion/format/csv/CsvFormatProvider.java
+  h_05d51add47747d 3,45-51,75-111,125-126
+streamfusion-csv/src/main/java/tech/streamfusion/format/csv/NativeCsvFormat.java
+  h_05d51add47747d 9-13,45-64
+streamfusion-delta/pom.xml
+  h_05d51add47747d 81,85,105-106
+streamfusion-delta/src/main/java-flink2.2/tech/streamfusion/planner/DeltaPlannerExtension.java
+  h_05d51add47747d 1-5
+streamfusion-delta/src/main/java-flink2.2/tech/streamfusion/planner/stream/DeltaPlannerExtension.java
+  h_05d51add47747d 1,5-6,9,11,13
+streamfusion-delta/src/main/java-flink2.2/tech/streamfusion/planner/stream/DeltaSinkMatcher.java
+  h_05d51add47747d 1,15-17,171
+streamfusion-delta/src/main/java-flink2.2/tech/streamfusion/planner/stream/NativeDeltaSinkExecNode.java
+  h_05d51add47747d 1,31,39,93-94
+streamfusion-delta/src/main/java-flink2.2/tech/streamfusion/planner/stream/StreamPhysicalNativeDeltaSink.java
+  h_05d51add47747d 1,11-13
+streamfusion-doris/pom.xml
+  h_05d51add47747d 48-63,81-84,136
+streamfusion-doris/src/main/java/tech/streamfusion/planner/DorisPlannerExtension.java
+  h_05d51add47747d 3-5
+streamfusion-doris/src/main/java/tech/streamfusion/planner/stream/DorisPlannerExtension.java
+  h_05d51add47747d 1-23
+streamfusion-doris/src/main/java/tech/streamfusion/planner/stream/DorisSinkRuntime.java
+  h_05d51add47747d 1,19-20
+streamfusion-doris/src/main/java/tech/streamfusion/planner/stream/DorisTables.java
+  h_05d51add47747d 1,29-31,35,37,46,72,126
+streamfusion-doris/src/main/java/tech/streamfusion/planner/stream/NativeDorisSinkExecNode.java
+  h_05d51add47747d 1
+streamfusion-doris/src/main/java/tech/streamfusion/planner/stream/NativeDorisSourceExecNode.java
+  h_05d51add47747d 1
+streamfusion-doris/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeDorisSink.java
+  h_05d51add47747d 1,11
+streamfusion-doris/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeDorisSource.java
+  h_05d51add47747d 1,13-14
+streamfusion-doris/src/test/java/tech/streamfusion/planner/stream/DorisConstraintEnforcerTest.java
+  h_05d51add47747d 1
+streamfusion-doris/src/test/java/tech/streamfusion/planner/stream/DorisMaterializerStrategyTest.java
+  h_05d51add47747d 1
+streamfusion-doris/src/test/java/tech/streamfusion/planner/stream/DorisSinkRuntimeTest.java
+  h_05d51add47747d 1,18
+streamfusion-fluss/pom.xml
+  h_05d51add47747d 39,70-87
+streamfusion-fluss/src/main/java/tech/streamfusion/planner/FlussPlannerExtension.java
+  h_05d51add47747d 3-5
+streamfusion-fluss/src/main/java/tech/streamfusion/planner/stream/FlussPlannerExtension.java
+  h_05d51add47747d 1-37
+streamfusion-fluss/src/main/java/tech/streamfusion/planner/stream/FlussTables.java
+  h_05d51add47747d 1,26-28,43,109-110,157-158,237
+streamfusion-fluss/src/main/java/tech/streamfusion/planner/stream/NativeFlussSinkExecNode.java
+  h_05d51add47747d 1,19
+streamfusion-fluss/src/main/java/tech/streamfusion/planner/stream/NativeFlussSourceExecNode.java
+  h_05d51add47747d 1,18
+streamfusion-fluss/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeFlussSink.java
+  h_05d51add47747d 1,13-14
+streamfusion-fluss/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeFlussSource.java
+  h_05d51add47747d 1,17-19
+streamfusion-fluss/src/test/java/tech/streamfusion/planner/stream/FlussTablesTest.java
+  h_05d51add47747d 1
+streamfusion-hudi/pom.xml
+  h_05d51add47747d 44,81-90
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/HudiCommitFilter.java
+  h_05d51add47747d 30
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/HudiPlannerExtension.java
+  h_05d51add47747d 3-5
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/stream/HudiPlannerExtension.java
+  h_05d51add47747d 1-25
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/stream/HudiSinkMatcher.java
+  h_05d51add47747d 1,13-14,21
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/stream/HudiSourceMatcher.java
+  h_05d51add47747d 1,10-11,19
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/stream/NativeHudiSinkExecNode.java
+  h_05d51add47747d 1
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/stream/NativeHudiSourceExecNode.java
+  h_05d51add47747d 1,16
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeHudiSink.java
+  h_05d51add47747d 1,13-14
+streamfusion-hudi/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeHudiSource.java
+  h_05d51add47747d 1,15-17
+streamfusion-iceberg/pom.xml
+  h_05d51add47747d 62-71
+streamfusion-iceberg/src/main/java/tech/streamfusion/planner/IcebergPlannerExtension.java
+  h_05d51add47747d 3-5
+streamfusion-iceberg/src/main/java/tech/streamfusion/planner/stream/IcebergPlannerExtension.java
+  h_05d51add47747d 1-24
+streamfusion-iceberg/src/main/java/tech/streamfusion/planner/stream/IcebergSinkMatcher.java
+  h_05d51add47747d 1,10-11,20
+streamfusion-iceberg/src/main/java/tech/streamfusion/planner/stream/IcebergSourceMatcher.java
+  h_05d51add47747d 1,10-11,21
+streamfusion-iceberg/src/main/java/tech/streamfusion/planner/stream/NativeIcebergSinkExecNode.java
+  h_05d51add47747d 1
+streamfusion-iceberg/src/main/java/tech/streamfusion/planner/stream/NativeIcebergSourceExecNode.java
+  h_05d51add47747d 1
+streamfusion-iceberg/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeIcebergSink.java
+  h_05d51add47747d 1,13
+streamfusion-iceberg/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeIcebergSource.java
+  h_05d51add47747d 1,15-16
+streamfusion-image-it/pom.xml
+  h_05d51add47747d 35-42
+streamfusion-json/pom.xml
+  h_05d51add47747d 14,18,43
+streamfusion-json/src/main/java/tech/streamfusion/format/json/JsonEncodeGate.java
+  h_05d51add47747d 1-69
+streamfusion-json/src/main/java/tech/streamfusion/format/json/JsonEncodeOptions.java
+  h_05d51add47747d 1-63
+streamfusion-json/src/main/java/tech/streamfusion/format/json/JsonFormatProvider.java
+  h_05d51add47747d 3-5,18-20,65-71,97-142,155-161,185-194,200-202,244
+streamfusion-json/src/main/java/tech/streamfusion/format/json/NativeJsonFormat.java
+  h_05d51add47747d 10-13,60-79
+streamfusion-kafka/pom.xml
+  h_05d51add47747d 29,31-33,37-39,68-72
+streamfusion-kafka/src/main/java/tech/streamfusion/kafka/KafkaMessageEncoder.java
+  h_05d51add47747d 1-75
+streamfusion-kafka/src/main/java/tech/streamfusion/kafka/NativeKafka.java
+  h_05d51add47747d 9-13,27-33,37-48,50-73,75-77,79,81-83,86-100,102-104,106,108-110,113-136
+streamfusion-kafka/src/main/java/tech/streamfusion/kafka/NativeKafkaSerializationOperator.java
+  h_05d51add47747d 28,51-53,61,68-72,74-77,84-87
+streamfusion-kafka/src/main/java/tech/streamfusion/planner/KafkaPlannerExtension.java
+  h_05d51add47747d 3-5
+streamfusion-kafka/src/main/java/tech/streamfusion/planner/stream/KafkaPlannerExtension.java
+  h_05d51add47747d 1-105
+streamfusion-kafka/src/main/java/tech/streamfusion/planner/stream/KafkaSinkMatcher.java
+  h_05d51add47747d 1,18-19,21,61-62,82,88-92,101,110-117,146,172,181
+streamfusion-kafka/src/main/java/tech/streamfusion/planner/stream/KafkaSinkTranslator.java
+  h_05d51add47747d 1
+streamfusion-kafka/src/main/java/tech/streamfusion/planner/stream/KafkaTables.java
+  h_05d51add47747d 1,21-28,414,422-425,445,453
+streamfusion-kafka/src/main/java/tech/streamfusion/planner/stream/KeyedDecodeSpec.java
+  h_05d51add47747d 1
+streamfusion-kafka/src/main/java/tech/streamfusion/planner/stream/NativeKafkaDecodeExecNode.java
+  h_05d51add47747d 1,26
+streamfusion-kafka/src/main/java/tech/streamfusion/planner/stream/NativeKafkaSinkExecNode.java
+  h_05d51add47747d 1,26
+streamfusion-kafka/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeKafkaDecode.java
+  h_05d51add47747d 1,17-19
+streamfusion-kafka/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativeKafkaSink.java
+  h_05d51add47747d 1,11-12
+streamfusion-loader/src/test/java/tech/streamfusion/loader/StreamFusionPlannerLoaderTest.java
+  h_05d51add47747d 110-127
+streamfusion-orc/pom.xml
+  h_05d51add47747d 29-30,32,36,65-69
+streamfusion-orc/src/main/java/tech/streamfusion/planner/OrcPlannerExtension.java
+  h_05d51add47747d 3-5
+streamfusion-orc/src/main/java/tech/streamfusion/planner/stream/OrcPlannerExtension.java
+  h_05d51add47747d 1-39
+streamfusion-orc/src/main/java/tech/streamfusion/planner/stream/OrcSinkTranslator.java
+  h_05d51add47747d 1
+streamfusion-paimon/pom.xml
+  h_05d51add47747d 55,95,98-100,130,165-169,173-218
+streamfusion-paimon/src/main/java-flink1.18/tech/streamfusion/paimon/NativePaimonBucketSink.java
+  h_05d51add47747d 23,30-38,42
+streamfusion-paimon/src/main/java-flink1.18/tech/streamfusion/paimon/PaimonApiCompat.java
+  h_05d51add47747d 22-29
+streamfusion-paimon/src/main/java-flink1.18/tech/streamfusion/paimon/PaimonPostponeFixedWrite.java
+  h_05d51add47747d 1-31
+streamfusion-paimon/src/main/java-flink2.2/tech/streamfusion/paimon/PaimonApiCompat.java
+  h_05d51add47747d 23-30
+streamfusion-paimon/src/main/java-flink2.2/tech/streamfusion/paimon/PaimonPostponeFixedWrite.java
+  h_05d51add47747d 1-31
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/NativeKeyValueSinkWrite.java
+  h_05d51add47747d 95-96,110-120,350-352,421-423
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/NativePaimonFileWriter.java
+  h_05d51add47747d 16-19,37-39,69-73,91-94,100-105,114-119,123,125,154-161,163,171,180-191,193-205
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/NativePaimonParquetFormat.java
+  h_05d51add47747d 24-27,32-34,41,89
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/NativePaimonParquetWriterFactory.java
+  h_05d51add47747d 16,23-31,51-52
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/NativePaimonPostponeFixedBucketSink.java
+  h_05d51add47747d 1-65
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/NativePaimonPostponeFixedRouter.java
+  h_05d51add47747d 1-91
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/NativePaimonRoundRobinOperator.java
+  h_05d51add47747d 1-74
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/NativePaimonSource.java
+  h_05d51add47747d 14,18,21,27-28,48-74,78,82-84,90-93,105-106,108
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/NativePaimonSourceReader.java
+  h_05d51add47747d 33-34,42,45-47,57,59-61,73-75
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/NativePaimonSplitReader.java
+  h_05d51add47747d 62,66-67,82-86,114-121,190-196
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/NativePaimonWriteOperator.java
+  h_05d51add47747d 101,103,106,121-146
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/PaimonCodecs.java
+  h_05d51add47747d 10-13
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/PaimonRowBatch.java
+  h_05d51add47747d 1-119
+streamfusion-paimon/src/main/java/tech/streamfusion/paimon/PaimonVersion.java
+  h_05d51add47747d 50-57
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/PaimonPlannerExtension.java
+  h_05d51add47747d 3-5
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/common/PaimonBatchSource.java
+  h_05d51add47747d 1-68
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/common/PaimonSourceAdmission.java
+  h_05d51add47747d 1,6,15-17,19-26,35-36,40-41,49,111-112,122-125,140,142-144
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/stream/NativePaimonSinkExecNode.java
+  h_05d51add47747d 1,37-38,40,76-83,108-112,123-131,144,160,165,170-191,262-275,278-279
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/stream/NativePaimonSourceExecNode.java
+  h_05d51add47747d 1,17,22
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/stream/PaimonBatchEncoding.java
+  h_05d51add47747d 1-86
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/stream/PaimonDynamicOptions.java
+  h_05d51add47747d 1
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/stream/PaimonPartitionPredicate.java
+  h_05d51add47747d 1
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/stream/PaimonPlannerExtension.java
+  h_05d51add47747d 1-73
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/stream/PaimonSinkMatcher.java
+  h_05d51add47747d 1,12-13,15-16,39-42,92-107,110-113,116,125-135,141-145,224-227,229-230,232,311-315,322,344
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/stream/PaimonSourceMatcher.java
+  h_05d51add47747d 1-79
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativePaimonSink.java
+  h_05d51add47747d 1,12-13
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/stream/StreamPhysicalNativePaimonSource.java
+  h_05d51add47747d 1,16-19
+streamfusion-paimon/src/test/java-flink1.18/tech/streamfusion/paimon/PaimonTestCompat.java
+  h_05d51add47747d 27,30-33,75,118
+streamfusion-paimon/src/test/java-flink2.2/tech/streamfusion/paimon/PaimonTestCompat.java
+  h_05d51add47747d 28,31-34,82,125
+streamfusion-paimon/src/test/java/tech/streamfusion/PaimonBatchBoundaryBenchmark.java
+  h_05d51add47747d 1-257
+streamfusion-paimon/src/test/java/tech/streamfusion/PaimonBatchOperationsBenchmark.java
+  h_05d51add47747d 1-262
+streamfusion-paimon/src/test/java/tech/streamfusion/PaimonBatchSqlTest.java
+  h_05d51add47747d 1-794
+streamfusion-paimon/src/test/java/tech/streamfusion/paimon/PaimonBatchEncodingTest.java
+  h_05d51add47747d 1-212
+streamfusion-paimon/src/test/java/tech/streamfusion/paimon/PaimonSourceRecoveryTest.java
+  h_05d51add47747d 31-40,42-43,46,141-145
+streamfusion-paimon/src/test/java/tech/streamfusion/planner/stream/PaimonPartitionPredicateTest.java
+  h_05d51add47747d 1,26-29,47-55,68-71
+streamfusion-paimon/src/tpcds/java/tech/streamfusion/PaimonTpcdsBenchmark.java
+  h_05d51add47747d 1-771
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/manifest.json
+  h_05d51add47747d 1-626
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/ndv.json
+  h_05d51add47747d 1-431
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query1.sql
+  h_05d51add47747d 1-25
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query10.sql
+  h_05d51add47747d 1-59
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query11.sql
+  h_05d51add47747d 1-81
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query12.sql
+  h_05d51add47747d 1-34
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query13.sql
+  h_05d51add47747d 1-52
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query14a.sql
+  h_05d51add47747d 1-104
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query14b.sql
+  h_05d51add47747d 1-109
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query15.sql
+  h_05d51add47747d 1-20
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query16.sql
+  h_05d51add47747d 1-31
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query17.sql
+  h_05d51add47747d 1-45
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query18.sql
+  h_05d51add47747d 1-33
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query19.sql
+  h_05d51add47747d 1-25
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query2.sql
+  h_05d51add47747d 1-60
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query20.sql
+  h_05d51add47747d 1-30
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query21.sql
+  h_05d51add47747d 1-30
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query22.sql
+  h_05d51add47747d 1-20
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query23a.sql
+  h_05d51add47747d 1-52
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query23b.sql
+  h_05d51add47747d 1-58
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query24a.sql
+  h_05d51add47747d 1-55
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query24b.sql
+  h_05d51add47747d 1-55
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query25.sql
+  h_05d51add47747d 1-48
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query26.sql
+  h_05d51add47747d 1-21
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query27.sql
+  h_05d51add47747d 1-23
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query28.sql
+  h_05d51add47747d 1-53
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query29.sql
+  h_05d51add47747d 1-47
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query3.sql
+  h_05d51add47747d 1-21
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query30.sql
+  h_05d51add47747d 1-31
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query31.sql
+  h_05d51add47747d 1-52
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query32.sql
+  h_05d51add47747d 1-28
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query33.sql
+  h_05d51add47747d 1-75
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query34.sql
+  h_05d51add47747d 1-31
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query35.sql
+  h_05d51add47747d 1-58
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query36.sql
+  h_05d51add47747d 1-29
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query37.sql
+  h_05d51add47747d 1-17
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query38.sql
+  h_05d51add47747d 1-23
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query39a.sql
+  h_05d51add47747d 1-28
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query39b.sql
+  h_05d51add47747d 1-29
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query4.sql
+  h_05d51add47747d 1-116
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query40.sql
+  h_05d51add47747d 1-28
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query41.sql
+  h_05d51add47747d 1-52
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query42.sql
+  h_05d51add47747d 1-22
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query43.sql
+  h_05d51add47747d 1-19
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query44.sql
+  h_05d51add47747d 1-35
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query45.sql
+  h_05d51add47747d 1-20
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query46.sql
+  h_05d51add47747d 1-35
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query47.sql
+  h_05d51add47747d 1-51
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query48.sql
+  h_05d51add47747d 1-67
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query49.sql
+  h_05d51add47747d 1-129
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query5.sql
+  h_05d51add47747d 1-128
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query50.sql
+  h_05d51add47747d 1-59
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query51.sql
+  h_05d51add47747d 1-45
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query52.sql
+  h_05d51add47747d 1-22
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query53.sql
+  h_05d51add47747d 1-28
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query54.sql
+  h_05d51add47747d 1-56
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query55.sql
+  h_05d51add47747d 1-14
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query56.sql
+  h_05d51add47747d 1-69
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query57.sql
+  h_05d51add47747d 1-48
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query58.sql
+  h_05d51add47747d 1-65
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query59.sql
+  h_05d51add47747d 1-44
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query6.sql
+  h_05d51add47747d 1-26
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query60.sql
+  h_05d51add47747d 1-78
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query61.sql
+  h_05d51add47747d 1-44
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query62.sql
+  h_05d51add47747d 1-35
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query63.sql
+  h_05d51add47747d 1-29
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query64.sql
+  h_05d51add47747d 1-121
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query65.sql
+  h_05d51add47747d 1-29
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query66.sql
+  h_05d51add47747d 1-220
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query67.sql
+  h_05d51add47747d 1-44
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query68.sql
+  h_05d51add47747d 1-43
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query69.sql
+  h_05d51add47747d 1-47
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query7.sql
+  h_05d51add47747d 1-21
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query70.sql
+  h_05d51add47747d 1-38
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query71.sql
+  h_05d51add47747d 1-40
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query72.sql
+  h_05d51add47747d 1-29
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query73.sql
+  h_05d51add47747d 1-28
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query74.sql
+  h_05d51add47747d 1-61
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query75.sql
+  h_05d51add47747d 1-70
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query76.sql
+  h_05d51add47747d 1-24
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query77.sql
+  h_05d51add47747d 1-108
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query78.sql
+  h_05d51add47747d 1-58
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query79.sql
+  h_05d51add47747d 1-23
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query8.sql
+  h_05d51add47747d 1-108
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query80.sql
+  h_05d51add47747d 1-96
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query81.sql
+  h_05d51add47747d 1-31
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query82.sql
+  h_05d51add47747d 1-17
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query83.sql
+  h_05d51add47747d 1-67
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query84.sql
+  h_05d51add47747d 1-21
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query85.sql
+  h_05d51add47747d 1-84
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query86.sql
+  h_05d51add47747d 1-26
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query87.sql
+  h_05d51add47747d 1-23
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query88.sql
+  h_05d51add47747d 1-94
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query89.sql
+  h_05d51add47747d 1-28
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query9.sql
+  h_05d51add47747d 1-51
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query90.sql
+  h_05d51add47747d 1-22
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query91.sql
+  h_05d51add47747d 1-31
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query92.sql
+  h_05d51add47747d 1-30
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query93.sql
+  h_05d51add47747d 1-18
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query94.sql
+  h_05d51add47747d 1-29
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query95.sql
+  h_05d51add47747d 1-32
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query96.sql
+  h_05d51add47747d 1-16
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query97.sql
+  h_05d51add47747d 1-25
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query98.sql
+  h_05d51add47747d 1-33
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/query99.sql
+  h_05d51add47747d 1-35
+streamfusion-paimon/src/tpcds/resources/tpcds/flink-2.2.1/schema.json
+  h_05d51add47747d 1-1826
+streamfusion-paimon/src/tpch/java/tech/streamfusion/PaimonTpchBenchmark.java
+  h_05d51add47747d 1-275
+streamfusion-paimon1/pom.xml
+  h_05d51add47747d 90,93-95,122-138,158,177-178,184-187,218-220,294-339
+streamfusion-paimon1/src/main/java/tech/streamfusion/paimon/NativePaimonBucketSink.java
+  h_05d51add47747d 22,29-37,41
+streamfusion-paimon1/src/main/java/tech/streamfusion/paimon/NativePaimonParquetFormat.java
+  h_05d51add47747d 21-24,28-30,37,85
+streamfusion-paimon1/src/main/java/tech/streamfusion/paimon/NativePaimonWriteOperator.java
+  h_05d51add47747d 100,102,105,112-137
+streamfusion-paimon1/src/main/java/tech/streamfusion/paimon/PaimonVersion.java
+  h_05d51add47747d 58-65
+streamfusion-paimon1/src/main/java/tech/streamfusion/planner/common/PaimonSourceAdmission.java
+  h_05d51add47747d 1,5,14-16,18-25,27-33,38,47-48,53,123,125-127
+streamfusion-paimon1/src/main/java/tech/streamfusion/planner/stream/NativePaimonSinkExecNode.java
+  h_05d51add47747d 1,35,71-78,108-116,142,147,189-200,203-204
+streamfusion-paimon1/src/main/java/tech/streamfusion/planner/stream/PaimonSinkMatcher.java
+  h_05d51add47747d 1,12-13,15-16,25,40-43,93-113,116-119,122,131-138,142-144,155-159,245-248,290-294,301,323
+streamfusion-paimon1/src/main/java/tech/streamfusion/planner/stream/PaimonSourceMatcher.java
+  h_05d51add47747d 1-54
+streamfusion-paimon1/src/test/java/tech/streamfusion/paimon/PaimonTestCompat.java
+  h_05d51add47747d 19,22-25,66,78
+streamfusion-parquet/pom.xml
+  h_05d51add47747d 28-34,61-65
+streamfusion-parquet/src/main/java/tech/streamfusion/parquet/NativeParquet.java
+  h_05d51add47747d 32-44
+streamfusion-parquet/src/main/java/tech/streamfusion/parquet/NativeParquetBulkFormat.java
+  h_05d51add47747d 54,73,78,86-90,92,96-103,127
+streamfusion-parquet/src/main/java/tech/streamfusion/parquet/NativeParquetSource.java
+  h_05d51add47747d 23,38
+streamfusion-parquet/src/main/java/tech/streamfusion/parquet/ParquetInputFile.java
+  h_05d51add47747d 1-32
+streamfusion-parquet/src/main/java/tech/streamfusion/parquet/ParquetRowGroupEnumerator.java
+  h_05d51add47747d 1-40
+streamfusion-parquet/src/main/java/tech/streamfusion/planner/ParquetPlannerExtension.java
+  h_05d51add47747d 3-5
+streamfusion-parquet/src/main/java/tech/streamfusion/planner/stream/ParquetPlannerExtension.java
+  h_05d51add47747d 1-160
+streamfusion-parquet/src/main/java/tech/streamfusion/planner/stream/ParquetSinkTranslator.java
+  h_05d51add47747d 1
+streamfusion-protobuf/pom.xml
+  h_05d51add47747d 22
+streamfusion-protobuf/src/main/java/tech/streamfusion/format/protobuf/NativeProtobufFormat.java
+  h_05d51add47747d 10-13,49-68
+streamfusion-protobuf/src/main/java/tech/streamfusion/format/protobuf/ProtobufFormatProvider.java
+  h_05d51add47747d 12,16-22,52-53,64-65,67-68,71-72,93-100,158-160
+streamfusion-protobuf/src/main/java/tech/streamfusion/planner/stream/ProtobufDescriptors.java
+  h_05d51add47747d 1,85-86,212-213
+streamfusion-raw/pom.xml
+  h_05d51add47747d 22
+streamfusion-raw/src/main/java/tech/streamfusion/format/raw/NativeRawFormat.java
+  h_05d51add47747d 9-13,45-64
+streamfusion-raw/src/main/java/tech/streamfusion/format/raw/RawFormatProvider.java
+  h_05d51add47747d 3-4,19-21,25-31,37-44,84-85,87-88,91-92,106-113,116-123
+streamfusion-runtime/pom.xml
+  h_05d51add47747d 25,29,33,37,41,45,49,53,57-61,73,77-78,120-126,134,265-272
+streamfusion-runtime/src/tpch/java/tech/streamfusion/TpchBenchmark.java
+  h_05d51add47747d 38,88,90-91,136-139,144-147,157,168,172-173,181,232,245-319,347,458,544,553
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "9f78f693dcee42fea3eee6e8f73967c9ddef8d16",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
