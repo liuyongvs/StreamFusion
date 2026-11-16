@@ -1,0 +1,24 @@
+bin/check-artifacts.sh
+  h_05d51add47747d 142-144
+bin/check-connector-ownership.py
+  h_05d51add47747d 74-100,107-108,111-114
+bin/test_connector_ownership.py
+  h_05d51add47747d 18-54
+docs/deployment.md
+  h_05d51add47747d 387-392
+docs/releasing.md
+  h_05d51add47747d 23-27
+streamfusion-runtime/pom.xml
+  h_05d51add47747d 198-207
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e3d65af78fcfd823bb3e44e9772860c0c92b81c6",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
