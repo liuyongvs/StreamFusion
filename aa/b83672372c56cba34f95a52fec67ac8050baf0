@@ -1,0 +1,16 @@
+bin/test_module_source_ownership.py
+  h_05d51add47747d 31-46,52,56-59
+docs/deployment.md
+  h_05d51add47747d 368-370
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "aab83672372c56cba34f95a52fec67ac8050baf0",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
