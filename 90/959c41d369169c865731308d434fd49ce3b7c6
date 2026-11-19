@@ -1,0 +1,68 @@
+bin/bench-hudi-java.py
+  h_05d51add47747d 19-20,26-28,77
+bin/bench-jvm-previous.py
+  h_05d51add47747d 15-16,27-28,32,34,37,40,121
+bin/bench-nested-scalars.py
+  h_05d51add47747d 16-17,137-139,143
+bin/benchmark_test_sources.py
+  h_05d51add47747d 1-27
+bin/test_bench_hudi_java.py
+  h_05d51add47747d 16-22,52
+bin/test_bench_jvm_previous.py
+  h_05d51add47747d 19-21,23,31,34,38,44,49,54-55
+bin/test_benchmark_test_sources.py
+  h_05d51add47747d 1-55
+bin/test_ci_module_groups.py
+  h_05d51add47747d 20
+bin/test_ci_runtime_test_shards.py
+  h_05d51add47747d 219-220
+bin/test_expression_protocol.py
+  h_05d51add47747d 59
+bin/test_module_source_ownership.py
+  h_05d51add47747d 16-26
+docs/benchmarks/evidence.md
+  h_05d51add47747d 65,81
+docs/benchmarks/iceberg-perf-followups-20261018/README.md
+  h_05d51add47747d 104-120
+docs/ci.md
+  h_05d51add47747d 3-7
+docs/deployment.md
+  h_05d51add47747d 79,85-89
+docs/development.md
+  h_05d51add47747d 1-75
+mkdocs.yml
+  h_05d51add47747d 125
+native/engine/src/group_agg/collection_agg.rs
+  h_05d51add47747d 1064,1069,1074,1079,1084,1089
+native/engine/src/group_agg/decimal_map_order.rs
+  h_05d51add47747d 121
+native/engine/src/group_agg/java_map_order.rs
+  h_05d51add47747d 535,574
+native/engine/src/group_agg/numeric_map_order.rs
+  h_05d51add47747d 270
+native/engine/src/group_agg/string_map_order.rs
+  h_05d51add47747d 21
+native/engine/src/over_agg/tests.rs
+  h_05d51add47747d 929
+native/engine/src/temporal_join/stock_meta.rs
+  h_05d51add47747d 178-180
+native/engine/src/temporal_join/tests.rs
+  h_05d51add47747d 293-295,548,553,624-626,628-630
+native/engine/src/tests.rs
+  h_05d51add47747d 58
+streamfusion-core/pom.xml
+  h_05d51add47747d 82-85,92-93,99,128-129,155
+streamfusion-runtime/pom.xml
+  h_05d51add47747d 92,114
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "90959c41d369169c865731308d434fd49ce3b7c6",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
