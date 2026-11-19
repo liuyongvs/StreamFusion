@@ -1,0 +1,54 @@
+.github/workflows/docs.yml
+  h_05d51add47747d 37
+dev/docs/published-anchors.json
+  h_05d51add47747d 1-364
+dev/docs/test_published_anchors.py
+  h_05d51add47747d 1-45
+docs/benchmarks/scalar-functions-boolean.md
+  h_05d51add47747d 1-1026
+docs/benchmarks/scalar-functions-collections.md
+  h_05d51add47747d 1-871
+docs/benchmarks/scalar-functions-decimal.md
+  h_05d51add47747d 1-1850
+docs/benchmarks/scalar-functions-diagnostics.md
+  h_05d51add47747d 1-249
+docs/benchmarks/scalar-functions-integers.md
+  h_05d51add47747d 1-1917
+docs/benchmarks/scalar-functions-json.md
+  h_05d51add47747d 1-1063
+docs/benchmarks/scalar-functions-printf.md
+  h_05d51add47747d 1-629
+docs/benchmarks/scalar-functions-strings.md
+  h_05d51add47747d 1-2393
+docs/benchmarks/scalar-functions-temporal.md
+  h_05d51add47747d 1-1591
+docs/benchmarks/scalar-functions.md
+  h_05d51add47747d 6-9,34,37-815,817,819,821,823,825,827,829,831,833,835,837,839,841,843,845,847,849,851,853,855,857,859,861,863,865,867,869,871,873,875,877,879,881,883,885,887,889,891,893,895,897,899,901,903,905,907,909,911,913,915,917,919,921,923,925,927,929,931,933,935,937,939,941,943
+docs/development.md
+  h_05d51add47747d 80-84,89
+docs/operators/calc-filter-jvm-collections.md
+  h_05d51add47747d 1-647
+docs/operators/calc-filter-numeric.md
+  h_05d51add47747d 1-1240
+docs/operators/calc-filter-routing.md
+  h_05d51add47747d 1-180
+docs/operators/calc-filter-strings.md
+  h_05d51add47747d 1-1952
+docs/operators/calc-filter-temporal.md
+  h_05d51add47747d 1-729
+docs/operators/calc-filter.md
+  h_05d51add47747d 12-16,21-551
+mkdocs.yml
+  h_05d51add47747d 37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ec98a3a75e20f9540bc163afa4bf47d7c5f66a48",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
