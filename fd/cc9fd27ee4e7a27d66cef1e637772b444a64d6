@@ -1,0 +1,86 @@
+bin/bench-hudi-java.py
+  h_05d51add47747d 28,122
+bin/bench-hudi-matrix.py
+  h_05d51add47747d 164
+bin/bench-iceberg-io.py
+  h_05d51add47747d 19,85
+bin/bench-iceberg.sh
+  h_05d51add47747d 50
+bin/bench-jvm-aggregates.py
+  h_05d51add47747d 127
+bin/bench-jvm-previous.py
+  h_05d51add47747d 112
+bin/bench-nested-scalars.py
+  h_05d51add47747d 71
+bin/bench-paimon.sh
+  h_05d51add47747d 47
+bin/benchmark_test_sources.py
+  h_05d51add47747d 16-29,31,35-44
+bin/ci_java_build.py
+  h_05d51add47747d 17
+bin/collect-paimon-pruning-results.py
+  h_05d51add47747d 72
+bin/doris-suite.sh
+  h_05d51add47747d 73
+bin/test_bench_jvm_previous.py
+  h_05d51add47747d 9-10,57
+bin/test_benchmark_test_sources.py
+  h_05d51add47747d 8,12-36
+bin/test_ci_module_groups.py
+  h_05d51add47747d 20
+bin/test_expression_protocol.py
+  h_05d51add47747d 59
+bin/test_module_source_ownership.py
+  h_05d51add47747d 16,27-40
+docs/benchmarks.md
+  h_05d51add47747d 8-13
+docs/development.md
+  h_05d51add47747d 3-5,7,11-18,20,22-28,30-33,41-44,46,48-51,53-72,80-85
+pom.xml
+  h_05d51add47747d 17,896-909
+streamfusion-core/pom.xml
+  h_05d51add47747d 16-23,45-48,91-94,107,122,155
+streamfusion-core/src/test/java/tech/streamfusion/NativeTestResourceAudit.java
+  h_05d51add47747d 1-57
+streamfusion-core/src/test/resources/META-INF/services/tech.streamfusion.TestResourceAudit
+  h_05d51add47747d 1
+streamfusion-delta/pom.xml
+  h_05d51add47747d 20-21,23-28,114-123
+streamfusion-fluss/pom.xml
+  h_05d51add47747d 20-21,23-28,118-126
+streamfusion-hudi/pom.xml
+  h_05d51add47747d 113-117
+streamfusion-iceberg/pom.xml
+  h_05d51add47747d 104-108
+streamfusion-kafka/pom.xml
+  h_05d51add47747d 23-29
+streamfusion-orc/pom.xml
+  h_05d51add47747d 22-28
+streamfusion-paimon/pom.xml
+  h_05d51add47747d 21-27,29,177-185
+streamfusion-paimon1/pom.xml
+  h_05d51add47747d 22-28,30,296-324
+streamfusion-parquet/pom.xml
+  h_05d51add47747d 22-28
+streamfusion-runtime/pom.xml
+  h_05d51add47747d 24-34,135-136,150-151
+streamfusion-test-utils/pom.xml
+  h_05d51add47747d 1-54
+streamfusion-test-utils/src/main/java/tech/streamfusion/SharedFlinkCluster.java
+  h_05d51add47747d 17-18,45,74,84,111-120
+streamfusion-test-utils/src/main/java/tech/streamfusion/TestResourceAudit.java
+  h_05d51add47747d 1-24
+streamfusion-test-utils/src/test/java/tech/streamfusion/TestResourceAuditTest.java
+  h_05d51add47747d 1-66
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "fdcc9fd27ee4e7a27d66cef1e637772b444a64d6",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
