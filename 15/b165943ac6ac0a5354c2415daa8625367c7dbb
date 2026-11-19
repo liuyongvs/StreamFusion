@@ -1,0 +1,22 @@
+bin/ci_canonical_jobs.py
+  h_05d51add47747d 51,55,70,73
+bin/test_ci_canonical_jobs.py
+  h_05d51add47747d 59,66,79-92
+bin/test_ci_runtime_test_shards.py
+  h_05d51add47747d 18,242,248,263,330,341,362,375-391
+docs/ci.md
+  h_05d51add47747d 893-898,929,931-940
+docs/development.md
+  h_05d51add47747d 49-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "15b165943ac6ac0a5354c2415daa8625367c7dbb",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
