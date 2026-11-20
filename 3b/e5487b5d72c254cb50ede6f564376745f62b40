@@ -1,0 +1,32 @@
+docs/batch-execution-runtime.md
+  h_05d51add47747d 100-107,113-114
+streamfusion-core/src/main/java/tech/streamfusion/operator/NativeBoundedBatchOperator.java
+  h_05d51add47747d 8,15,33-42,47,52,58
+streamfusion-core/src/main/java/tech/streamfusion/operator/WindowCalendar.java
+  h_05d51add47747d 3,5,7,14,18,22,26,30,34
+streamfusion-core/src/main/java/tech/streamfusion/operator/batch/BoundedExecution.java
+  h_05d51add47747d 1-130
+streamfusion-core/src/main/java/tech/streamfusion/operator/window/stream/WindowCalendarRuntime.java
+  h_05d51add47747d 1-121
+streamfusion-core/src/test/java/tech/streamfusion/operator/NativeBatchAggregateOperatorTest.java
+  h_05d51add47747d 328-332
+streamfusion-core/src/test/java/tech/streamfusion/operator/NativeBatchSortOperatorTest.java
+  h_05d51add47747d 88-93
+streamfusion-core/src/test/java/tech/streamfusion/operator/RuntimeResponsibilityBoundaryTest.java
+  h_05d51add47747d 22,27,36,41-42,107
+streamfusion-core/src/test/java/tech/streamfusion/operator/batch/BoundedExecutionTest.java
+  h_05d51add47747d 1-44
+streamfusion-core/src/test/java/tech/streamfusion/operator/window/stream/FlinkWindowCalendarContractTest.java
+  h_05d51add47747d 1,12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3be5487b5d72c254cb50ede6f564376745f62b40",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
