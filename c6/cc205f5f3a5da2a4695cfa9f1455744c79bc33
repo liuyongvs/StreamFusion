@@ -1,0 +1,24 @@
+dev/tools/profiling/canonical.py
+  h_05d51add47747d 15,46,79-80,98
+dev/tools/profiling/canonical_reference.py
+  h_05d51add47747d 16,63,72
+dev/tools/profiling/process.py
+  h_05d51add47747d 1-23
+dev/tools/profiling/runtime.py
+  h_05d51add47747d 15,92,123-124,135
+dev/tools/tests/test_profile_process.py
+  h_05d51add47747d 1-38
+docs/developer-tools.md
+  h_05d51add47747d 4-6,35-38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c6cc205f5f3a5da2a4695cfa9f1455744c79bc33",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}

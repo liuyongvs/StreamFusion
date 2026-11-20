@@ -1,0 +1,38 @@
+.github/workflows/flink-suite-line.yml
+  h_05d51add47747d 58,66
+bin/README.md
+  h_05d51add47747d 4-5
+bin/flink-suite.sh
+  h_05d51add47747d 6-7,10-12
+dev/flink-suite/runner/audit.sh
+  h_05d51add47747d 1-103
+dev/flink-suite/runner/configure.sh
+  h_05d51add47747d 1-242
+dev/flink-suite/runner/execute.sh
+  h_05d51add47747d 1-215
+dev/flink-suite/runner/prepare.sh
+  h_05d51add47747d 1-308
+dev/flink-suite/test_kafka_maven.py
+  h_05d51add47747d 15,46
+dev/flink-suite/test_runner_phases.py
+  h_05d51add47747d 1-49
+dev/flink-suite/test_shared_build.py
+  h_05d51add47747d 16
+dev/flink-suite/test_test_runtime.py
+  h_05d51add47747d 105,109,217
+docs/developer-tools.md
+  h_05d51add47747d 26,79-82,85-86
+docs/upstream-flink-suite.md
+  h_05d51add47747d 3-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "02959adf64546f8314bd1ca2c09b44b64f40aa77",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
