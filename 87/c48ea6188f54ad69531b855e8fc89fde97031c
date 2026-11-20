@@ -1,0 +1,16 @@
+dev/runtime-layout/operators.tsv
+  h_05d51add47747d 4
+docs/development.md
+  h_05d51add47747d 15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "87c48ea6188f54ad69531b855e8fc89fde97031c",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
