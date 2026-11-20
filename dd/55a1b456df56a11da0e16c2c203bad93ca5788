@@ -1,0 +1,684 @@
+bin/ci_runtime_test_shards.py
+  h_05d51add47747d 4,27-38,49-52,54
+bin/test_ci_runtime_test_shards.py
+  h_05d51add47747d 33-56
+bin/test_module_source_ownership.py
+  h_05d51add47747d 3,17-62
+dev/runtime-layout/operators.tsv
+  h_05d51add47747d 1-116
+dev/runtime-layout/test-relocations.tsv
+  h_05d51add47747d 1-134
+dev/runtime_layout.py
+  h_05d51add47747d 1-61
+docs/development.md
+  h_05d51add47747d 9-35
+streamfusion-runtime/src/benchmark/java/tech/streamfusion/BatchAggregateJobBenchmark.java
+  h_05d51add47747d 10,36-37,40-41
+streamfusion-runtime/src/benchmark/java/tech/streamfusion/BatchGroupedAggregateJobBenchmark.java
+  h_05d51add47747d 10,30-31
+streamfusion-runtime/src/benchmark/java/tech/streamfusion/BatchSortJobBenchmark.java
+  h_05d51add47747d 10,29-30
+streamfusion-runtime/src/benchmark/java/tech/streamfusion/PendingDedupBenchmark.java
+  h_05d51add47747d 16
+streamfusion-runtime/src/benchmark/java/tech/streamfusion/SharedWindowSumBenchmark.java
+  h_05d51add47747d 26
+streamfusion-runtime/src/benchmark/java/tech/streamfusion/SparseIntervalJoinBenchmark.java
+  h_05d51add47747d 16
+streamfusion-runtime/src/benchmark/java/tech/streamfusion/WindowRankBenchmark.java
+  h_05d51add47747d 18
+streamfusion-runtime/src/benchmark/java/tech/streamfusion/WindowStringExtremaBenchmark.java
+  h_05d51add47747d 25
+streamfusion-runtime/src/benchmark/java/tech/streamfusion/WindowTemporalExtremaBenchmark.java
+  h_05d51add47747d 24
+streamfusion-runtime/src/test/java-flink1.18/tech/streamfusion/FlinkLegacyEncodeSqlHarnessTest.java
+  h_05d51add47747d 12
+streamfusion-runtime/src/test/java-flink1.18/tech/streamfusion/FlinkLegacyLookupSqlHarnessTest.java
+  h_05d51add47747d 22
+streamfusion-runtime/src/test/java-flink1.18/tech/streamfusion/FlinkLegacyUdfSqlHarnessTest.java
+  h_05d51add47747d 14
+streamfusion-runtime/src/test/java-flink1.18/tech/streamfusion/FlinkStateBackendAdmissionTest.java
+  h_05d51add47747d 15
+streamfusion-runtime/src/test/java-flink2.2/tech/streamfusion/FlinkStateBackendAdmissionTest.java
+  h_05d51add47747d 13
+streamfusion-runtime/src/test/java/tech/streamfusion/ArrayNaNKeyParityTest.java
+  h_05d51add47747d 11
+streamfusion-runtime/src/test/java/tech/streamfusion/BuiltinFunctionParity.java
+  h_05d51add47747d 19
+streamfusion-runtime/src/test/java/tech/streamfusion/DecimalSumRecoveryParityTest.java
+  h_05d51add47747d 15
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkArrayExtremaSqlHarnessTest.java
+  h_05d51add47747d 18
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkArrayRearrangementSqlHarnessTest.java
+  h_05d51add47747d 10
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkArrayScalarUdfSqlHarnessTest.java
+  h_05d51add47747d 26
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkArraySearchSqlHarnessTest.java
+  h_05d51add47747d 16
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkAsciiSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkAsyncLookupJoinSqlHarnessTest.java
+  h_05d51add47747d 22
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkBinSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkBinaryCharacterCastSqlHarnessTest.java
+  h_05d51add47747d 19
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkBooleanIntegralTryCastSqlHarnessTest.java
+  h_05d51add47747d 11
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkBooleanStringCastSqlHarnessTest.java
+  h_05d51add47747d 20
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkBtrimSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkCalcSelectionSqlHarnessTest.java
+  h_05d51add47747d 19
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkCalcSqlHarnessTest.java
+  h_05d51add47747d 17
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkChangingTopNSqlHarnessTest.java
+  h_05d51add47747d 26
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkChrSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkCoalesceEvaluationSqlHarnessTest.java
+  h_05d51add47747d 16
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkCollectionCardinalitySqlHarnessTest.java
+  h_05d51add47747d 12
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkCollectionCastSemanticsTest.java
+  h_05d51add47747d 12
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkCollectionLegacyConsumerSqlHarnessTest.java
+  h_05d51add47747d 20
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkCollectionRepresentationSqlHarnessTest.java
+  h_05d51add47747d 23
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkColumnarShuffleParallelismTest.java
+  h_05d51add47747d 9,19-21
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkCompactSingleValueSqlHarnessTest.java
+  h_05d51add47747d 17
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDateTimeUdfSqlHarnessTest.java
+  h_05d51add47747d 19
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDayOfWeekSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDayOfYearSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalAbsSqlHarnessTest.java
+  h_05d51add47747d 18
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalAverageAdmissionSqlHarnessTest.java
+  h_05d51add47747d 16
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalBooleanTryCastSqlHarnessTest.java
+  h_05d51add47747d 25
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalCastOverflowSqlHarnessTest.java
+  h_05d51add47747d 21
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalCastProjectionSqlHarnessTest.java
+  h_05d51add47747d 17
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalComparisonStringSqlHarnessTest.java
+  h_05d51add47747d 13
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalNegateSqlHarnessTest.java
+  h_05d51add47747d 18
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalOverflowSqlHarnessTest.java
+  h_05d51add47747d 21
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalPrecisionProjectionSqlHarnessTest.java
+  h_05d51add47747d 22
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalProjectionDefaultSqlHarnessTest.java
+  h_05d51add47747d 17
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalRuntimeScaleSqlHarnessTest.java
+  h_05d51add47747d 14
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalSignArithmeticSqlHarnessTest.java
+  h_05d51add47747d 18
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalSignProjectionSqlHarnessTest.java
+  h_05d51add47747d 17
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalSignSqlHarnessTest.java
+  h_05d51add47747d 29
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalSignUnarySqlHarnessTest.java
+  h_05d51add47747d 8
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalStringCastSqlHarnessTest.java
+  h_05d51add47747d 21
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalTruncateSqlHarnessTest.java
+  h_05d51add47747d 19
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalTruthStringSqlHarnessTest.java
+  h_05d51add47747d 12
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalUdfConsumersSqlHarnessTest.java
+  h_05d51add47747d 12
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecimalUnaryArithmeticTryCastSqlHarnessTest.java
+  h_05d51add47747d 11
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDecodeSqlHarnessTest.java
+  h_05d51add47747d 16
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDeduplicateSqlHarnessTest.java
+  h_05d51add47747d 21
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDistinctAverageSqlHarnessTest.java
+  h_05d51add47747d 21
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDistinctOrderedValueSqlHarnessTest.java
+  h_05d51add47747d 22
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDynamicCharsetSqlHarnessTest.java
+  h_05d51add47747d 13
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDynamicCollectionSqlHarnessTest.java
+  h_05d51add47747d 33
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkDynamicTrimSqlHarnessTest.java
+  h_05d51add47747d 14
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkEltSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkEncodeSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkEndsWithSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkExactFloatingMathSqlHarnessTest.java
+  h_05d51add47747d 22
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkExtremaBuiltinsSqlHarnessTest.java
+  h_05d51add47747d 14
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkFilterSqlHarnessTest.java
+  h_05d51add47747d 15
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkFixedBinarySqlHarnessTest.java
+  h_05d51add47747d 12
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkFloatingGroupAggregateSqlHarnessTest.java
+  h_05d51add47747d 24
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkFloatingNonTimeRankSqlHarnessTest.java
+  h_05d51add47747d 16
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkFloatingWindowReproTest.java
+  h_05d51add47747d 14
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkFromUnixTimeSqlHarnessTest.java
+  h_05d51add47747d 12
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkGreatestSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkGroupedValueSqlHarnessTest.java
+  h_05d51add47747d 21
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkHexSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkHostChangelogIntoNativeTest.java
+  h_05d51add47747d 15
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkIfSqlHarnessTest.java
+  h_05d51add47747d 22
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkInitcapSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkInstrSqlHarnessTest.java
+  h_05d51add47747d 20
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkIntegralBooleanTryCastSqlHarnessTest.java
+  h_05d51add47747d 11
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkIntegralTruthStringSqlHarnessTest.java
+  h_05d51add47747d 10
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkIntegralTryCastSqlHarnessTest.java
+  h_05d51add47747d 11
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkIsJsonSqlHarnessTest.java
+  h_05d51add47747d 6
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonContainerStringSqlHarnessTest.java
+  h_05d51add47747d 26
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonDotMemberSqlHarnessTest.java
+  h_05d51add47747d 22
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonEmptyMemberSqlHarnessTest.java
+  h_05d51add47747d 13
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonEscapedPathSqlHarnessTest.java
+  h_05d51add47747d 12
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonExistsSqlHarnessTest.java
+  h_05d51add47747d 3,6
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonIndefinitePathSqlHarnessTest.java
+  h_05d51add47747d 22
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonJvmSqlHarnessTest.java
+  h_05d51add47747d 26
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonMemberIdentitySqlHarnessTest.java
+  h_05d51add47747d 6
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonNegativeIndexSqlHarnessTest.java
+  h_05d51add47747d 8
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonObjectSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonPathGrammarSqlHarnessTest.java
+  h_05d51add47747d 23
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonQuoteSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonReturningHostContractTest.java
+  h_05d51add47747d 15
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonReturningSqlHarnessTest.java
+  h_05d51add47747d 10
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonStringIdentitySqlHarnessTest.java
+  h_05d51add47747d 14
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonStringSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonUnionSqlHarnessTest.java
+  h_05d51add47747d 6,23-25,27
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonUnquoteSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJsonValueSqlHarnessTest.java
+  h_05d51add47747d 4,8
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJvmAggregateModifiersSqlHarnessTest.java
+  h_05d51add47747d 16
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJvmAggregateSqlHarnessTest.java
+  h_05d51add47747d 19
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJvmOverSqlHarnessTest.java
+  h_05d51add47747d 27
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkJvmTwoPhaseSqlHarnessTest.java
+  h_05d51add47747d 13
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkLeastSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkLeftSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkLegacyBasicCastSqlHarnessTest.java
+  h_05d51add47747d 13,16
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkListAggSqlHarnessTest.java
+  h_05d51add47747d 11
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkLocateSqlHarnessTest.java
+  h_05d51add47747d 8
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkLpadSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkLtrimSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkMapJsonJvmSqlHarnessTest.java
+  h_05d51add47747d 22
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkMapProjectionSqlHarnessTest.java
+  h_05d51add47747d 4-5,16
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkMapScalarUdfSqlHarnessTest.java
+  h_05d51add47747d 24
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkMetadataFunctionsSqlHarnessTest.java
+  h_05d51add47747d 13
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkMixedExactGreatestSqlHarnessTest.java
+  h_05d51add47747d 19
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkMixedExactIfSqlHarnessTest.java
+  h_05d51add47747d 19
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkMixedExactLeastSqlHarnessTest.java
+  h_05d51add47747d 19
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkMixedPrimitiveTableFunctionSqlHarnessTest.java
+  h_05d51add47747d 24
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkMixedTimestampComparisonSqlHarnessTest.java
+  h_05d51add47747d 20
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkMultisetCastSqlHarnessTest.java
+  h_05d51add47747d 20
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkNestedBridgeLifecycleSqlHarnessTest.java
+  h_05d51add47747d 18
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkNestedBridgeRecoverySqlHarnessTest.java
+  h_05d51add47747d 13
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkNestedBridgeTableFunctionSqlHarnessTest.java
+  h_05d51add47747d 29
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkNestedJsonJvmSqlHarnessTest.java
+  h_05d51add47747d 22
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkNestedScalarSqlHarnessTest.java
+  h_05d51add47747d 23
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkNonTimeRowNumberSqlHarnessTest.java
+  h_05d51add47747d 16
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkNonTimeRowNumberTypeSqlHarnessTest.java
+  h_05d51add47747d 8
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkOverLateAdmissionReproTest.java
+  h_05d51add47747d 17
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkOverlaySqlHarnessTest.java
+  h_05d51add47747d 14
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkPrimitiveResultTableFunctionSqlHarnessTest.java
+  h_05d51add47747d 20
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkQuarterSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkRecursiveScalarSqlHarnessTest.java
+  h_05d51add47747d 25
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkRecursiveTableFunctionSqlHarnessTest.java
+  h_05d51add47747d 32
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkRetractingSingleValueSqlHarnessTest.java
+  h_05d51add47747d 21
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkRightSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkRpadSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkRtrimSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkRuntimeSqlTrimSqlHarnessTest.java
+  h_05d51add47747d 17
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkSha1SqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkSharedBinaryUdfSqlHarnessTest.java
+  h_05d51add47747d 37
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkSharedStatefulScalarSqlHarnessTest.java
+  h_05d51add47747d 24
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkSharedUdfOrderSqlHarnessTest.java
+  h_05d51add47747d 9
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkSplitIndexSqlHarnessTest.java
+  h_05d51add47747d 14
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkSplitSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkStandaloneCollectionSqlHarnessTest.java
+  h_05d51add47747d 24
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkStartsWithSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkStringCaseSqlHarnessTest.java
+  h_05d51add47747d 21
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkStringCastSqlHarnessTest.java
+  h_05d51add47747d 15
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkStringHashSqlHarnessTest.java
+  h_05d51add47747d 18
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkSubstringSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkTableFunctionSqlHarnessTest.java
+  h_05d51add47747d 25
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkTemporalBooleanAggregateSqlHarnessTest.java
+  h_05d51add47747d 21
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkTemporalRowNumberSqlHarnessTest.java
+  h_05d51add47747d 20
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkTemporalUdfSqlHarnessTest.java
+  h_05d51add47747d 26
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkToBase64SqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkToDateSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkTranslateSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkTrimSqlHarnessTest.java
+  h_05d51add47747d 5
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkTryDecimalSqlHarnessTest.java
+  h_05d51add47747d 17
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkTypedTableFunctionSqlHarnessTest.java
+  h_05d51add47747d 39
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkUdfExactTypesSqlHarnessTest.java
+  h_05d51add47747d 22
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkUdfLifecycleSqlHarnessTest.java
+  h_05d51add47747d 14
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkUnhexSqlHarnessTest.java
+  h_05d51add47747d 10
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkUnnestSqlHarnessTest.java
+  h_05d51add47747d 14
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkUrlDecodeSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkUrlEncodeSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkUtf16IntermediateSqlHarnessTest.java
+  h_05d51add47747d 9
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkVariableTopNSqlHarnessTest.java
+  h_05d51add47747d 26
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkWeekSqlHarnessTest.java
+  h_05d51add47747d 4
+streamfusion-runtime/src/test/java/tech/streamfusion/FlinkWindowCountDistinctSqlHarnessTest.java
+  h_05d51add47747d 22
+streamfusion-runtime/src/test/java/tech/streamfusion/MapNullKeyLookupParityTest.java
+  h_05d51add47747d 13
+streamfusion-runtime/src/test/java/tech/streamfusion/MapNullKeyUnnestParityTest.java
+  h_05d51add47747d 13
+streamfusion-runtime/src/test/java/tech/streamfusion/NaNPayloadDistinctParityTest.java
+  h_05d51add47747d 11
+streamfusion-runtime/src/test/java/tech/streamfusion/NativeFailureParity.java
+  h_05d51add47747d 21
+streamfusion-runtime/src/test/java/tech/streamfusion/NativeParityTest.java
+  h_05d51add47747d 14
+streamfusion-runtime/src/test/java/tech/streamfusion/NativeParityValueTest.java
+  h_05d51add47747d 13
+streamfusion-runtime/src/test/java/tech/streamfusion/NativeProtobufDecodeSqlHarnessTest.java
+  h_05d51add47747d 26
+streamfusion-runtime/src/test/java/tech/streamfusion/PrunedTransposeSqlHarnessTest.java
+  h_05d51add47747d 5
+streamfusion-runtime/src/test/java/tech/streamfusion/RecoveryResultTableFactory.java
+  h_05d51add47747d 27
+streamfusion-runtime/src/test/java/tech/streamfusion/SqlAuditHarness.java
+  h_05d51add47747d 18
+streamfusion-runtime/src/test/java/tech/streamfusion/StatefulMapPayloadParityTest.java
+  h_05d51add47747d 13
+streamfusion-runtime/src/test/java/tech/streamfusion/TimestampRangeParityTest.java
+  h_05d51add47747d 17
+streamfusion-runtime/src/test/java/tech/streamfusion/TopNSignedZeroParityTest.java
+  h_05d51add47747d 17
+streamfusion-runtime/src/test/java/tech/streamfusion/UnicodeOrderingParityReproTest.java
+  h_05d51add47747d 11
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchAggregateContractTest.java
+  h_05d51add47747d 1,26,97
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchAggregateSqlTest.java
+  h_05d51add47747d 1-4,23-24,34,93,131-132,142-143
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchBooleanTreeSqlTest.java
+  h_05d51add47747d 1-3,17-18,33
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchBridgeTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchCrossJoinSqlTest.java
+  h_05d51add47747d 1-3,21-22,37
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchDateComparisonSqlTest.java
+  h_05d51add47747d 1-3,44-45,65,73-74
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchExpandSqlTest.java
+  h_05d51add47747d 1-3,20-21,34-35
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchExtremaSourceFactory.java
+  h_05d51add47747d 1
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchExtremaSqlTest.java
+  h_05d51add47747d 1-5,52-53,60-61,75,78,142,172
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchGroupedAggregateSqlTest.java
+  h_05d51add47747d 1-3,19-20,27-28,48-49,66-67,86-87,99,120,122,160-161,173-174
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchHashJoinSqlTest.java
+  h_05d51add47747d 1-3,20-21,50-51,71-72,97-98
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchJoinRecoverySqlTest.java
+  h_05d51add47747d 1-3,39
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchLimitSqlTest.java
+  h_05d51add47747d 1-3,18-19,32
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchNullSafePredicateSqlTest.java
+  h_05d51add47747d 1-4,65-66
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchParquetSourceSqlTest.java
+  h_05d51add47747d 1-4,38,53
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchRankSqlTest.java
+  h_05d51add47747d 1-3,17-18,29-30
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchReplaySinkFactory.java
+  h_05d51add47747d 1
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchResidualPredicateSqlTest.java
+  h_05d51add47747d 1-3,16-17,25-26
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchScalarSubquerySqlTest.java
+  h_05d51add47747d 1-3,16-17,28,36
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchSharedAggregateSqlTest.java
+  h_05d51add47747d 1-3,20-21,30,35
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchShortCircuitSqlTest.java
+  h_05d51add47747d 1-3,16-17,29,33-34
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchSortSqlTest.java
+  h_05d51add47747d 1-7
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchSortedLimitSqlTest.java
+  h_05d51add47747d 1-3,19-20,42-43,57,71-72,78-79
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchSqlBenchmark.java
+  h_05d51add47747d 1-4
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchSqlTest.java
+  h_05d51add47747d 1-4
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchSqlTestSupport.java
+  h_05d51add47747d 1-52
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchTypedAggregateSqlTest.java
+  h_05d51add47747d 1-3,20-21,32,50-51,75-76
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/BatchWindowSqlTest.java
+  h_05d51add47747d 1-3,37-38,57-58,85-86,105-106,119-120
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/batch/sql/NativeLz4ShuffleSqlTest.java
+  h_05d51add47747d 1-3,22,27,49,52,74,78,113
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/common/FlinkRocksDBNativeStateBackendSqlHarnessTest.java
+  h_05d51add47747d 1,20
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/common/NativeParity.java
+  h_05d51add47747d 1,27,30,52,57,76,116,151,178,187,212,235,247
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkAttachedWindowOnePhaseSqlHarnessTest.java
+  h_05d51add47747d 1,24,26
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkByteStringConcatSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkByteStringEncodingSqlHarnessTest.java
+  h_05d51add47747d 1,4-5
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkByteStringHashSqlHarnessTest.java
+  h_05d51add47747d 1,4
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkChangelogNormalizeSqlHarnessTest.java
+  h_05d51add47747d 1,16
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkColumnarGroupAggregateSqlHarnessTest.java
+  h_05d51add47747d 1,9
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkColumnarWindowSqlHarnessTest.java
+  h_05d51add47747d 1,24
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkComplexTypeSqlHarnessTest.java
+  h_05d51add47747d 1
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkCountDistinctSqlHarnessTest.java
+  h_05d51add47747d 1,14
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkCrossJoinSqlHarnessTest.java
+  h_05d51add47747d 1,21
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkCurrentTimeSqlHarnessTest.java
+  h_05d51add47747d 1,21
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkDateClockExtractSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkDateComparisonSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkDateFormatSqlHarnessTest.java
+  h_05d51add47747d 1,15
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkDecimalAggregateSqlHarnessTest.java
+  h_05d51add47747d 1,9
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkDecimalExprSqlHarnessTest.java
+  h_05d51add47747d 1,15
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkDecimalFloatingSqlHarnessTest.java
+  h_05d51add47747d 1,18
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkDecimalRemainderSqlHarnessTest.java
+  h_05d51add47747d 1,21
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkDeletedGroupExtremaSqlHarnessTest.java
+  h_05d51add47747d 1,18
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkDistinctAggregateCoverageSqlHarnessTest.java
+  h_05d51add47747d 1,21
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkEpochMillisSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkExactDecimalFunctionsSqlHarnessTest.java
+  h_05d51add47747d 1,22
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkExpandSqlHarnessTest.java
+  h_05d51add47747d 1,14
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkExtractSqlHarnessTest.java
+  h_05d51add47747d 1,16
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkFieldAccessSqlHarnessTest.java
+  h_05d51add47747d 1,14
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkFirstNSqlHarnessTest.java
+  h_05d51add47747d 1
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkFloatingCastSqlHarnessTest.java
+  h_05d51add47747d 1,12
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkFloatingComparisonSqlHarnessTest.java
+  h_05d51add47747d 1,12
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkGeneratedProcessingTimeSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkGroupAggregateSqlHarnessTest.java
+  h_05d51add47747d 1,14
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkGuardedDivisionSqlHarnessTest.java
+  h_05d51add47747d 1,13
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkHashCodeSqlHarnessTest.java
+  h_05d51add47747d 1,18
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkHotItemsSqlHarnessTest.java
+  h_05d51add47747d 1,17
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkIfNullSqlHarnessTest.java
+  h_05d51add47747d 1,24
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkIntegerDivisionSqlHarnessTest.java
+  h_05d51add47747d 1,12
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkIntegerStringCastSqlHarnessTest.java
+  h_05d51add47747d 1,22
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkIntegralArithmeticSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkIntervalExprSqlHarnessTest.java
+  h_05d51add47747d 1,14
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkIntervalJoinSqlHarnessTest.java
+  h_05d51add47747d 1,20
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkIsTrueSqlHarnessTest.java
+  h_05d51add47747d 1,14
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkLimitSqlHarnessTest.java
+  h_05d51add47747d 1,14
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkLookupJoinSqlHarnessTest.java
+  h_05d51add47747d 1,15
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkLtzDateTimeSqlHarnessTest.java
+  h_05d51add47747d 1,16
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkLtzWindowBoundarySqlHarnessTest.java
+  h_05d51add47747d 1,25
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkMixedWindowAvgSqlHarnessTest.java
+  h_05d51add47747d 1,19
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkMultiwayJoinSqlHarnessTest.java
+  h_05d51add47747d 1,17
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkNarrowGroupAggregateSqlHarnessTest.java
+  h_05d51add47747d 1
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkNullSafeSemiAntiJoinSqlHarnessTest.java
+  h_05d51add47747d 1,19
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkOverAggregateSqlHarnessTest.java
+  h_05d51add47747d 1,15
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkParquetSinkSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkPartitionedBooleanParquetSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkPartitionedParquetSinkSqlHarnessTest.java
+  h_05d51add47747d 1
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkPlainTimestampTvfSqlHarnessTest.java
+  h_05d51add47747d 1,31
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkPowerSqlHarnessTest.java
+  h_05d51add47747d 1,12
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkRandomSqlHarnessTest.java
+  h_05d51add47747d 1,19
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkRegexpExtractSqlHarnessTest.java
+  h_05d51add47747d 1,15
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkRegularJoinSqlHarnessTest.java
+  h_05d51add47747d 1,14
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkRetractingSumPartialsSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkRetractingTopNSqlHarnessTest.java
+  h_05d51add47747d 1,14
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkRetractingWindowSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkRunningRowsSqlHarnessTest.java
+  h_05d51add47747d 1,18
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkSignSqlHarnessTest.java
+  h_05d51add47747d 1,11
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkSqlHarnessTest.java
+  h_05d51add47747d 1
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkStringBooleanCastSqlHarnessTest.java
+  h_05d51add47747d 1,23
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkStringWindowSqlHarnessTest.java
+  h_05d51add47747d 1,20
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkTemporalFunctionsSqlHarnessTest.java
+  h_05d51add47747d 1,20
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkTemporalJoinSqlHarnessTest.java
+  h_05d51add47747d 1,16
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkTemporalSortSqlHarnessTest.java
+  h_05d51add47747d 1,16
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkTemporalTimestampRangeSqlHarnessTest.java
+  h_05d51add47747d 1,11
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkTimestampExtractSqlHarnessTest.java
+  h_05d51add47747d 1,21
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkTimestampExtremaSqlHarnessTest.java
+  h_05d51add47747d 1,23
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkTimestampIntervalSqlHarnessTest.java
+  h_05d51add47747d 1,15
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkTimestampWindowSqlHarnessTest.java
+  h_05d51add47747d 1,22
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkTopNSqlHarnessTest.java
+  h_05d51add47747d 1,14
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkTwoPhaseGroupAggregateSqlHarnessTest.java
+  h_05d51add47747d 1,18
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkTypedDistinctSqlHarnessTest.java
+  h_05d51add47747d 1,4,23
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkTypedNullSqlHarnessTest.java
+  h_05d51add47747d 1,17
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkUdfIdentitySqlHarnessTest.java
+  h_05d51add47747d 1,13
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkUdfSqlHarnessTest.java
+  h_05d51add47747d 1,16
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkUnionSqlHarnessTest.java
+  h_05d51add47747d 1,17
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkUpdateFastTopNSqlHarnessTest.java
+  h_05d51add47747d 1,14
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkUpdateFastVariableTopNSqlHarnessTest.java
+  h_05d51add47747d 1,28
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkUpdatingLimitSqlHarnessTest.java
+  h_05d51add47747d 1,18
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkUtcLtzCalendarCeilSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkUtcLtzCalendarFloorSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkUuidProjectionSqlHarnessTest.java
+  h_05d51add47747d 1-3
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkUuidSqlHarnessTest.java
+  h_05d51add47747d 1,18,20
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkWatermarkAssignerSqlHarnessTest.java
+  h_05d51add47747d 1,11
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkWatermarkIntervalSqlHarnessTest.java
+  h_05d51add47747d 1,21
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkWideDecimalGroupOrderSqlHarnessTest.java
+  h_05d51add47747d 1,20
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkWideDecimalTimestampSqlHarnessTest.java
+  h_05d51add47747d 1,20
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkWindowJoinSqlHarnessTest.java
+  h_05d51add47747d 1,19
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkWindowLateSliceSqlHarnessTest.java
+  h_05d51add47747d 1,24
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkWindowRankSqlHarnessTest.java
+  h_05d51add47747d 1,17
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/FlinkWindowSqlHarnessTest.java
+  h_05d51add47747d 1,17
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/NativeAvroDecodeSqlHarnessTest.java
+  h_05d51add47747d 1,32
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/NativeCdcDecodeSqlHarnessTest.java
+  h_05d51add47747d 1,18
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/NativeConfluentAvroDecodeSqlHarnessTest.java
+  h_05d51add47747d 1,34
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/NativeDebeziumAvroDecodeSqlHarnessTest.java
+  h_05d51add47747d 1,33
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/NativeJsonDecodeSqlHarnessTest.java
+  h_05d51add47747d 1,19
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/NativeKeyedDecodeSqlHarnessTest.java
+  h_05d51add47747d 1,17
+streamfusion-runtime/src/test/java/tech/streamfusion/runtime/stream/sql/NativeRawDecodeSqlHarnessTest.java
+  h_05d51add47747d 1,21
+streamfusion-test-utils/src/main/java/tech/streamfusion/RecoveryExecutionMetrics.java
+  h_05d51add47747d 16,20,28,33,39,65,91,108,119,129,139,151,155,172,188,207,251
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "dd55a1b456df56a11da0e16c2c203bad93ca5788",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
