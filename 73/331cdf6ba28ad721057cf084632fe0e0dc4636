@@ -1,0 +1,18 @@
+dev/flink-suite/runner/prepare.sh
+  h_05d51add47747d 17-29,235-236
+dev/flink-suite/test_kafka_maven.py
+  h_05d51add47747d 14-71
+docs/ci.md
+  h_05d51add47747d 950-958
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "73331cdf6ba28ad721057cf084632fe0e0dc4636",
+  "prompts": {},
+  "humans": {
+    "h_05d51add47747d": {
+      "author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
