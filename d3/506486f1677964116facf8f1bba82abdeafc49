@@ -1,0 +1,38 @@
+dev/tools/tests/test_ci_maven_dependencies.py
+  s_9dbbd1ee1f1ebc::t_40a13251daf6d6 149-150
+  s_9dbbd1ee1f1ebc::t_749679d7ceab45 133-145,147-148,152-186
+  s_9dbbd1ee1f1ebc::t_4ed70ae341f0c0 146,151
+docs/ci.md
+  s_9dbbd1ee1f1ebc::t_7495b4f0078c7f 85-93
+  s_9dbbd1ee1f1ebc::t_11d58dfaabee8e 111-113
+  s_9dbbd1ee1f1ebc::t_9ba6e3378c354c 114-115
+dev/tools/ci/maven_dependencies.py
+  s_9dbbd1ee1f1ebc::t_749679d7ceab45 170
+  s_9dbbd1ee1f1ebc::t_40a13251daf6d6 62-67
+  s_9dbbd1ee1f1ebc::t_7495b4f0078c7f 16,37-57,60-61,68-74,169,171-175
+dev/flink-suite/runner/execute.sh
+  s_9dbbd1ee1f1ebc::t_7495b4f0078c7f 3-7,9-16,23-25,167-171,201
+  s_9dbbd1ee1f1ebc::t_4ed70ae341f0c0 8
+  s_9dbbd1ee1f1ebc::t_4b54b39f419209 17-22
+dev/flink-suite/test_consumer_runtime.py
+  s_9dbbd1ee1f1ebc::t_4ed70ae341f0c0 1-133
+dev/flink-suite/test_test_runtime.py
+  s_9dbbd1ee1f1ebc::t_40a13251daf6d6 106-109,121
+  s_9dbbd1ee1f1ebc::t_f7976538d22038 75-105,110-120,122-140
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d3506486f1677964116facf8f1bba82abdeafc49",
+  "prompts": {},
+  "sessions": {
+    "s_9dbbd1ee1f1ebc": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a416-d9d3-7c90-bc3f-0a7ca5a1a8db",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
