@@ -1,0 +1,26 @@
+docs/ci.md
+  s_9dbbd1ee1f1ebc::t_240b8c4eeef2f9 78-86
+dev/flink-suite/runner/execute.sh
+  s_9dbbd1ee1f1ebc::t_240b8c4eeef2f9 79
+dev/flink-suite/test_test_runtime.py
+  s_9dbbd1ee1f1ebc::t_3313a0b78b71b0 139-143
+  s_9dbbd1ee1f1ebc::t_11f3ced4284783 149-150,160
+  s_9dbbd1ee1f1ebc::t_240b8c4eeef2f9 3-4,12,40-56,59-73,99-100,137-138,144-148,151-152,161-185
+  s_9dbbd1ee1f1ebc::t_74e3d2d191fdb1 57-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0b3dd157baa0047080f3039591571f378c69eb51",
+  "prompts": {},
+  "sessions": {
+    "s_9dbbd1ee1f1ebc": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a416-d9d3-7c90-bc3f-0a7ca5a1a8db",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
