@@ -1,0 +1,28 @@
+.github/workflows/paimon1.yml
+  s_b1e607a7fbe583::t_d976f93653c5e4 58-59
+  s_b1e607a7fbe583::t_9aa76eb6de3108 60-64
+  s_b1e607a7fbe583::t_eafd6bb1af3fbe 24,29,33
+dev/tools/tests/test_paimon1_dependency_setup.py
+  s_b1e607a7fbe583::t_3d48cae8da0176 28-33
+  s_b1e607a7fbe583::t_b859ecd4c510c4 1-27,34-75
+docs/ci.md
+  s_b1e607a7fbe583::t_3d48cae8da0176 731
+  s_b1e607a7fbe583::t_b859ecd4c510c4 732
+  s_b1e607a7fbe583::t_9aa76eb6de3108 733-735
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "73dbfaa884365b0fb1eae14ed8b2eb0c91a03d74",
+  "prompts": {},
+  "sessions": {
+    "s_b1e607a7fbe583": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a21af2-8dcb-7213-8a3e-ddeb87632427",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
