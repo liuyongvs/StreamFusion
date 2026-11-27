@@ -1,0 +1,59 @@
+dev/tools/tests/test_ci_maven_dependencies.py
+  s_b1e607a7fbe583::t_b744b5a183063d 211-212
+  s_b485711b23be7c::t_57f22e28264444 203-204,206-210,213-220
+  s_b1e607a7fbe583::t_b27da07d5c8679 221-230
+  s_b1e607a7fbe583::t_2830f452c8ad57 205
+dev/tools/ci/maven_cache.py
+  s_b1e607a7fbe583::t_1e04ebd527118a 144
+  s_b1e607a7fbe583::t_3a012d59d92d5e 56-58
+dev/flink-suite/runtime-fixture/checkstyle-pom.xml
+  s_b1e607a7fbe583::t_3a012d59d92d5e 1-37
+dev/tools/ci/maven_dependencies.py
+  s_b1e607a7fbe583::t_b744b5a183063d 7,101-105,176-177
+  s_b1e607a7fbe583::t_2830f452c8ad57 100
+dev/flink-suite/runner/prepare.sh
+  s_b485711b23be7c::t_e10701a2511566 251-260,263-266,306-308
+  s_b1e607a7fbe583::t_2830f452c8ad57 262
+  s_b1e607a7fbe583::t_46bf533f5c92b1 250,261
+dev/flink-suite/test_test_runtime.py
+  s_b485711b23be7c::t_57f22e28264444 334-335
+dev/tools/tests/test_ci_maven_cache.py
+  s_b1e607a7fbe583::t_1e04ebd527118a 20-32
+dev/flink-suite/runtime-fixture/cohorts.json
+  s_b485711b23be7c::t_e10701a2511566 17-22
+  s_b485711b23be7c::t_d0fefcba58426f 16
+dev/flink-suite/test_paimon_build_plugins.py
+  s_b1e607a7fbe583::t_bc062e8c37a64b 75
+  s_b1e607a7fbe583::t_3a012d59d92d5e 9,11,74,76-79
+  s_b1e607a7fbe583::t_2830f452c8ad57 54-55,100
+  s_b485711b23be7c::t_57f22e28264444 1-8,10,12-45,47-53,56-73,80-99,101-104,109-112
+  s_b1e607a7fbe583::t_d474feca46ab08 107-108
+  s_b1e607a7fbe583::t_b27da07d5c8679 46,105-106
+docs/ci.md
+  s_b485711b23be7c::t_e10701a2511566 94-95,115
+  s_b1e607a7fbe583::t_b744b5a183063d 96-101
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "6470da94153b9a3b1c42ee5610645b32d4b8f558",
+  "prompts": {},
+  "sessions": {
+    "s_b1e607a7fbe583": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a21af2-8dcb-7213-8a3e-ddeb87632427",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    },
+    "s_b485711b23be7c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a21ac0-7dbf-7432-997f-13e3077749a0",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
