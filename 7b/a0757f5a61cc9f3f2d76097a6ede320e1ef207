@@ -1,0 +1,40 @@
+streamfusion-paimon/src/test/java/tech/streamfusion/paimon/PaimonAppendRoutingPlanTest.java
+  s_b1e607a7fbe583::t_442dc54f977afe 42,70-73
+  s_b1e607a7fbe583::t_da6c468a8c303b 4,8-10,25-41,43-69,74-89,91,93,95-97,99-102,107,120-127,129-144
+streamfusion-paimon/src/test/java/tech/streamfusion/paimon/PaimonAppendRoutingRecoveryTest.java
+  s_b1e607a7fbe583::t_da6c468a8c303b 1-172
+streamfusion-paimon1/src/main/java/tech/streamfusion/planner/stream/NativePaimonSinkExecNode.java
+  s_b1e607a7fbe583::t_da6c468a8c303b 188-189
+mkdocs.yml
+  s_b1e607a7fbe583::t_da6c468a8c303b 169
+streamfusion-paimon/src/main/java/tech/streamfusion/planner/stream/NativePaimonSinkExecNode.java
+  s_b1e607a7fbe583::t_da6c468a8c303b 262-263
+docs/ci.md
+  s_b1e607a7fbe583::t_da6c468a8c303b 726-729
+docs/optimizations/paimon-local-append.md
+  s_b1e607a7fbe583::t_da6c468a8c303b 1-29
+streamfusion-paimon1/pom.xml
+  s_b1e607a7fbe583::t_da6c468a8c303b 225
+docs/optimizations/index.md
+  s_b1e607a7fbe583::t_da6c468a8c303b 74
+.github/workflows/paimon1.yml
+  s_b1e607a7fbe583::t_da6c468a8c303b 70
+docs/connectors/paimon.md
+  s_b1e607a7fbe583::t_da6c468a8c303b 54-61,63-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7ba0757f5a61cc9f3f2d76097a6ede320e1ef207",
+  "prompts": {},
+  "sessions": {
+    "s_b1e607a7fbe583": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a21af2-8dcb-7213-8a3e-ddeb87632427",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "yongliu <yongen.ly@antgroup.com>"
+    }
+  }
+}
